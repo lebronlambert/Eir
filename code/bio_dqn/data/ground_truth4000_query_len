@@ -1,0 +1,12501 @@
+(dp0
+(S'hfe'
+p1
+S'lung diseases'
+p2
+tp3
+I1068
+s(S'ncf2'
+p4
+S'glioblastoma'
+p5
+tp6
+I2
+s(S'chrna7'
+p7
+S'death, sudden, cardiac'
+p8
+tp9
+I139
+s(S'crh'
+p10
+S'cortisol'
+p11
+tp12
+I2228
+s(S'chuk'
+p13
+S'liver enzymes'
+p14
+tp15
+I250
+s(S'apob'
+p16
+S'beta-thalassemia'
+p17
+tp18
+I1793
+s(S'defa5'
+p19
+S'brain neoplasms'
+p20
+tp21
+I1
+s(S'igfbp1'
+p22
+S'ovarian cancer'
+p23
+tp24
+I59
+s(S'cyp1a1'
+p25
+S'mammographic density'
+p26
+tp27
+I9
+s(S'ldlr'
+p28
+S'familial hypercholesterolemia'
+p29
+tp30
+I2069
+s(S'il1r1'
+p31
+S'rheumatoid arthritis'
+p32
+tp33
+I51
+s(S'erbb2'
+p34
+S'copd'
+p35
+tp36
+I23
+s(S'igf1'
+p37
+S'cytosine-adenosine repeat polymorphism of igf-i gene'
+p38
+tp39
+I4
+s(S'sh2b3'
+p40
+S'hypertension'
+p41
+tp42
+I35
+s(S'drd1'
+p43
+S'memory'
+p44
+tp45
+I12
+s(S'il6'
+p46
+S'diabetes mellitus, type 2'
+p47
+tp48
+I3204
+s(S'adra2c'
+p49
+S'blood pressure, arterial epinephrine heart rate norepinephrine sympathetic activity'
+p50
+tp51
+I0
+s(S'p4ha2'
+p52
+S'iron deficiency anaemia'
+p53
+tp54
+I3
+s(S'xrcc1'
+p55
+S'pterygium'
+p56
+tp57
+I2
+s(S'slc6a4'
+p58
+S'serotonergic function'
+p59
+tp60
+I1119
+s(S'gclm'
+p61
+S'2-thiothiazolidine-4-carboxylic acid levels'
+p62
+tp63
+I1
+s(S'sca22'
+p64
+S'spinocerebellar ataxia'
+p65
+tp66
+I12
+s(S'itga2b'
+p67
+S'death, sudden, cardiac'
+p68
+tp69
+I4280
+s(S'nras'
+p70
+S'carcinoma, transitional cell'
+p71
+tp72
+I69
+s(S'rad51'
+p73
+S'brain cancer'
+p74
+tp75
+I26
+s(S'tnfsf13'
+p76
+S'blood proteins'
+p77
+tp78
+I3493
+s(S'drd2'
+p79
+S'alcohol-use disorders'
+p80
+tp81
+I134
+s(S'htr2c'
+p82
+S'type 2 diabetes'
+p83
+tp84
+I24
+s(S'bcas1'
+p85
+g23
+tp86
+I12
+s(S'kir2ds2'
+p87
+S'arthritis, rheumatoid'
+p88
+tp89
+I55
+s(S'slc22a4'
+p90
+S'hiv infections'
+p91
+tp92
+I4
+s(S'cr1'
+p93
+S'lupus nephritis'
+p94
+tp95
+I664
+s(S'rb1'
+p96
+S'hemangioblastoma'
+p97
+tp98
+I12715
+s(S'il1a'
+p99
+S'lupus erythematosus, cutaneous'
+p100
+tp101
+I9
+s(S'gstm3'
+p102
+S'glioblastoma'
+p103
+tp104
+I7
+s(S'bcl7b'
+p105
+S'gamma-glutamyltransferase'
+p106
+tp107
+I0
+s(S'apoa5'
+p108
+S'diabetes, type 2 lipids triglycerides'
+p109
+tp110
+I22
+s(S'apoe'
+p111
+S'glucosephosphate dehydrogenase deficiency'
+p112
+tp113
+I31
+s(S'hnmt'
+p114
+S'hiv infections'
+p115
+tp116
+I13
+s(S'cx3cr1'
+p117
+S'coronary vascular endothelial dysfunction'
+p118
+tp119
+I6
+s(S'tpmt'
+p120
+S'leuopenia, thiopurine-related'
+p121
+tp122
+I0
+s(S'esr1'
+p123
+S'obesity, morbid'
+p124
+tp125
+I496
+s(S'pcsk9'
+p126
+S'heart disease, ischemic hypercholesterolemia'
+p127
+tp128
+I29
+s(S'lta'
+p129
+S'diabetes, type 2'
+p130
+tp131
+I210
+s(S'pvrl2'
+p132
+S'hypodontia'
+p133
+tp134
+I8
+s(S'bckdhb'
+p135
+S'maple syrup urine disease'
+p136
+tp137
+I39
+s(S'itga2b'
+p138
+S'goiter'
+p139
+tp140
+I39
+s(S'ccl5'
+p141
+S'hiv leukoencephalopathy'
+p142
+tp143
+I4
+s(S'slco1b1'
+p144
+S'pravastatin'
+p145
+tp146
+I94
+s(S'mthfr'
+p147
+S'suicide'
+p148
+tp149
+I48
+s(S'col9a2'
+p150
+S'lumbar disk disease'
+p151
+tp152
+I158
+s(S'ar'
+p153
+S'metabolic traits'
+p154
+tp155
+I31
+s(S'ptprc'
+p156
+S'efavirenz mid-dose concentration'
+p157
+tp158
+I567
+s(S'cxadr'
+p159
+S'autoimmune diseases'
+p160
+tp161
+I1091
+s(S'hla-a'
+p162
+S'hyperhomocysteinemia'
+p163
+tp164
+I189
+s(S'ccl22'
+p165
+S'rheumatoid arthritis'
+p166
+tp167
+I138
+s(S'mx1'
+p168
+S'bacterial infections'
+p169
+tp170
+I531
+s(S'hla-drb1'
+p171
+S'cardiomyopathy'
+p172
+tp173
+I23
+s(S'fanca'
+p174
+S'adenocarcinoma'
+p175
+tp176
+I477
+s(S'lif'
+p177
+S'cleft lip with cleft palate'
+p178
+tp179
+I0
+s(S'peo1'
+p180
+S"ophthalmoplegia parkinson's disease"
+p181
+tp182
+I3
+s(S'hnmt'
+p183
+g166
+tp184
+I18
+s(S'idh1'
+p185
+S'astrocytoma'
+p186
+tp187
+I310
+s(S'hla'
+p188
+S'host defense and inflammatory outcomes'
+p189
+tp190
+I1
+s(S'il4r'
+p191
+S'brain cancer ige'
+p192
+tp193
+I2
+s(S'c1d'
+p194
+g20
+tp195
+I7
+s(S'cdc123'
+p196
+S'diabetes mellitus, type 2'
+p197
+tp198
+I19
+s(S'ggh'
+p199
+S'ulcerative colitis'
+p200
+tp201
+I21
+s(S'drd2'
+p202
+S'opium abuse'
+p203
+tp204
+I2
+s(S'hla-drb1'
+p205
+S'hla-dr2 specificity'
+p206
+tp207
+I39
+s(S'il1rn'
+p208
+S'esophageal cancer'
+p209
+tp210
+I13
+s(S'tlr4'
+p211
+S'arthritis spondyloarthropathies'
+p212
+tp213
+I72
+s(S'c12orf51'
+p214
+S'aspartate aminotransferases'
+p215
+tp216
+I0
+s(S'trdmt1'
+p217
+S'healthy oldest-old'
+p218
+tp219
+I1
+s(S'il1rn'
+p220
+S'dyslexia'
+p221
+tp222
+I29
+s(S'adm'
+p223
+S'diabetes, type 2'
+p224
+tp225
+I8790
+s(S'ins'
+p226
+S'longevity'
+p227
+tp228
+I100
+s(S'ptger4'
+p229
+S'asthma asthma, aspirin-intolerant'
+p230
+tp231
+I4
+s(S'gnb3'
+p232
+S'gastroenteritis'
+p233
+tp234
+I11
+s(S'abca4'
+p235
+S'age-related maculopathy.'
+p236
+tp237
+I313
+s(S'fam71f1'
+p238
+S'hypertension'
+p239
+tp240
+I1
+s(S'cyp3a4'
+p241
+S'cholesterol, ldl'
+p242
+tp243
+I192
+s(S'spred2'
+p244
+S'facies'
+p245
+tp246
+I2
+s(S'hoxd13'
+p247
+S'talipes equinovarus'
+p248
+tp249
+I5
+s(S'cfh'
+p250
+S'atherosclerosis'
+p251
+tp252
+I1863
+s(S'kl'
+p253
+S'blood pressure, arterial body mass glucose insulin lipids'
+p254
+tp255
+I0
+s(S'lipc'
+p256
+S'insulin'
+p257
+tp258
+I8663
+s(S'il2'
+p259
+S'heart transplant complications'
+p260
+tp261
+I88
+s(S'il6'
+p262
+S'kidney transplant'
+p263
+tp264
+I821
+s(S'il2rb'
+p265
+S'hepatitis c'
+p266
+tp267
+I13
+s(S'freq'
+p268
+S'smoking behavior'
+p269
+tp270
+I2
+s(S'ace'
+p271
+S'chronic kidney insufficiency'
+p272
+tp273
+I3148
+s(S'hla-a'
+p274
+S'multiple sclerosis, chronic progressive'
+p275
+tp276
+I50
+s(S'tcf2'
+p277
+S'renal disease, end stage'
+p278
+tp279
+I56
+s(S'mc4r'
+p280
+g245
+tp281
+I3
+s(S'nlrp11'
+p282
+g166
+tp283
+I1
+s(S'aldh2'
+p284
+S'blood pressure, arterial'
+p285
+tp286
+I6
+s(S'sumo4'
+p287
+S'kidney diseases'
+p288
+tp289
+I7
+s(S'mmp9'
+p290
+S'aortic stiffness hypertension'
+p291
+tp292
+I15
+s(S'mif'
+p293
+g91
+tp294
+I397
+s(S'tpmt'
+p295
+S'kidney transplant complications'
+p296
+tp297
+I0
+s(S'prep'
+p298
+S'diabetes, type 2'
+p299
+tp300
+I171
+s(S'qdpr'
+p301
+g148
+tp302
+I1
+s(S'sele'
+p303
+S'triglycerides'
+p304
+tp305
+I193
+s(S'rfx6'
+p306
+S'carcinoma'
+p307
+tp308
+I9
+s(S'oprm1'
+p309
+S'pain intenity'
+p310
+tp311
+I0
+s(S'abl1'
+p312
+S'neoplasms'
+p313
+tp314
+I18849
+s(S'cdkn2a'
+p315
+S'anril expression'
+p316
+tp317
+I35
+s(S'serpine1'
+p318
+S'arterial disease, renal'
+p319
+tp320
+I52
+s(S'gstt1'
+p321
+S'lead and mercury metabolism'
+p322
+tp323
+I1
+s(S'ptch1'
+p324
+S'oral clefts'
+p325
+tp326
+I2
+s(S'tp53'
+p327
+S'b-cell lymphomas'
+p328
+tp329
+I1312
+s(S'mmp9'
+p330
+S'ovarian cancer'
+p331
+tp332
+I3190
+s(S'gabrb2'
+p333
+S'event-related prefrontal activity'
+p334
+tp335
+I1
+s(S'xrcc1'
+p336
+S'leukemia, childhood acute lymphoblastic'
+p337
+tp338
+I17
+s(S'mica'
+p339
+S'geographic atrophy'
+p340
+tp341
+I4
+s(S'ret'
+p342
+S'multiple endocrine neoplasia type 2b'
+p343
+tp344
+I722
+s(S'plekha1'
+p345
+S'macular degeneration, age-related'
+p346
+tp347
+I21
+s(S'adam17'
+p348
+S'arthritis, rheumatoid'
+p349
+tp350
+I1899
+s(S'mmp2'
+p351
+S'aortic aneurysm, abdominal'
+p352
+tp353
+I317
+s(S'abcb1'
+p354
+S'dyslexia'
+p355
+tp356
+I109
+s(S'slc11a1'
+p357
+S'hypertension, pulmonary'
+p358
+tp359
+I36
+s(S'tnf'
+p360
+S'community-acquired pneumonia (cap)'
+p361
+tp362
+I35
+s(S'taf1'
+p363
+S'atherosclerosis, coronary'
+p364
+tp365
+I9
+s(S'il1rn'
+p366
+S'alcohol'
+p367
+tp368
+I163
+s(S'fkbp5'
+p369
+S'suicide'
+p370
+tp371
+I89
+s(S'stat2'
+p372
+S'hepatitis c, chronic'
+p373
+tp374
+I40
+s(S'nat2'
+p375
+S'leukemia, myelomonocytic, chronic'
+p376
+tp377
+I9
+s(S'gstm1'
+p378
+S'pancreatic diseases'
+p379
+tp380
+I612
+s(S'f2'
+p381
+S'budd-chiari syndrome liver transplant portal vein thrombosis'
+p382
+tp383
+I1
+s(S'drp2'
+p384
+g370
+tp385
+I0
+s(S'vwf'
+p386
+S'reduced levels of von willebrand factor messenger rna'
+p387
+tp388
+I16
+s(S'il6'
+p389
+S'alpha 1-antitrypsin deficiency'
+p390
+tp391
+I3220
+s(S'cyp2e1'
+p392
+S'hodgkin disease'
+p393
+tp394
+I43
+s(S'sele'
+p395
+S'cardiovascular disease'
+p396
+tp397
+I2023
+s(S'f2'
+p398
+S'restenosis'
+p399
+tp400
+I245
+s(S'mgmt'
+p401
+S'glioblastoma'
+p402
+tp403
+I754
+s(S'fcgr2a'
+p404
+S'lupus nephritis'
+p405
+tp406
+I774
+s(S'abcb1'
+p407
+S'liver cancer'
+p408
+tp409
+I814
+s(S'mertk'
+p410
+S'lupus erythematosus'
+p411
+tp412
+I53
+s(S'mt-nd2'
+p413
+S'hemoglobin levels'
+p414
+tp415
+I2
+s(S'th'
+p416
+S'brain hemorrhage'
+p417
+tp418
+I32243
+s(S'tp73'
+p419
+S'leukoplakia'
+p420
+tp421
+I2
+s(S'abcb1'
+p422
+S'nelfinavir pharmacokinetics'
+p423
+tp424
+I39
+s(S'litaf'
+p425
+S'type 2 diabetes'
+p426
+tp427
+I2158
+s(S'atp13a2'
+p428
+S"parkinson's disease"
+p429
+tp430
+I100
+s(S'hla-dpb1'
+p431
+S'acute lymphocytic leukemia'
+p432
+tp433
+I136
+s(S'slc6a4'
+p434
+S'autonomic nervous system diseases'
+p435
+tp436
+I15
+s(S'bdnf'
+p437
+S'personality traits'
+p438
+tp439
+I53
+s(S'hla-drb1'
+p440
+S'deafness'
+p441
+tp442
+I705
+s(S'hla-drb1'
+p443
+S'thrombosis, deep vein'
+p444
+tp445
+I4
+s(S'abcg2'
+p446
+S'epilepsy, generalized'
+p447
+tp448
+I11
+s(S'tgfa'
+p449
+S'cleft lip with cleft palate cleft lip without cleft palate cleft palate'
+p450
+tp451
+I60
+s(S'slc26a5'
+p452
+S'syndrome'
+p453
+tp454
+I1217
+s(S'serpina3'
+p455
+S'ischemia'
+p456
+tp457
+I3789
+s(S'il15'
+p458
+S'hypertension'
+p459
+tp460
+I274
+s(S'nd5'
+p461
+S'blindness'
+p462
+tp463
+I16
+s(S'itga2b'
+p464
+S'blood transfusion complications'
+p465
+tp466
+I143
+s(S'slc11a1'
+p467
+S'anemia, iron-deficiency'
+p468
+tp469
+I487
+s(S'cyp3a4'
+p470
+S'menarche'
+p471
+tp472
+I6
+s(S'kcnh2'
+p473
+S'death, sudden, cardiac'
+p474
+tp475
+I1420
+s(S'apoa5'
+p476
+S'diabetes, type 2'
+p477
+tp478
+I33
+s(S'egfr'
+p479
+S'urinary calculus'
+p480
+tp481
+I13
+s(S'mlh1'
+p482
+S'esophageal cancer'
+p483
+tp484
+I59
+s(S'rbp1'
+p485
+S'retinal dystrophies'
+p486
+tp487
+I9
+s(S'apoe'
+p488
+S'hypertriglyceridemia'
+p489
+tp490
+I1679
+s(S'cxcl12'
+p491
+S'stromal derived factor'
+p492
+tp493
+I2430
+s(S'nrp1'
+p494
+S'breast neoplasms'
+p495
+tp496
+I207
+s(S'cdkn1c'
+p497
+S'atherosclerosis, generalized myocardial infarct'
+p498
+tp499
+I0
+s(S'tcn2'
+p500
+S'death, sudden, cardiac'
+p501
+tp502
+I107339
+s(S'clcn5'
+p503
+S'urinary calculus'
+p504
+tp505
+I55
+s(S'mmel1-tnfrsf14'
+p506
+S'rheumatoid arthritis'
+p507
+tp508
+I4
+s(S'slc22a5'
+p509
+g489
+tp510
+I3
+s(S'znf189'
+p511
+S'hypodontia'
+p512
+tp513
+I1
+s(S'trmu'
+p514
+S'goiter'
+p515
+tp516
+I3
+s(S'nos1'
+p517
+S'several psychiatric disorders'
+p518
+tp519
+I5828
+s(S'cst3'
+p520
+S'frontotemporal lobar degeneration'
+p521
+tp522
+I2
+s(S'hla'
+p523
+S'diabetes mellitus type i'
+p524
+tp525
+I3890
+s(S'cyp1a1'
+p526
+S'liver cancer'
+p527
+tp528
+I907
+s(S'msh2'
+p529
+S'hepatitis c, chronic'
+p530
+tp531
+I21
+s(S'il2'
+p532
+S'arthritis, juvenile rheumatoid'
+p533
+tp534
+I292
+s(S'sca21'
+p535
+S'spinocerebellar ataxia'
+p536
+tp537
+I4
+s(S'itgb5'
+p538
+S'ovarian cancer'
+p539
+tp540
+I4
+s(S'ctla4'
+p541
+g530
+tp542
+I1700
+s(S'dap'
+p543
+S'abnormalities, multiple'
+p544
+tp545
+I855
+s(S'egfr'
+p546
+S'rectal neoplasms'
+p547
+tp548
+I839
+s(S'kir2dl4'
+p549
+S'fetal loss'
+p550
+tp551
+I1
+s(S'hif1a'
+p552
+S'carcinoma'
+p553
+tp554
+I2349
+s(S'trpm7'
+p555
+S'type 2 diabetes'
+p556
+tp557
+I5
+s(S'mchr1'
+p558
+S'bipolar disorder schizophrenia'
+p559
+tp560
+I2
+s(S'lipc'
+p561
+S'lipoproteins and hdl'
+p562
+tp563
+I5379
+s(S'gstm1'
+p564
+S'dcm - dilated cardiomyopathy'
+p565
+tp566
+I559
+s(S'pafah'
+p567
+S'asthma. atopy'
+p568
+tp569
+I2
+s(S'tnf'
+p570
+S'acute gvhd'
+p571
+tp572
+I303
+s(S'lta'
+p573
+S'coronary artery disease'
+p574
+tp575
+I607
+s(S'cyp2c9'
+p576
+g432
+tp577
+I344
+s(S'timp2'
+p578
+g459
+tp579
+I58
+s(S'pparg'
+p580
+S'glucose tolerance'
+p581
+tp582
+I476
+s(S'mapt'
+p583
+S'jakob-creutzfeldt disease'
+p584
+tp585
+I225
+s(S'plat'
+p586
+S'stroke, lacunar'
+p587
+tp588
+I17
+s(S'f2'
+p589
+g515
+tp590
+I2043
+s(S'cyp2a6'
+p591
+S'iron deficiency anaemia'
+p592
+tp593
+I6
+s(S'cyp2w1'
+p594
+g539
+tp595
+I14
+s(S'gnas'
+p596
+S'blood pressure, arterial'
+p597
+tp598
+I25
+s(S'bf'
+p599
+S"parkinson's disease"
+p600
+tp601
+I16
+s(S'kcnj6'
+p602
+S'cerebrovascular disorders'
+p603
+tp604
+I349
+s(S'xrcc2'
+p605
+S'breast neoplasms'
+p606
+tp607
+I69
+s(S'rgs6'
+p608
+S'adiposity'
+p609
+tp610
+I29
+s(S'il1rn'
+p611
+S'atrial fibrillation'
+p612
+tp613
+I101
+s(S'agt'
+p614
+S'diabetes, type 2'
+p615
+tp616
+I90
+s(S'cd14'
+p617
+S"parkinson's disease"
+p618
+tp619
+I14
+s(S'il18'
+p620
+S'hepatitis'
+p621
+tp622
+I787
+s(S'tap1'
+p623
+S'nasopharyngeal cancer'
+p624
+tp625
+I7
+s(S'xbp1'
+p626
+S'methamphetamine dependence'
+p627
+tp628
+I1
+s(S'csrp3'
+p629
+S'autoimmune diseases'
+p630
+tp631
+I40
+s(S'ctla4'
+p632
+S"ophthalmopathy, graves'"
+p633
+tp634
+I214
+s(S'mapt'
+p635
+g432
+tp636
+I952
+s(S'p2ry1'
+p637
+S'clopidogrel'
+p638
+tp639
+I64
+s(S'kcnj11'
+p640
+S'diabetes, type 2 insulin'
+p641
+tp642
+I162
+s(S'ptgis'
+p643
+g539
+tp644
+I41
+s(S'inhba'
+p645
+S'polycythemia vera'
+p646
+tp647
+I57
+s(S'capn10'
+p648
+S'hemoglobin a(1c)'
+p649
+tp650
+I1
+s(S'cacna1a'
+p651
+S'migraine, hemiplegic'
+p652
+tp653
+I392
+s(S'drd4'
+p654
+S'heroin abuse'
+p655
+tp656
+I17
+s(S'il1b'
+p657
+S'common cold'
+p658
+tp659
+I267
+s(S'slc45a2'
+p660
+S'hair colour'
+p661
+tp662
+I37
+s(S'lrp1'
+p663
+S'brain infarction'
+p664
+tp665
+I6658
+s(S'scn2a'
+p666
+g603
+tp667
+I719
+s(S'ltc4s'
+p668
+S'atopy'
+p669
+tp670
+I4
+s(S'gnaq'
+p671
+S'hashimoto disease'
+p672
+tp673
+I4
+s(S'il1b'
+p674
+g501
+tp675
+I4911
+s(S'crp'
+p676
+g456
+tp677
+I2090
+s(S'pdpk1'
+p678
+S'adenocarcinoma, papillary'
+p679
+tp680
+I2
+s(S'il18'
+p681
+S'asthma.'
+p682
+tp683
+I178
+s(S'acat2'
+p684
+S'lipoproteins'
+p685
+tp686
+I59
+s(S'cndp1'
+p687
+S'diabetic nephropathies'
+p688
+tp689
+I26
+s(S'lrrk2'
+p690
+S'progressive supranuclear palsy'
+p691
+tp692
+I16
+s(S'acadm'
+p693
+S'kidney diseases'
+p694
+tp695
+I17
+s(S'bdnf'
+p696
+S'affective psychoses'
+p697
+tp698
+I14
+s(S'cyp3a4'
+p699
+g355
+tp700
+I75
+s(S'fanca'
+p701
+S'bladder cancer'
+p702
+tp703
+I24
+s(S'casp9'
+p704
+S'diabetes, type 2'
+p705
+tp706
+I28
+s(S'il20'
+p707
+S'palmoplanta pustulosis'
+p708
+tp709
+I0
+s(S'ar'
+p710
+S'anemia'
+p711
+tp712
+I4716
+s(S'ppara'
+p713
+S'atherosclerosis, coronary'
+p714
+tp715
+I312
+s(S'tcn2'
+p716
+S'aortic aneurysm, abdominal'
+p717
+tp718
+I3612
+s(S'bat3'
+p719
+S'arthritis, rheumatoid'
+p720
+tp721
+I16
+s(S'hla-dpb1'
+p722
+S'diabetes mellitus'
+p723
+tp724
+I107
+s(S'hla-dqb1'
+p725
+S'skin diseases, genetic'
+p726
+tp727
+I190
+s(S'esr1'
+p728
+S'cystocele'
+p729
+tp730
+I60
+s(S'sdc4'
+p731
+S'varicose ulcer'
+p732
+tp733
+I2
+s(S'tgfbr2'
+p734
+S'cleft lip without cleft palate'
+p735
+tp736
+I0
+s(S'il13'
+p737
+S'serum ige levels'
+p738
+tp739
+I472
+s(S'cyp3a5'
+p740
+S'indinavir pharmacokinetics'
+p741
+tp742
+I43
+s(S'ugt1a1'
+p743
+S'cholesterol'
+p744
+tp745
+I37
+s(S'usf1'
+p746
+S'cardiovascular disease mortality, all-cause'
+p747
+tp748
+I6
+s(S'ryr3'
+p749
+S'hypertension'
+p750
+tp751
+I80
+s(S'cyp2e1'
+p752
+g621
+tp753
+I487
+s(S'nod2'
+p754
+S"crohn's disease inflammatory bowel disease"
+p755
+tp756
+I7605
+s(S'as3mt'
+p757
+S'neoplasms, germ cell and embryonal'
+p758
+tp759
+I1
+s(S'aldh2'
+p760
+S'lipid peroxide'
+p761
+tp762
+I10
+s(S'gstm1'
+p763
+S'gastric disease'
+p764
+tp765
+I327
+s(S'sema3a'
+p766
+S'attention deficit disorder with hyperactivity'
+p767
+tp768
+I1
+s(S'slc19a1'
+p769
+g539
+tp770
+I77
+s(S'ppard'
+p771
+S'elite runners'
+p772
+tp773
+I1
+s(S'abcb1'
+p774
+S'sirolimus pharmacokinetics'
+p775
+tp776
+I42
+s(S'il6'
+p777
+S'neonatal infection'
+p778
+tp779
+I655
+s(S'itgav'
+p780
+S'arthritis, rheumatoid'
+p781
+tp782
+I28
+s(S'ifng'
+p783
+S'arthritis, reactive'
+p784
+tp785
+I1021
+s(S'ptpn11'
+p786
+S'leukemia, lymphoid'
+p787
+tp788
+I100
+s(S'ptprb'
+p789
+S'alcoholism'
+p790
+tp791
+I2
+s(S'mmp3'
+p792
+S'liver disease, chronic'
+p793
+tp794
+I27
+s(S'slc6a3'
+p795
+S'bulimia'
+p796
+tp797
+I137
+s(S'gstm1'
+p798
+S'oral cancer'
+p799
+tp800
+I324
+s(S'slc19a1'
+p801
+S'hypertension induced by pregnancy'
+p802
+tp803
+I3
+s(S'efemp1'
+p804
+S'familial age-related macular degeneration'
+p805
+tp806
+I7
+s(S'esr1'
+p807
+S'fragile x syndrome'
+p808
+tp809
+I204
+s(S'crebbp'
+p810
+g565
+tp811
+I54
+s(S'nfkb1'
+p812
+S'diabetes mellitus, type 2'
+p813
+tp814
+I2067
+s(S'ddah1'
+p815
+S'preeclampsia'
+p816
+tp817
+I13
+s(S'cx3cr1'
+p818
+S'hiv infection'
+p819
+tp820
+I67
+s(S'pdgfb'
+p821
+S'amyotrophic lateral sclerosis'
+p822
+tp823
+I93
+s(S'edn1'
+p824
+S'total ige. eosinophilia. drs'
+p825
+tp826
+I0
+s(S'sod3'
+p827
+S'neuropathy, diabetic'
+p828
+tp829
+I3
+s(S'cyp1b1'
+p830
+S'menopause'
+p831
+tp832
+I61
+s(S'lrp5'
+p833
+S'fracture risk'
+p834
+tp835
+I55
+s(S'cma1'
+p836
+S'connective tissue diseases'
+p837
+tp838
+I49
+s(S'gstm1'
+p839
+S'human longevity'
+p840
+tp841
+I23
+s(S'ephx1'
+p842
+S'acrylamide'
+p843
+tp844
+I8
+s(S'ace'
+p845
+S'hepatopulmonary syndrome'
+p846
+tp847
+I0
+s(S'mtr'
+p848
+S'hyperhomocysteinemia'
+p849
+tp850
+I1355
+s(S'ptprj'
+p851
+S'carcinoma, papillary'
+p852
+tp853
+I16
+s(S'cyp17'
+p854
+g539
+tp855
+I489
+s(S'cav1'
+p856
+S'blood pressure, arterial hypertension'
+p857
+tp858
+I5
+s(S'tnfrsf1b'
+p859
+S'hypertension'
+p860
+tp861
+I554
+s(S'hla'
+p862
+S'prepubertal male pseudohermaphroditism'
+p863
+tp864
+I2
+s(S'pon1'
+p865
+S'hypolipoproteinemias'
+p866
+tp867
+I1066
+s(S'hnf1a'
+p868
+S'rheumatoid arthritis'
+p869
+tp870
+I122
+s(S'lrpap1'
+p871
+g501
+tp872
+I574
+s(S'gstm1'
+p873
+S'leukemia/lymphoma, t-cell'
+p874
+tp875
+I4
+s(S'hhip'
+p876
+S'lung diseases'
+p877
+tp878
+I14241
+s(S'enpp1'
+p879
+S'ossification of the posterior longitudinal ligament of the spine (opll)'
+p880
+tp881
+I7
+s(S'tgfb3'
+p882
+g802
+tp883
+I30
+s(S'mthfr'
+p884
+S'coronary artery disease, occlusive'
+p885
+tp886
+I7
+s(S'plin'
+p887
+g501
+tp888
+I51
+s(S'mmp1'
+p889
+S'micronuclei, chromosome-defective'
+p890
+tp891
+I23
+s(S'cyp1a1'
+p892
+S'intrauterine growth'
+p893
+tp894
+I10
+s(S'ppargc1a'
+p895
+S'insulin'
+p896
+tp897
+I737
+s(S'htr2a'
+p898
+S'anxiety disorder'
+p899
+tp900
+I210
+s(S'il4r'
+p901
+S'atopic dermatitis'
+p902
+tp903
+I3
+s(S'cyp2c9'
+p904
+S'cardiovascular disease'
+p905
+tp906
+I337
+s(S'rnasel'
+p907
+S'ovarian cancer'
+p908
+tp909
+I88
+s(S'alad'
+p910
+S'lead and mercury metabolism'
+p911
+tp912
+I10
+s(S'fto'
+p913
+S'atherosclerosis'
+p914
+tp915
+I90
+s(S'mmp3'
+p916
+S'myocardial infarct'
+p917
+tp918
+I90
+s(S'il4'
+p919
+S"graves' disease"
+p920
+tp921
+I115
+s(S'ctla4'
+p922
+S'type 1 autoimmune hepatitis'
+p923
+tp924
+I44
+s(S'hla-dqb1'
+p925
+S'hypertension, pulmonary arterial'
+p926
+tp927
+I13
+s(S'cyp2c19'
+p928
+g376
+tp929
+I9
+s(S'drd2'
+p930
+g890
+tp931
+I6
+s(S'rnd3'
+p932
+S'diabetes mellitus, type 2'
+p933
+tp934
+I7
+s(S'mttp'
+p935
+S'apob-48'
+p936
+tp937
+I34
+s(S'tyr'
+p938
+S'ocular albinism'
+p939
+tp940
+I34
+s(S'pon3'
+p941
+g501
+tp942
+I55
+s(S'tdp1'
+p943
+S'neoplasms'
+p944
+tp945
+I15
+s(S'rad51'
+p946
+g432
+tp947
+I374
+s(S'akap10'
+p948
+g539
+tp949
+I5
+s(S'npffr2'
+p950
+S'leanness obesity'
+p951
+tp952
+I1
+s(S'c6orf15'
+p953
+S'lymphoma, follicular'
+p954
+tp955
+I37
+s(S'cyp1a2'
+p956
+S'cholesterol glucose insulin triglycerides'
+p957
+tp958
+I2
+s(S'abo'
+p959
+S'malaria infection'
+p960
+tp961
+I75
+s(S'adam17'
+p962
+S'diabetes mellitus'
+p963
+tp964
+I44
+s(S'hla-drb1'
+p965
+S'varicose ulcer'
+p966
+tp967
+I1
+s(S'cyp2c9'
+p968
+S'oral antidiabetic pharacokinetics'
+p969
+tp970
+I0
+s(S'fcgr3a'
+p971
+g574
+tp972
+I1200
+s(S'serpina3'
+p973
+S'hypertension'
+p974
+tp975
+I8231
+s(S'sema3a'
+p976
+g501
+tp977
+I43
+s(S'akt1'
+p978
+S'esophageal adenocarcinoma'
+p979
+tp980
+I45
+s(S'serpine1'
+p981
+S'fibrinogen protein c resistance ratio prothrombin thrombosis, deep vein'
+p982
+tp983
+I0
+s(S'itga2'
+p984
+S'thrombus formation, arterial'
+p985
+tp986
+I163
+s(S'ercc2'
+p987
+S'endometrial cancer'
+p988
+tp989
+I6
+s(S'furin'
+p990
+S'hypertension'
+p991
+tp992
+I12317
+s(S'cyp17a1'
+p993
+S'uterine leiomyoma'
+p994
+tp995
+I14
+s(S'c5'
+p996
+g432
+tp997
+I340
+s(S'hoxa9'
+p998
+S'arthrogryposis'
+p999
+tp1000
+I1
+s(S'pon1'
+p1001
+S'coronary endothelial vasomotor dysfunction'
+p1002
+tp1003
+I1
+s(S'angpt2'
+p1004
+S'pregnancy loss, recurrent'
+p1005
+tp1006
+I1
+s(S'nos3'
+p1007
+S'polycystic kidney disease'
+p1008
+tp1009
+I21
+s(S'mthfr'
+p1010
+S'body mass'
+p1011
+tp1012
+I144
+s(S'pparg'
+p1013
+S'fasting insulin level'
+p1014
+tp1015
+I66
+s(S'gstt1'
+p1016
+S"non-hodgkin's lymphoma"
+p1017
+tp1018
+I24
+s(S'abcb1'
+p1019
+g908
+tp1020
+I3698
+s(S'srd5a2'
+p1021
+S'androgenetic alopecia'
+p1022
+tp1023
+I52
+s(S'sftpb'
+p1024
+S'lung diseases'
+p1025
+tp1026
+I436
+s(S'exoc3l2'
+p1027
+g501
+tp1028
+I0
+s(S'soat1'
+p1029
+g501
+tp1030
+I2296
+s(S'nat2'
+p1031
+S'urinary mutagenicity'
+p1032
+tp1033
+I18
+s(S'igfbp3'
+p1034
+S'brain neoplasms'
+p1035
+tp1036
+I54
+s(S'sgce'
+p1037
+S'blepharospasm'
+p1038
+tp1039
+I120
+s(S'trem2'
+p1040
+S'conjunctivitis'
+p1041
+tp1042
+I12
+s(S'nat2'
+p1043
+S"non-hodgkin's lymphoma"
+p1044
+tp1045
+I13
+s(S'hmox1'
+p1046
+S'fibrinogen'
+p1047
+tp1048
+I15
+s(S'bcl10'
+p1049
+S'testicular cancer'
+p1050
+tp1051
+I5
+s(S'rps16'
+p1052
+S'anemia, diamond-blackfan'
+p1053
+tp1054
+I4
+s(S'hdac9'
+p1055
+S'hdac inhibitor-induced growth arrest.'
+p1056
+tp1057
+I11
+s(S'lpl'
+p1058
+S'atherosclerosis, carotid'
+p1059
+tp1060
+I20
+s(S'ifng'
+p1061
+S'aphthous stomatitis'
+p1062
+tp1063
+I13
+s(S'tagap'
+p1064
+g869
+tp1065
+I21
+s(S'apoe'
+p1066
+S"alzheimer's disease (late onset)"
+p1067
+tp1068
+I1257
+s(S'mif'
+p1069
+S'erythema nodosum'
+p1070
+tp1071
+I177
+s(S'il12b'
+p1072
+g539
+tp1073
+I85
+s(S'ccnd1'
+p1074
+S'leukemia, acute lymphoblastic'
+p1075
+tp1076
+I22
+s(S'mepe'
+p1077
+S'bone mineral density (hip)'
+p1078
+tp1079
+I7
+s(S'mthfr'
+p1080
+S'overweight'
+p1081
+tp1082
+I120
+s(S'ptpra'
+p1083
+S'coronary artery disease'
+p1084
+tp1085
+I66
+s(S'adrb1'
+p1086
+g435
+tp1087
+I17
+s(S'zic3'
+p1088
+S'echocardiography'
+p1089
+tp1090
+I101
+s(S'ikbkap'
+p1091
+S'alzheimer disease'
+p1092
+tp1093
+I7
+s(S'hla-dqb1'
+p1094
+g405
+tp1095
+I455
+s(S'il2'
+p1096
+S'bone mineral density'
+p1097
+tp1098
+I289
+s(S'ercc2'
+p1099
+g869
+tp1100
+I368
+s(S'cwf19l2'
+p1101
+g539
+tp1102
+I1
+s(S'ccl5'
+p1103
+S'hiv infection'
+p1104
+tp1105
+I812
+s(S'ostm1'
+p1106
+g512
+tp1107
+I9
+s(S'fraxa'
+p1108
+S"parkinson's disease"
+p1109
+tp1110
+I66
+s(S'capn10'
+p1111
+S'insulin'
+p1112
+tp1113
+I74
+s(S'ace'
+p1114
+S'polycystic kidney disease'
+p1115
+tp1116
+I69
+s(S'htr3b'
+p1117
+S'harm avoidance'
+p1118
+tp1119
+I1
+s(S'phox2b'
+p1120
+S'hypercapnic respiratory failure'
+p1121
+tp1122
+I178
+s(S'igf2bp2'
+p1123
+g694
+tp1124
+I11
+s(S'ucp1'
+p1125
+S'insulin'
+p1126
+tp1127
+I529
+s(S'procr'
+p1128
+S'fetal loss, late'
+p1129
+tp1130
+I1
+s(S'hla-c'
+p1131
+S'arthritis, rheumatoid'
+p1132
+tp1133
+I4383
+s(S'hfe'
+p1134
+S'breast neoplasms'
+p1135
+tp1136
+I580
+s(S'kir2dl1'
+p1137
+S'diabetes mellitus'
+p1138
+tp1139
+I13
+s(S'mx1'
+p1140
+S'multiple trauma'
+p1141
+tp1142
+I57
+s(S'esr1'
+p1143
+S'epithelial ovarian cancer'
+p1144
+tp1145
+I83
+s(S'mmp9'
+p1146
+S'chronic obstructive pulmonary disease/copd'
+p1147
+tp1148
+I348
+s(S'trpv6'
+p1149
+g1070
+tp1150
+I10
+s(S'ada'
+p1151
+S'abnormalities, multiple'
+p1152
+tp1153
+I71
+s(S'slc6a4'
+p1154
+S'bipolar and unipolar disorder'
+p1155
+tp1156
+I36
+s(S'slc6a4'
+p1157
+S'passive avoidance'
+p1158
+tp1159
+I11
+s(S'flt3'
+p1160
+S'leukemia, myelomonocytic, acute'
+p1161
+tp1162
+I206
+s(S'mttp'
+p1163
+S'cholesterol, hdl cholesterol, ldl insulin lipoprotein liver disease, nonalcoholic fatty'
+p1164
+tp1165
+I1
+s(S'sorbs1'
+p1166
+S'precocious puberty'
+p1167
+tp1168
+I1
+s(S'nos3'
+p1169
+S'endothelial nitric oxide activity'
+p1170
+tp1171
+I3906
+s(S'hif1a'
+p1172
+S'erythrocytosis, idiopathic'
+p1173
+tp1174
+I3
+s(S'maoa'
+p1175
+S'alcoholism body mass dopamine'
+p1176
+tp1177
+I1
+s(S'slc6a4'
+p1178
+S'methamphetamine abuse'
+p1179
+tp1180
+I34
+s(S'agt'
+p1181
+S'end- stage renal disease (esrd)'
+p1182
+tp1183
+I57
+s(S'abp1'
+p1184
+S'ulcerative colitis'
+p1185
+tp1186
+I1
+s(S'rit2'
+p1187
+S'conduct disorder'
+p1188
+tp1189
+I1
+s(S'pgr'
+p1190
+S'infection'
+p1191
+tp1192
+I6024
+s(S'gstm1'
+p1193
+S'hypertension'
+p1194
+tp1195
+I3268
+s(S'pou2f2'
+p1196
+S'kidney diseases'
+p1197
+tp1198
+I35
+s(S'mmp7'
+p1199
+S'h. pylori infection stomach cancer'
+p1200
+tp1201
+I8
+s(S'nr1h4'
+p1202
+g390
+tp1203
+I70
+s(S'gstt1'
+p1204
+S'serum lipid parameters'
+p1205
+tp1206
+I2
+s(S'gc'
+p1207
+g441
+tp1208
+I981
+s(S'fasn'
+p1209
+g539
+tp1210
+I2185
+s(S'lpl'
+p1211
+S'hypertension'
+p1212
+tp1213
+I698
+s(S'gjb2'
+p1214
+g515
+tp1215
+I528
+s(S'scarb1'
+p1216
+S'lathosterol'
+p1217
+tp1218
+I3
+s(S'cyp2c9'
+p1219
+g574
+tp1220
+I81
+s(S'txn2'
+p1221
+g802
+tp1222
+I1
+s(S'map3k1'
+p1223
+g539
+tp1224
+I142
+s(S'max'
+p1225
+S'waist circumference'
+p1226
+tp1227
+I89
+s(S'ttf1'
+p1228
+S'congenital hypothyroidism'
+p1229
+tp1230
+I33
+s(S'xrcc1'
+p1231
+S'cytogenetic studies'
+p1232
+tp1233
+I89
+s(S'ace'
+p1234
+S'intima-media thickness'
+p1235
+tp1236
+I89
+s(S'saa2'
+p1237
+S'atherosclerosis'
+p1238
+tp1239
+I17
+s(S'nnmt'
+p1240
+S'brain ischemia'
+p1241
+tp1242
+I5
+s(S'gstt1'
+p1243
+S'glaucoma, primary open-angle'
+p1244
+tp1245
+I0
+s(S'slc2a9'
+p1246
+S'uric acid'
+p1247
+tp1248
+I135
+s(S'ush2a'
+p1249
+S'leber congenital amaurosis/lca retinal dystrophy usher syndrome'
+p1250
+tp1251
+I1
+s(S'apoc3'
+p1252
+S'apoc-iii'
+p1253
+tp1254
+I297
+s(S'vegfa'
+p1255
+S'perinatal morbidity preterm delivery'
+p1256
+tp1257
+I4
+s(S'ercc5'
+p1258
+g890
+tp1259
+I23
+s(S'cckar'
+p1260
+g340
+tp1261
+I0
+s(S'bax'
+p1262
+S'colon cancer'
+p1263
+tp1264
+I787
+s(S'adm'
+p1265
+S'endometrial neoplasms'
+p1266
+tp1267
+I11611
+s(S'cyp3a5'
+p1268
+S'tamoxifen, prophylactic effect of'
+p1269
+tp1270
+I0
+s(S'casr'
+p1271
+S'primary hyperparathyroidism'
+p1272
+tp1273
+I201
+s(S'gabrg2'
+p1274
+S'mood disorder'
+p1275
+tp1276
+I5
+s(S'ugt1a4'
+p1277
+g355
+tp1278
+I2
+s(S'igfbp3'
+p1279
+S'insulin-like growth factor'
+p1280
+tp1281
+I4695
+s(S'cyp26a1'
+p1282
+g802
+tp1283
+I9
+s(S'pde8b'
+p1284
+S'adenoma'
+p1285
+tp1286
+I13
+s(S'adh1b'
+p1287
+S'heart rate'
+p1288
+tp1289
+I7
+s(S'cyp2b6'
+p1290
+S'hiv infections'
+p1291
+tp1292
+I882
+s(S'ptpn1'
+p1293
+S'diabetes, type 2 glucose insulin obesity'
+p1294
+tp1295
+I16
+s(S'per1'
+p1296
+S'diurnal preference'
+p1297
+tp1298
+I22
+s(S'aff3'
+p1299
+g1132
+tp1300
+I14
+s(S'zmiz1'
+p1301
+S'diabetes, type 2'
+p1302
+tp1303
+I3
+s(S'cat'
+p1304
+S'esophageal neoplasms'
+p1305
+tp1306
+I265
+s(S'nfkbib'
+p1307
+S'ovarian cancer'
+p1308
+tp1309
+I3
+s(S'slc22a4'
+p1310
+S'adenocarcinoma'
+p1311
+tp1312
+I4
+s(S'limd1'
+p1313
+g944
+tp1314
+I14
+s(S'ptpn22'
+p1315
+g726
+tp1316
+I40
+s(S'lhb'
+p1317
+S'ovulatory dysfunctions'
+p1318
+tp1319
+I5
+s(S'tbpl1'
+p1320
+S'iron levels'
+p1321
+tp1322
+I31
+s(S'kcnq1'
+p1323
+S'diabetes mellitus, type 2'
+p1324
+tp1325
+I103
+s(S'traf1'
+p1326
+g405
+tp1327
+I13
+s(S'esr1'
+p1328
+g802
+tp1329
+I476
+s(S'mt2a'
+p1330
+S'carotid artery stenosis'
+p1331
+tp1332
+I3
+s(S'ucn3'
+p1333
+g565
+tp1334
+I56
+s(S'adipoq'
+p1335
+S'schizophrenia'
+p1336
+tp1337
+I280
+s(S'slc25a27'
+p1338
+S'schizophrenia'
+p1339
+tp1340
+I3
+s(S'c2cd4a'
+p1341
+S'diabetes mellitus, type 2'
+p1342
+tp1343
+I7
+s(S'apoe'
+p1344
+S'obstructive sleep apnea'
+p1345
+tp1346
+I31
+s(S'atxn7'
+p1347
+g376
+tp1348
+I157
+s(S'dbp'
+p1349
+S'bone density'
+p1350
+tp1351
+I45
+s(S'ifng'
+p1352
+S'graft rejection, liver'
+p1353
+tp1354
+I203
+s(S'cyp3a4'
+p1355
+S'irinotecan pharmacokinetics'
+p1356
+tp1357
+I47
+s(S'maoa'
+p1358
+S'verbal fluency'
+p1359
+tp1360
+I4
+s(S'il7ra'
+p1361
+g869
+tp1362
+I241
+s(S'adrb3'
+p1363
+S'glucose tolerance'
+p1364
+tp1365
+I17
+s(S'mbl2'
+p1366
+S'pregnancy loss'
+p1367
+tp1368
+I16
+s(S'csmd2'
+p1369
+S'death, sudden, cardiac'
+p1370
+tp1371
+I2
+s(S'il1rn'
+p1372
+S'iga nephropathy'
+p1373
+tp1374
+I13
+s(S'abcc1'
+p1375
+S'hiv infections'
+p1376
+tp1377
+I81
+s(S'csnk2a1p'
+p1378
+g539
+tp1379
+I1
+s(S'irf1'
+p1380
+S'bacterial infections'
+p1381
+tp1382
+I75796
+s(S'pparg'
+p1383
+S'diabetes, type 2'
+p1384
+tp1385
+I1433
+s(S'nfkb1'
+p1386
+S'c-reactive protein'
+p1387
+tp1388
+I499
+s(S'vegfa'
+p1389
+S'esophageal cancer'
+p1390
+tp1391
+I321
+s(S'ace'
+p1392
+S'vo(2max)'
+p1393
+tp1394
+I9
+s(S'terc'
+p1395
+S'anemia, aplastic'
+p1396
+tp1397
+I4344
+s(S'cpb2'
+p1398
+g456
+tp1399
+I108
+s(S'adrb2'
+p1400
+g441
+tp1401
+I526
+s(S'pomc'
+p1402
+S'normal variation in leptin levels'
+p1403
+tp1404
+I8
+s(S'crp'
+p1405
+S'stroke, ischemic'
+p1406
+tp1407
+I324
+s(S'prkdc'
+p1408
+S'kidney cancer'
+p1409
+tp1410
+I378
+s(S'txnrd2'
+p1411
+S'diabetic nephropathies'
+p1412
+tp1413
+I25335
+s(S'cd40'
+p1414
+S'hodgkin disease'
+p1415
+tp1416
+I2342
+s(S'esr1'
+p1417
+g456
+tp1418
+I3367
+s(S'casp7'
+p1419
+S'esophageal adenocarcinoma'
+p1420
+tp1421
+I3
+s(S'wnt4'
+p1422
+g890
+tp1423
+I8
+s(S'abcc8'
+p1424
+S'esophageal adenocarcinoma'
+p1425
+tp1426
+I471
+s(S'pgr'
+p1427
+S'endometrial cancer risk.'
+p1428
+tp1429
+I104
+s(S'ephx1'
+p1430
+S'1,3-butadiene sensitivity'
+p1431
+tp1432
+I8
+s(S'xylt1'
+p1433
+g694
+tp1434
+I5
+s(S'g6pc2'
+p1435
+S'diabetes, type 2'
+p1436
+tp1437
+I85
+s(S'tlr4'
+p1438
+S'diabetes mellitus, type 2'
+p1439
+tp1440
+I905
+s(S'pax8'
+p1441
+S'hypothyroidism, congenital'
+p1442
+tp1443
+I84
+s(S'nr1d1'
+p1444
+S'neoplasms'
+p1445
+tp1446
+I24
+s(S'vdr'
+p1447
+S'estradiol'
+p1448
+tp1449
+I62
+s(S'lepr'
+p1450
+S'hunger and satiety'
+p1451
+tp1452
+I6
+s(S'ercc2'
+p1453
+S'stomach cancer'
+p1454
+tp1455
+I37
+s(S'wrn'
+p1456
+S'bone density but not spondylosis'
+p1457
+tp1458
+I0
+s(S'chat'
+p1459
+S'schizophrenia'
+p1460
+tp1461
+I164
+s(S'kcnn3'
+p1462
+S'atrial fibrillation'
+p1463
+tp1464
+I16
+s(S'xrcc1'
+p1465
+S'mutagen sensitivity'
+p1466
+tp1467
+I28
+s(S'prkar2b'
+p1468
+S'clozapine'
+p1469
+tp1470
+I2
+s(S'mbl2'
+p1471
+S'leishmaniasis, visceral'
+p1472
+tp1473
+I4
+s(S'hfe'
+p1474
+g646
+tp1475
+I2943
+s(S'drd3'
+p1476
+S'alcoholism'
+p1477
+tp1478
+I47
+s(S'ercc2'
+p1479
+S'arsenic-induced hyperkeratosis'
+p1480
+tp1481
+I2
+s(S'ppargc1a'
+p1482
+S'diabetes mellitus, experimental'
+p1483
+tp1484
+I57
+s(S'slc6a3'
+p1485
+S'attention deficit hyperactivity disorder drug hypersensitivity'
+p1486
+tp1487
+I2
+s(S'mif'
+p1488
+S'bacteremia'
+p1489
+tp1490
+I99
+s(S'cyp2c9'
+p1491
+S'e7070 phamacokinetics'
+p1492
+tp1493
+I0
+s(S'psen1'
+p1494
+S'abeta load in brain'
+p1495
+tp1496
+I83
+s(S'ppy'
+p1497
+g860
+tp1498
+I199453
+s(S'tet1'
+p1499
+S'hepatitis c'
+p1500
+tp1501
+I41
+s(S'hla-b'
+p1502
+S'pulmonary hypertension'
+p1503
+tp1504
+I14
+s(S'ace'
+p1505
+S'coronary artery plaque calcification'
+p1506
+tp1507
+I3
+s(S'retn'
+p1508
+S'resistin'
+p1509
+tp1510
+I635
+s(S'dut'
+p1511
+g530
+tp1512
+I4
+s(S'drd1'
+p1513
+S'psychosis'
+p1514
+tp1515
+I17
+s(S'f8'
+p1516
+S'protein c'
+p1517
+tp1518
+I269
+s(S'slc12a9'
+p1519
+S'heart rate'
+p1520
+tp1521
+I5
+s(S'capza1'
+p1522
+S'blood pressure'
+p1523
+tp1524
+I12
+s(S'comt'
+p1525
+S'bladder cancer leukemia lung cancer'
+p1526
+tp1527
+I1
+s(S'ace'
+p1528
+S'polycythemia'
+p1529
+tp1530
+I40
+s(S'fcgr2a'
+p1531
+S'arthritis, rheumatoid'
+p1532
+tp1533
+I1627
+s(S'cyp2d6'
+p1534
+S'exfoliation syndrome'
+p1535
+tp1536
+I14
+s(S'vkorc1'
+p1537
+g802
+tp1538
+I1
+s(S'kl'
+p1539
+g456
+tp1540
+I43
+s(S'htr1b'
+p1541
+S'minimum lifetime body mass index'
+p1542
+tp1543
+I2
+s(S'cdkn2a'
+p1544
+S'squamous cell carcinoma of the head and neck'
+p1545
+tp1546
+I147
+s(S'ptpn22'
+p1547
+g441
+tp1548
+I239
+s(S'nampt'
+p1549
+g860
+tp1550
+I844
+s(S'hla-drb1'
+p1551
+S'cutaneous neonatal lupus'
+p1552
+tp1553
+I5
+s(S'ace'
+p1554
+g355
+tp1555
+I129
+s(S'f7'
+p1556
+S'warfarin sensitivity'
+p1557
+tp1558
+I0
+s(S'abcg2'
+p1559
+S'pitavastatin pharmacokinetics'
+p1560
+tp1561
+I8
+s(S'hla'
+p1562
+S'ulcerative colitis'
+p1563
+tp1564
+I563
+s(S'adh1b'
+p1565
+S'alcohol abuse cirrhosis, alcoholic pancreatitis, chronic'
+p1566
+tp1567
+I4
+s(S'faslg'
+p1568
+S'alopecia areata'
+p1569
+tp1570
+I13
+s(S'apoa5'
+p1571
+S'stroke, ischemic'
+p1572
+tp1573
+I10
+s(S'atp1b1'
+p1574
+S'type 2 diabetes'
+p1575
+tp1576
+I6
+s(S'hla-a'
+p1577
+S'nasopharyngeal cancer'
+p1578
+tp1579
+I69
+s(S'il6'
+p1580
+S'vascular disease'
+p1581
+tp1582
+I10806
+s(S'pdk4'
+p1583
+S'diabetes, type 2'
+p1584
+tp1585
+I18
+s(S'mir191'
+p1586
+S'ovarian cancer'
+p1587
+tp1588
+I26
+s(S'sod1'
+p1589
+S'acute lymphocytic leukemia'
+p1590
+tp1591
+I5665
+s(S'igf2r'
+p1592
+S'intrauterine growth'
+p1593
+tp1594
+I20
+s(S'slc24a4'
+p1595
+S'cell transformation, neoplastic'
+p1596
+tp1597
+I3
+s(S'cbs'
+p1598
+S'b-cell lymphomas'
+p1599
+tp1600
+I2
+s(S'apoa1'
+p1601
+g1587
+tp1602
+I365
+s(S'pltp'
+p1603
+S'cholesterol, hdl cholesterol, ldl'
+p1604
+tp1605
+I81
+s(S'gpx1'
+p1606
+g1587
+tp1607
+I113
+s(S'clec4m'
+p1608
+S'dengue'
+p1609
+tp1610
+I9
+s(S'cyp1a1'
+p1611
+S'birth weight'
+p1612
+tp1613
+I111
+s(S'mad2l1'
+p1614
+g1587
+tp1615
+I100
+s(S'ifngr2'
+p1616
+S'hiv infections'
+p1617
+tp1618
+I17
+s(S'il2rb'
+p1619
+S'leishmaniasis'
+p1620
+tp1621
+I1
+s(S'rit2'
+p1622
+S'rheumatoid arthritis'
+p1623
+tp1624
+I50
+s(S'ppara'
+p1625
+S'apoc-iii'
+p1626
+tp1627
+I77
+s(S'agt'
+p1628
+S'endometrial neoplasms'
+p1629
+tp1630
+I62
+s(S'cd34'
+p1631
+S'hepatitis c'
+p1632
+tp1633
+I2028
+s(S'gstt1'
+p1634
+S'dysmenorrhea'
+p1635
+tp1636
+I4
+s(S'prkag2'
+p1637
+S'kidney diseases'
+p1638
+tp1639
+I61
+s(S'c5'
+p1640
+S'age-related macular degeneration'
+p1641
+tp1642
+I40
+s(S'nr1h3'
+p1643
+S'diabetes, type 2'
+p1644
+tp1645
+I20
+s(S'stat5b'
+p1646
+S'height'
+p1647
+tp1648
+I40
+s(S'enosf1'
+p1649
+S'deafness'
+p1650
+tp1651
+I37
+s(S'msrb3'
+p1652
+S'primary tooth development'
+p1653
+tp1654
+I1
+s(S'ar'
+p1655
+S'uterine endometrial carcinoma'
+p1656
+tp1657
+I105
+s(S'mrpl19'
+p1658
+S'dyslexia'
+p1659
+tp1660
+I13
+s(S'hla-dpb1'
+p1661
+S'atherosclerosis'
+p1662
+tp1663
+I74
+s(S'bdnf'
+p1664
+S'obsessive compulsive disorder'
+p1665
+tp1666
+I46
+s(S'lct'
+p1667
+S'diabetes, type 2'
+p1668
+tp1669
+I31
+s(S'chrna3'
+p1670
+g1587
+tp1671
+I63
+s(S'casp10'
+p1672
+S'breast cancer cervical cancer colorectal cancer esophageal cancer lung cancer stomach cancer'
+p1673
+tp1674
+I0
+s(S'tgfb1'
+p1675
+S'kidney diseases'
+p1676
+tp1677
+I5812
+s(S'il1b'
+p1678
+S'diabetes mellitus'
+p1679
+tp1680
+I1649
+s(S'hla-dmb'
+p1681
+S'dermatitis, occupational'
+p1682
+tp1683
+I2
+s(S'hivep3'
+p1684
+S'echocardiography'
+p1685
+tp1686
+I149
+s(S'cyp2d6'
+p1687
+S'phenytoin levels'
+p1688
+tp1689
+I4
+s(S'apob'
+p1690
+S'dyslexia'
+p1691
+tp1692
+I120
+s(S'hla-dqa1'
+p1693
+S'hypertension'
+p1694
+tp1695
+I163
+s(S'znf429'
+p1696
+S'radius fractures'
+p1697
+tp1698
+I1
+s(S'fgf18'
+p1699
+S'nonsyndromic cleft lip'
+p1700
+tp1701
+I3
+s(S'tpmt'
+p1702
+S'lupus erythematosus'
+p1703
+tp1704
+I13
+s(S'atm'
+p1705
+S'radiosensitivity'
+p1706
+tp1707
+I665
+s(S'mtap'
+p1708
+S'cutaneous nevi'
+p1709
+tp1710
+I3
+s(S'ntrk2'
+p1711
+S'carcinoma, transitional cell'
+p1712
+tp1713
+I16
+s(S'hspa1l'
+p1714
+S'hearing loss, noise-induced'
+p1715
+tp1716
+I2
+s(S'nos3'
+p1717
+S'blood nitrite oxidative stress'
+p1718
+tp1719
+I104
+s(S'cyp2c19'
+p1720
+S'alveolar bone loss'
+p1721
+tp1722
+I13
+s(S'col1a1'
+p1723
+S'lumbar disc disease'
+p1724
+tp1725
+I2
+s(S'xkr6'
+p1726
+S'diabetes mellitus, type 2'
+p1727
+tp1728
+I1
+s(S'sost'
+p1729
+S'bone mineral density'
+p1730
+tp1731
+I264
+s(S'osbp2'
+p1732
+S'geographic atrophy'
+p1733
+tp1734
+I2
+s(S'tnf'
+p1735
+S'carcinoma, basal cell'
+p1736
+tp1737
+I714
+s(S'orm2'
+p1738
+S'warfarin sensitivity'
+p1739
+tp1740
+I0
+s(S'f2'
+p1741
+S'cancer'
+p1742
+tp1743
+I34167
+s(S'pdcd1'
+p1744
+S'rheumatoid arthritis'
+p1745
+tp1746
+I220
+s(S'col1a1'
+p1747
+S'bone density osteoporosis'
+p1748
+tp1749
+I71
+s(S'fgf2'
+p1750
+S'hypertension'
+p1751
+tp1752
+I669
+s(S'cyp2d6'
+p1753
+S'multiple chemical sensitivity'
+p1754
+tp1755
+I7
+s(S'cbs'
+p1756
+S'carcinoma'
+p1757
+tp1758
+I130
+s(S'c1galt1c1'
+p1759
+S'nephropathy, iga'
+p1760
+tp1761
+I23
+s(S'fgfr4'
+p1762
+S'bladder cancer'
+p1763
+tp1764
+I5
+s(S'igfbp3'
+p1765
+S'arthrogryposis'
+p1766
+tp1767
+I1
+s(S'lrp5'
+p1768
+g1727
+tp1769
+I79
+s(S'cyp2c9'
+p1770
+S'thrombosis, deep vein'
+p1771
+tp1772
+I33
+s(S'hla-drb1'
+p1773
+S'leukemia, childhood acute lymphoblastic'
+p1774
+tp1775
+I12
+s(S'cebpe'
+p1776
+S'acute lymphoblastic leukemia (childhood)'
+p1777
+tp1778
+I10
+s(S'abcb1'
+p1779
+S'hypertension'
+p1780
+tp1781
+I1309
+s(S'tlr4'
+p1782
+S'lymphadenitis'
+p1783
+tp1784
+I410
+s(S'slc30a8'
+p1785
+S'hypertension'
+p1786
+tp1787
+I31
+s(S'proz'
+p1788
+S'neoplasms'
+p1789
+tp1790
+I393
+s(S'kcns3'
+p1791
+S'migraine with aura'
+p1792
+tp1793
+I1
+s(S'darc'
+p1794
+S'hiv infections'
+p1795
+tp1796
+I22
+s(S'cyp2c19'
+p1797
+S'hypertension'
+p1798
+tp1799
+I265
+s(S'hla-b'
+p1800
+S"wegener's granulomatosis"
+p1801
+tp1802
+I5
+s(S'epo'
+p1803
+S'acute kidney injury'
+p1804
+tp1805
+I6139
+s(S'il18'
+p1806
+S'acute lung injury'
+p1807
+tp1808
+I36
+s(S'vdr'
+p1809
+S'lung diseases'
+p1810
+tp1811
+I270
+s(S'dbh'
+p1812
+S'alcoholism'
+p1813
+tp1814
+I64
+s(S'runx1'
+p1815
+g1751
+tp1816
+I641
+s(S'slc6a3'
+p1817
+S'manic-depressive illness'
+p1818
+tp1819
+I110
+s(S'txnrd1'
+p1820
+S'adenoma'
+p1821
+tp1822
+I3142
+s(S'abcc6'
+p1823
+S'amyotrophic lateral sclerosis'
+p1824
+tp1825
+I114
+s(S'mcl1'
+p1826
+S'iron deficiency anaemia'
+p1827
+tp1828
+I4189
+s(S'drd3'
+p1829
+S'personality traits'
+p1830
+tp1831
+I18
+s(S'aldh1a2'
+p1832
+S'brain ischemia'
+p1833
+tp1834
+I16
+s(S'cpb2'
+p1835
+S'preeclampsia'
+p1836
+tp1837
+I10
+s(S'mthfr'
+p1838
+S'bone mineral density'
+p1839
+tp1840
+I41
+s(S'il4r'
+p1841
+g1662
+tp1842
+I55
+s(S'myo5a'
+p1843
+S'hip'
+p1844
+tp1845
+I4967
+s(S'hps5'
+p1846
+S'serum amyloid a protein'
+p1847
+tp1848
+I1
+s(S'il1rn'
+p1849
+S'cytokine lung function'
+p1850
+tp1851
+I64
+s(S'alox5'
+p1852
+S'glioblastoma'
+p1853
+tp1854
+I11
+s(S'hla-a'
+p1855
+S'multiple trauma'
+p1856
+tp1857
+I29
+s(S'cyp1a1'
+p1858
+S'malignant mesothelioma'
+p1859
+tp1860
+I3
+s(S'retn'
+p1861
+S'hypertriglyceridemia'
+p1862
+tp1863
+I44
+s(S'mras'
+p1864
+S'coronary artery disease'
+p1865
+tp1866
+I12
+s(S'cyp2c9'
+p1867
+S'cancer'
+p1868
+tp1869
+I372
+s(S'gsta1'
+p1870
+S'hepatitis c'
+p1871
+tp1872
+I24
+s(S'ccl2'
+p1873
+S'pancreatitis, acute'
+p1874
+tp1875
+I76
+s(S'ercc1'
+p1876
+S'oral cancer'
+p1877
+tp1878
+I19
+s(S'hla-drb1'
+p1879
+S'gastroenteritis'
+p1880
+tp1881
+I165
+s(S'nos3'
+p1882
+S'blood pressure, arterial homocysteine'
+p1883
+tp1884
+I5
+s(S'lpa'
+p1885
+S'lipoprotein a-i'
+p1886
+tp1887
+I90
+s(S'ccl11'
+p1888
+g1623
+tp1889
+I69
+s(S'nos3'
+p1890
+S'nitric oxide activity'
+p1891
+tp1892
+I4486
+s(S'tgfb1'
+p1893
+S'respiratory syncytial virus'
+p1894
+tp1895
+I25
+s(S'xrcc1'
+p1896
+S'non-small cell lung cancer'
+p1897
+tp1898
+I154
+s(S'f2r'
+p1899
+S'atrial fibrillation'
+p1900
+tp1901
+I14583
+s(S'lmna'
+p1902
+S'diabetes, type 2 metabolic syndrome'
+p1903
+tp1904
+I20
+s(S'lta'
+p1905
+S'cervical intraepithelial neoplasia grade 3'
+p1906
+tp1907
+I1
+s(S'tgfb1'
+p1908
+S'copd'
+p1909
+tp1910
+I301
+s(S'adipoq'
+p1911
+S'atherosclerosis, coronary'
+p1912
+tp1913
+I123
+s(S'alox15'
+p1914
+g1587
+tp1915
+I178
+s(S'clec2d'
+p1916
+S'amyotrophic lateral sclerosis'
+p1917
+tp1918
+I4
+s(S'ntsr1'
+p1919
+S'several psychiatric disorders'
+p1920
+tp1921
+I151
+s(S'sumo4'
+p1922
+S'juvenile arthritis'
+p1923
+tp1924
+I1
+s(S'nfe2l2'
+p1925
+S'stomach ulcer'
+p1926
+tp1927
+I44
+s(S'hfe'
+p1928
+S'hepatitis c, chronic steatohepatitis'
+p1929
+tp1930
+I17
+s(S'gab1'
+p1931
+S'gastric atrophy h. pylori infection'
+p1932
+tp1933
+I2
+s(S'brap'
+p1934
+S'atherosclerosis'
+p1935
+tp1936
+I127
+s(S'app'
+p1937
+S'schizophrenia'
+p1938
+tp1939
+I556
+s(S'gstm1'
+p1940
+S'aflatoxin-albumin'
+p1941
+tp1942
+I6
+s(S'fads1'
+p1943
+S'death, sudden, cardiac'
+p1944
+tp1945
+I28
+s(S'nod2'
+p1946
+S'allergic conjunctivitis'
+p1947
+tp1948
+I25
+s(S'ccl2'
+p1949
+S'hepatitis c'
+p1950
+tp1951
+I249
+s(S'runx2'
+p1952
+S'overweight'
+p1953
+tp1954
+I416
+s(S'abcb1'
+p1955
+S'liver disease'
+p1956
+tp1957
+I885
+s(S'kir3ds1'
+p1958
+S'respiratory papillomatosis'
+p1959
+tp1960
+I1
+s(S'optc'
+p1961
+S'eye abnormalities'
+p1962
+tp1963
+I676
+s(S'mir30e'
+p1964
+S'dcm - dilated cardiomyopathy'
+p1965
+tp1966
+I0
+s(S'calca'
+p1967
+S'schizophrenia'
+p1968
+tp1969
+I6753
+s(S'mtrr'
+p1970
+S'cleft lip with cleft palate cleft lip without cleft palate'
+p1971
+tp1972
+I7
+s(S'serpina1'
+p1973
+S'airway obstruction'
+p1974
+tp1975
+I136
+s(S'brca2'
+p1976
+S'spontaneous chromosomal instability'
+p1977
+tp1978
+I25
+s(S'ugt1a1'
+p1979
+S'hemangioblastoma'
+p1980
+tp1981
+I0
+s(S'adra2a'
+p1982
+S'blood pressure'
+p1983
+tp1984
+I1558
+s(S'il1rn'
+p1985
+S'early postmenopausal bone loss at the spine.'
+p1986
+tp1987
+I3
+s(S'stat6'
+p1988
+S'atopy beta-lactam allergy'
+p1989
+tp1990
+I1
+s(S'slc6a4'
+p1991
+S"tourette's syndrome"
+p1992
+tp1993
+I17
+s(S'ext2'
+p1994
+S'diabetes mellitus, type 2'
+p1995
+tp1996
+I20
+s(S'cdkn1a'
+p1997
+S'neoplasms'
+p1998
+tp1999
+I16563
+s(S'pcsk9'
+p2000
+S'beta-thalassemia'
+p2001
+tp2002
+I92
+s(S'mc4r'
+p2003
+S'eating disorders obesity'
+p2004
+tp2005
+I13
+s(S'abcb1'
+p2006
+S'esophageal cancer'
+p2007
+tp2008
+I60
+s(S'nr4a2'
+p2009
+S"parkinson's disease"
+p2010
+tp2011
+I221
+s(S'kiaa1109'
+p2012
+S'arthritis, rheumatoid'
+p2013
+tp2014
+I44
+s(S'tgfbr3'
+p2015
+g1623
+tp2016
+I28
+s(S'cyp2d6'
+p2017
+S'lung diseases'
+p2018
+tp2019
+I611
+s(S'angptl4'
+p2020
+S'diabetes, type 2'
+p2021
+tp2022
+I17
+s(S'adrb1'
+p2023
+S'blood pressure'
+p2024
+tp2025
+I871
+s(S'itgb3'
+p2026
+S'thrombophilia and vascular disease'
+p2027
+tp2028
+I17
+s(S'mc1r'
+p2029
+S'hair color'
+p2030
+tp2031
+I232
+s(S'mtr'
+p2032
+g1590
+tp2033
+I6050
+s(S'alad'
+p2034
+S'lead nephrotoxicity'
+p2035
+tp2036
+I4
+s(S'kcnd2'
+p2037
+S'ekg, abnormal'
+p2038
+tp2039
+I1
+s(S'sat'
+p2040
+g1587
+tp2041
+I258
+s(S'asip'
+p2042
+S'pigmentation'
+p2043
+tp2044
+I166
+s(S'ccnh'
+p2045
+g1587
+tp2046
+I130
+s(S'drd4'
+p2047
+g1980
+tp2048
+I5
+s(S'rad50'
+p2049
+g1617
+tp2050
+I52
+s(S'ctla4'
+p2051
+S'chromosome abnormality'
+p2052
+tp2053
+I7863
+s(S'ifng'
+p2054
+S'disc disease, intervertebral'
+p2055
+tp2056
+I9
+s(S'angpt2'
+p2057
+S'idiopathic recurrent miscarriage'
+p2058
+tp2059
+I1
+s(S'adam17'
+p2060
+g1623
+tp2061
+I111
+s(S'chek2'
+p2062
+S'diabetes, type 2'
+p2063
+tp2064
+I2
+s(S'abcb1'
+p2065
+S'phenytoin levels'
+p2066
+tp2067
+I33
+s(S'crp'
+p2068
+S'arterial pulse wave velocity c-reactive protein'
+p2069
+tp2070
+I157
+s(S'apoc2'
+p2071
+S'plasma hdl-c levels'
+p2072
+tp2073
+I20
+s(S'mtr'
+p2074
+g1909
+tp2075
+I292
+s(S'ros1'
+p2076
+S'coronary artery disease'
+p2077
+tp2078
+I1584
+s(S'c4'
+p2079
+S'c4a null haplotypes'
+p2080
+tp2081
+I59
+s(S'slc4a5'
+p2082
+S'blood pressure, arterial'
+p2083
+tp2084
+I2
+s(S'serpine1'
+p2085
+S'pregnancy loss'
+p2086
+tp2087
+I66
+s(S'cart'
+p2088
+S'schizophrenia'
+p2089
+tp2090
+I105
+s(S'creb1'
+p2091
+S'childhood-onset mood disorders'
+p2092
+tp2093
+I1
+s(S'slc12a3'
+p2094
+S'gitelman syndrome'
+p2095
+tp2096
+I142
+s(S'apc'
+p2097
+S'intrauterine growth restriction'
+p2098
+tp2099
+I396
+s(S'mmp2'
+p2100
+S'brain hemorrhage'
+p2101
+tp2102
+I101
+s(S'fem1b'
+p2103
+g1862
+tp2104
+I0
+s(S'tceal7'
+p2105
+S'ovarian cancer'
+p2106
+tp2107
+I4
+s(S'mthfr'
+p2108
+S'coke-oven toxicity'
+p2109
+tp2110
+I1
+s(S'il6'
+p2111
+S"takayasu's arteritis"
+p2112
+tp2113
+I43
+s(S'cyp3a5'
+p2114
+S'cyclosporine metabolism'
+p2115
+tp2116
+I336
+s(S'notch4'
+p2117
+g1944
+tp2118
+I58
+s(S'ggh'
+p2119
+S'adenocarcinoma'
+p2120
+tp2121
+I380
+s(S'bmp2'
+p2122
+S'sids/sudden infant death syndrome'
+p2123
+tp2124
+I0
+s(S'grik2'
+p2125
+S'schizophrenia'
+p2126
+tp2127
+I31
+s(S'plin'
+p2128
+S'bone density'
+p2129
+tp2130
+I1
+s(S'cdh1'
+p2131
+S'esophageal adenocarcinoma'
+p2132
+tp2133
+I21
+s(S'chrna4'
+p2134
+S'cerebrovascular disorders'
+p2135
+tp2136
+I275
+s(S'maoa'
+p2137
+S'46, xx disorders of sex development'
+p2138
+tp2139
+I48
+s(S'nat2'
+p2140
+S'sulphamethoxazole hypersensitivity'
+p2141
+tp2142
+I8
+s(S'tyms'
+p2143
+S'esophageal neoplasms'
+p2144
+tp2145
+I238
+s(S'fbn1'
+p2146
+g1676
+tp2147
+I34431
+s(S'abcg8'
+p2148
+S'cholesterol, ldl'
+p2149
+tp2150
+I88
+s(S'xrcc1'
+p2151
+S'sister-chromatid exchanges'
+p2152
+tp2153
+I38
+s(S'myh7'
+p2154
+S'cardiomegaly'
+p2155
+tp2156
+I280
+s(S'bche'
+p2157
+S'organophosphate toxicity'
+p2158
+tp2159
+I87
+s(S'kras'
+p2160
+S'abnormalities, multiple'
+p2161
+tp2162
+I4861
+s(S'tlr5'
+p2163
+S'hyperhomocysteinemia'
+p2164
+tp2165
+I5
+s(S'pnmt'
+p2166
+S'adult adhd'
+p2167
+tp2168
+I4
+s(S'dmd'
+p2169
+S'dilated cardiomyopathy'
+p2170
+tp2171
+I121
+s(S'tbp'
+p2172
+S'combined vocal and multiple motor'
+p2173
+tp2174
+I1
+s(S'epor'
+p2175
+S'familial erythrocytosis'
+p2176
+tp2177
+I20
+s(S'actn3'
+p2178
+S'human elite athletic performance'
+p2179
+tp2180
+I50
+s(S'tlr4'
+p2181
+S'preterm delivery'
+p2182
+tp2183
+I254
+s(S'pdcd1'
+p2184
+S"bird fancier's lung"
+p2185
+tp2186
+I1
+s(S'tbx21'
+p2187
+g1650
+tp2188
+I18
+s(S'fads3'
+p2189
+S'hdl cholesterol'
+p2190
+tp2191
+I2
+s(S'drp2'
+p2192
+S'schizophrenia'
+p2193
+tp2194
+I8
+s(S'usp46'
+p2195
+S'schizophrenia'
+p2196
+tp2197
+I1
+s(S'pah'
+p2198
+S'galactosemia'
+p2199
+tp2200
+I1914
+s(S'cyp2c9'
+p2201
+S'glyburide pharmacokinetics'
+p2202
+tp2203
+I22
+s(S'sftpb'
+p2204
+S'ards'
+p2205
+tp2206
+I37
+s(S'hsd17b1'
+p2207
+S'testicular germ cell tumor'
+p2208
+tp2209
+I1
+s(S'ccr5'
+p2210
+S'hiv infections'
+p2211
+tp2212
+I3245
+s(S'mthfr'
+p2213
+S'diabetes mellitus, type 2'
+p2214
+tp2215
+I206
+s(S'il4'
+p2216
+S'schistosoma mansoni infection'
+p2217
+tp2218
+I386
+s(S'il6'
+p2219
+S'bone density'
+p2220
+tp2221
+I755
+s(S'xrcc1'
+p2222
+S'benzene haematotoxicity'
+p2223
+tp2224
+I1
+s(S'slc6a4'
+p2225
+S'dance performance'
+p2226
+tp2227
+I1
+s(S'ins'
+p2228
+S'diabetes, gestational insulin'
+p2229
+tp2230
+I670
+s(S'hspa1l'
+p2231
+S'aids-related opportunistic infections'
+p2232
+tp2233
+I1
+s(S'il6'
+p2234
+S'renal allograft outcome'
+p2235
+tp2236
+I34
+s(S'nod2'
+p2237
+S'spondylarthritis'
+p2238
+tp2239
+I180
+s(S'tlr2'
+p2240
+g1917
+tp2241
+I49
+s(S'loc123688'
+p2242
+g1587
+tp2243
+I8
+s(S'cyp1a2'
+p2244
+S'endometrial neoplasms'
+p2245
+tp2246
+I93
+s(S'slc6a4'
+p2247
+S'depression depressive disorder, major'
+p2248
+tp2249
+I479
+s(S'mmp3'
+p2250
+S'restenosis'
+p2251
+tp2252
+I22
+s(S'cilp2'
+p2253
+S'cholesterol, ldl'
+p2254
+tp2255
+I8
+s(S'mmab'
+p2256
+g1727
+tp2257
+I23
+s(S'lce3b'
+p2258
+S'diabetes mellitus, type 2'
+p2259
+tp2260
+I32
+s(S'ran'
+p2261
+g1980
+tp2262
+I17
+s(S'cyp2c19'
+p2263
+S'sulfone metabolism'
+p2264
+tp2265
+I261
+s(S'cd14'
+p2266
+S'appendicitis'
+p2267
+tp2268
+I1
+s(S'nos3'
+p2269
+S'oxidative stress'
+p2270
+tp2271
+I1497
+s(S'ercc6'
+p2272
+S'nucleotide excision repair'
+p2273
+tp2274
+I454
+s(S'ptpn11'
+p2275
+S'syndrome'
+p2276
+tp2277
+I712
+s(S'tmprss6'
+p2278
+S'iron status and erythrocyte volume'
+p2279
+tp2280
+I1
+s(S'hcrt'
+p2281
+S'disorders of excessive somnolence'
+p2282
+tp2283
+I683
+s(S'adrb1'
+p2284
+S'idiopathic orthostatic intolerance'
+p2285
+tp2286
+I2
+s(S'foxa3'
+p2287
+S'hepatic cyp3a4 expression'
+p2288
+tp2289
+I2
+s(S'nat2'
+p2290
+S'breast neoplasms'
+p2291
+tp2292
+I233
+s(S'nos3'
+p2293
+S'coronary blood flow'
+p2294
+tp2295
+I360
+s(S'ifngr2'
+p2296
+g1662
+tp2297
+I17
+s(S'nudt1'
+p2298
+S'oral cancer'
+p2299
+tp2300
+I1
+s(S'gdap1'
+p2301
+S'charcot-marie-tooth disease'
+p2302
+tp2303
+I118
+s(S'lox'
+p2304
+S'squamous cell carcinoma'
+p2305
+tp2306
+I82
+s(S'ppia'
+p2307
+S'efavirenz mid-dose concentration'
+p2308
+tp2309
+I165
+s(S'ccr5'
+p2310
+S'hiv disease progression'
+p2311
+tp2312
+I730
+s(S'kras'
+p2313
+S'gastrointestinal stromal tumors'
+p2314
+tp2315
+I52
+s(S'psmb9'
+p2316
+S'alzheimers disease'
+p2317
+tp2318
+I2
+s(S'agt'
+p2319
+S'breast neoplasms'
+p2320
+tp2321
+I150
+s(S'tmprss6'
+p2322
+S'mean corpuscular volume'
+p2323
+tp2324
+I7
+s(S'runx3'
+p2325
+S'arthritis, rheumatoid'
+p2326
+tp2327
+I66
+s(S'dgat2'
+p2328
+S'hepatitis'
+p2329
+tp2330
+I111
+s(S'csf2'
+p2331
+S'atopic dermatitis.'
+p2332
+tp2333
+I116
+s(S'hla-drb1'
+p2334
+S'ossification of posterior longitudinal ligament'
+p2335
+tp2336
+I161
+s(S'tmeff2'
+p2337
+g1712
+tp2338
+I6041
+s(S'gch1'
+p2339
+S'tetrahydrobiopterin metabolic disorders'
+p2340
+tp2341
+I23
+s(S'sparc'
+p2342
+S'type 2 diabetes'
+p2343
+tp2344
+I11
+s(S'fgfr4'
+p2345
+S'high-grade soft tissue sarcoma'
+p2346
+tp2347
+I3
+s(S'nfkb1'
+p2348
+S'hodgkin disease'
+p2349
+tp2350
+I3430
+s(S'mbd4'
+p2351
+S'esophageal cancer'
+p2352
+tp2353
+I8
+s(S'adh1c'
+p2354
+S'squamous cell carcinoma'
+p2355
+tp2356
+I26
+s(S'ace'
+p2357
+S'left-ventricular hypertrophy'
+p2358
+tp2359
+I1147
+s(S'mut'
+p2360
+S'hypertension induced by pregnancy'
+p2361
+tp2362
+I6
+s(S'il1b'
+p2363
+S'cirrhosis'
+p2364
+tp2365
+I1632
+s(S'f5'
+p2366
+S'pregnancy loss, recurrent'
+p2367
+tp2368
+I35
+s(S'hsp90ab1'
+p2369
+g1662
+tp2370
+I2
+s(S'cntn1'
+p2371
+S'aorta'
+p2372
+tp2373
+I16
+s(S'hnmt'
+p2374
+S'bronchial hyperresponsiveness'
+p2375
+tp2376
+I1
+s(S'cyp1a2'
+p2377
+S'chronic benzene poisoning'
+p2378
+tp2379
+I1
+s(S'tlr9'
+p2380
+g1827
+tp2381
+I52
+s(S'ptgs2'
+p2382
+S'bladder cancer'
+p2383
+tp2384
+I257
+s(S'il1rn'
+p2385
+S'hodgkin disease'
+p2386
+tp2387
+I66
+s(S'irak1'
+p2388
+g1623
+tp2389
+I95
+s(S'kir2ds2'
+p2390
+S'diabetes, type 2'
+p2391
+tp2392
+I3
+s(S'cyp3a5'
+p2393
+S'cyclospoine pharmacokinetics'
+p2394
+tp2395
+I3651
+s(S'pten'
+p2396
+S'breast cancer prostate cancer'
+p2397
+tp2398
+I1395
+s(S'ptch'
+p2399
+S'carcinoma, basal cell'
+p2400
+tp2401
+I1696
+s(S'kcna5'
+p2402
+S'hypertension'
+p2403
+tp2404
+I89
+s(S'irgm'
+p2405
+g1827
+tp2406
+I106
+s(S'mthfr'
+p2407
+S'bladder cancer leukemia lung cancer'
+p2408
+tp2409
+I2
+s(S'tlr2'
+p2410
+S'atopic dermatitis'
+p2411
+tp2412
+I51
+s(S'cdh13'
+p2413
+S'rheumatoid arthritis'
+p2414
+tp2415
+I37
+s(S'cdkal1'
+p2416
+S'diabetes, type 2'
+p2417
+tp2418
+I151
+s(S'smn1'
+p2419
+S'als/amyotrophic lateral sclerosis'
+p2420
+tp2421
+I138
+s(S'csf2'
+p2422
+S'asthma atopy'
+p2423
+tp2424
+I16
+s(S'mme'
+p2425
+S'cerebral amyloid angiopathy.'
+p2426
+tp2427
+I10
+s(S'dmpk'
+p2428
+g1733
+tp2429
+I232
+s(S'hsd3b1'
+p2430
+S'body mass'
+p2431
+tp2432
+I11
+s(S'htr2c'
+p2433
+g1623
+tp2434
+I70
+s(S'mmp3'
+p2435
+S'astrocytoma'
+p2436
+tp2437
+I18
+s(S'slc6a3'
+p2438
+g1965
+tp2439
+I18
+s(S'traf1'
+p2440
+S'arthritis, rheumatoid'
+p2441
+tp2442
+I109
+s(S'armetl1'
+p2443
+S'alcoholism'
+p2444
+tp2445
+I0
+s(S'tor1a'
+p2446
+S'idiopathic torsion dystonia'
+p2447
+tp2448
+I196
+s(S'lpl'
+p2449
+S'cholesterol, total'
+p2450
+tp2451
+I473
+s(S'capn10'
+p2452
+S'glucose'
+p2453
+tp2454
+I58
+s(S'hla-e'
+p2455
+S'coronary aneurysm'
+p2456
+tp2457
+I1
+s(S'gnrh1'
+p2458
+S'hypogonadism'
+p2459
+tp2460
+I4019
+s(S'il6'
+p2461
+S'hypertension'
+p2462
+tp2463
+I8274
+s(S'tpk1'
+p2464
+S'birth weight'
+p2465
+tp2466
+I4
+s(S'cd14'
+p2467
+S'hypolipoproteinemias'
+p2468
+tp2469
+I358
+s(S'pecam1'
+p2470
+g1662
+tp2471
+I303
+s(S'mirn146a'
+p2472
+S'ovarian cancer'
+p2473
+tp2474
+I112
+s(S'hla-b'
+p2475
+S'diffuse panbonchiolitis'
+p2476
+tp2477
+I0
+s(S'gstm1'
+p2478
+S'aflatoxin-related hepatocarcinogenesis'
+p2479
+tp2480
+I1
+s(S'rara'
+p2481
+S'schizophrenia'
+p2482
+tp2483
+I18
+s(S'pear1'
+p2484
+S'platelet signaling'
+p2485
+tp2486
+I5
+s(S'cyp2d6'
+p2487
+S'leukemia, childhood acute lymphoblastic'
+p2488
+tp2489
+I7
+s(S'fcmd'
+p2490
+S'muscular dystrophy'
+p2491
+tp2492
+I477
+s(S'il4'
+p2493
+g1980
+tp2494
+I21
+s(g2481
+g2167
+tp2495
+I2
+s(S'fbn1'
+p2496
+S'hypoxia'
+p2497
+tp2498
+I3700
+s(S'nos1'
+p2499
+S'eo'
+p2500
+tp2501
+I18
+s(S'grem1'
+p2502
+S'type 2 diabetes'
+p2503
+tp2504
+I6
+s(S'cckar'
+p2505
+S"parkinson's disease"
+p2506
+tp2507
+I4
+s(S'ar'
+p2508
+S'androgen-independent prostate cancer'
+p2509
+tp2510
+I536
+s(S'htr2c'
+p2511
+S'agitation'
+p2512
+tp2513
+I74
+s(S'fraxa'
+p2514
+S'abnormalities, multiple'
+p2515
+tp2516
+I5024
+s(S'tyr'
+p2517
+S'oculocutaneous albinism'
+p2518
+tp2519
+I158
+s(S'irf4'
+p2520
+g1998
+tp2521
+I446
+s(S'tcf1'
+p2522
+S'diabetes, gestational'
+p2523
+tp2524
+I14
+s(S'nos2a'
+p2525
+S'malaria susceptibility'
+p2526
+tp2527
+I15
+s(S'mmp9'
+p2528
+S'atherosclerotic lesions'
+p2529
+tp2530
+I199
+s(S'hbb'
+p2531
+S'beta-thalassemia'
+p2532
+tp2533
+I3003
+s(S'ccl2'
+p2534
+S'hypertension, pulmonary'
+p2535
+tp2536
+I189
+s(S'il23r'
+p2537
+g1650
+tp2538
+I9
+s(S'tph2'
+p2539
+S'depressive disorder, major'
+p2540
+tp2541
+I55
+s(S'mtr'
+p2542
+S"non-hodgkin's lymphoma"
+p2543
+tp2544
+I217
+s(S'cyp3a5'
+p2545
+S'repaglinide pharmacokinetics'
+p2546
+tp2547
+I26
+s(S'apoc3'
+p2548
+S'lipid levels'
+p2549
+tp2550
+I246
+s(S'vcam1'
+p2551
+S'glucosephosphate dehydrogenase deficiency'
+p2552
+tp2553
+I106
+s(S'xrcc1'
+p2554
+S'cancer'
+p2555
+tp2556
+I8985
+s(S'hla-c'
+p2557
+S'liver transplant'
+p2558
+tp2559
+I611
+s(S'sele'
+p2560
+S'diabetic nephropathies'
+p2561
+tp2562
+I117
+s(S'inhba'
+p2563
+g1786
+tp2564
+I57
+s(S'tp53'
+p2565
+S'pregnancy complications, infectious'
+p2566
+tp2567
+I2298
+s(S'cyp11b2'
+p2568
+S'arterial wall changes'
+p2569
+tp2570
+I1
+s(S'cyp2d6'
+p2571
+S'haematological neoplasias'
+p2572
+tp2573
+I1
+s(S'cdkal1'
+p2574
+S'body mass index'
+p2575
+tp2576
+I33
+s(S'adh1b'
+p2577
+S'cirrhosis, alcoholic'
+p2578
+tp2579
+I38
+s(S'pon1'
+p2580
+S'pon1 activity'
+p2581
+tp2582
+I1200
+s(S'agtr1'
+p2583
+S'glaucoma, primary open-angle'
+p2584
+tp2585
+I0
+s(S'ccr5'
+p2586
+g1862
+tp2587
+I95
+s(S'tlr4'
+p2588
+S'pancreatic necrosis pancreatitis, acute'
+p2589
+tp2590
+I56
+s(S'tcn2'
+p2591
+S'cerebrovascular disease, ischemic'
+p2592
+tp2593
+I3683
+s(S'abcc6'
+p2594
+S'coronary artery disease'
+p2595
+tp2596
+I494
+s(S'cyp2c19'
+p2597
+S'micronuclei, chromosome-defective'
+p2598
+tp2599
+I16
+s(S'gstp1'
+p2600
+S'skin cancer, non-melanoma'
+p2601
+tp2602
+I4
+s(S'mmp12'
+p2603
+S'chorioamnionitis'
+p2604
+tp2605
+I53858
+s(S'tnf'
+p2606
+S"rheiter's syndrome"
+p2607
+tp2608
+I9345
+s(S'casp8'
+p2609
+g1662
+tp2610
+I288
+s(S'lepr'
+p2611
+S'bone density'
+p2612
+tp2613
+I18
+s(S'ccl21'
+p2614
+S'rheumatoid arthritis'
+p2615
+tp2616
+I138
+s(S'abcb1'
+p2617
+S'anticoagulant complications'
+p2618
+tp2619
+I13
+s(S'sult1a2'
+p2620
+S'cancer'
+p2621
+tp2622
+I38
+s(S'comt'
+p2623
+g1712
+tp2624
+I27
+s(S'hd'
+p2625
+S'schizophrenia'
+p2626
+tp2627
+I7488
+s(S'il1b'
+p2628
+g2335
+tp2629
+I458
+s(S'cdkn2bas'
+p2630
+S'anril expression'
+p2631
+tp2632
+I48
+s(S'irs2'
+p2633
+S'atherosclerosis'
+p2634
+tp2635
+I42
+s(S'htra1'
+p2636
+g1733
+tp2637
+I195
+s(S'drb1'
+p2638
+S'schizophrenia'
+p2639
+tp2640
+I487
+s(S'htr1a'
+p2641
+S'depressive disorder, major'
+p2642
+tp2643
+I297
+s(S'ppt1'
+p2644
+S'occipital lobe'
+p2645
+tp2646
+I8
+s(S'msh2'
+p2647
+S'fallopian cancer'
+p2648
+tp2649
+I10
+s(S'apoc3'
+p2650
+S'cholesterol, hdl triglycerides'
+p2651
+tp2652
+I87
+s(S'cyp3a4'
+p2653
+S'9-hydroxyrisperidone'
+p2654
+tp2655
+I21
+s(S'tlr2'
+p2656
+S'lung disease, mycobacteria'
+p2657
+tp2658
+I60
+s(S'cyp17a1'
+p2659
+S'androstenedione'
+p2660
+tp2661
+I450
+s(S'cyp2e1'
+p2662
+S'dna damage, biomarkers of'
+p2663
+tp2664
+I33
+s(S'cd14'
+p2665
+S'arthritis, rheumatoid'
+p2666
+tp2667
+I1089
+s(S'faah'
+p2668
+S'atherosclerosis'
+p2669
+tp2670
+I15
+s(S'kir3ds1'
+p2671
+g2391
+tp2672
+I3
+s(S'nfkb1'
+p2673
+S'lupus erythematosus'
+p2674
+tp2675
+I375
+s(S'f9'
+p2676
+S'ahg deficiency disease'
+p2677
+tp2678
+I4202
+s(S'itga2'
+p2679
+S'platelet aggregation'
+p2680
+tp2681
+I1893
+s(S'cenpe'
+p2682
+g1587
+tp2683
+I22
+s(S'slc47a1'
+p2684
+S'renal clearance of metformin'
+p2685
+tp2686
+I14
+s(S'il1b'
+p2687
+S'acquired immunodeficiency syndrome'
+p2688
+tp2689
+I710
+s(S'chi3l1'
+p2690
+S'hepatitis c, chronic'
+p2691
+tp2692
+I27
+s(S'cd38'
+p2693
+g1938
+tp2694
+I19
+s(S'kns2'
+p2695
+g1944
+tp2696
+I11
+s(S'pik3ca'
+p2697
+S'breast neoplasms'
+p2698
+tp2699
+I4225
+s(S'pim1'
+p2700
+g1587
+tp2701
+I130
+s(S'tnfrsf1a'
+p2702
+S'nephropathy in other diseases'
+p2703
+tp2704
+I37
+s(S'prl'
+p2705
+g1938
+tp2706
+I310
+s(S'ppargc1a'
+p2707
+S'bipolar disorder schizophrenia'
+p2708
+tp2709
+I1
+s(S'ctla4'
+p2710
+S'cervical cancer'
+p2711
+tp2712
+I287
+s(S'slc22a4'
+p2713
+g1662
+tp2714
+I6
+s(S'ace'
+p2715
+S'ischemia'
+p2716
+tp2717
+I2614
+s(S'eif2b2'
+p2718
+S'conjunctivitis'
+p2719
+tp2720
+I55
+s(S'cyp2c8'
+p2721
+S'oral antidiabetic pharacokinetics'
+p2722
+tp2723
+I0
+s(S'hla-dqb1'
+p2724
+S'leukemia, chronic lymphocytic'
+p2725
+tp2726
+I6
+s(S'cyp2c9'
+p2727
+S'nonsteroidal anti-inflammatory response'
+p2728
+tp2729
+I12
+s(S'drd2'
+p2730
+S'atrophy'
+p2731
+tp2732
+I886
+s(S'apoe'
+p2733
+S'familial dysbetalipoproteinemia'
+p2734
+tp2735
+I400
+s(S'atxn3'
+p2736
+g2173
+tp2737
+I11
+s(S'acsl4'
+p2738
+g1965
+tp2739
+I0
+s(S'mmp1'
+p2740
+S'hypertension'
+p2741
+tp2742
+I111
+s(S'dtnbp1'
+p2743
+S'hallucinations'
+p2744
+tp2745
+I8
+s(S'rage'
+p2746
+S'nephropathy'
+p2747
+tp2748
+I316
+s(S'xrcc4'
+p2749
+S'glucose'
+p2750
+tp2751
+I4
+s(S'fgf10'
+p2752
+g2173
+tp2753
+I1
+s(S'rgs6'
+p2754
+S'bladder cancer'
+p2755
+tp2756
+I92
+s(S'ednrb'
+p2757
+S'arterial stiffness blood pressure, arterial'
+p2758
+tp2759
+I2
+s(S'ahsg'
+p2760
+g1944
+tp2761
+I274
+s(S'cyp2d6'
+p2762
+S'lupus nephritis'
+p2763
+tp2764
+I10
+s(S'runx1'
+p2765
+S'rheumatoid arthritis'
+p2766
+tp2767
+I126
+s(S'supt3h'
+p2768
+S'body height'
+p2769
+tp2770
+I2
+s(S'cyp2a6'
+p2771
+S'nicotine dependence smoking behavior'
+p2772
+tp2773
+I62
+s(S'il8ra'
+p2774
+g1662
+tp2775
+I100
+s(S'hp'
+p2776
+S'decreases transcriptional activity and responsiveness to interleukin-6'
+p2777
+tp2778
+I1
+s(S'ccr5'
+p2779
+g2561
+tp2780
+I35
+s(S'mthfr'
+p2781
+S'transcobalamin'
+p2782
+tp2783
+I53
+s(S'tnfrsf1b'
+p2784
+S'myelopathy, htlv-1 associated'
+p2785
+tp2786
+I2
+s(S'abcg2'
+p2787
+S'immunosuppression, chemotherapy induced'
+p2788
+tp2789
+I2
+s(S'drd4'
+p2790
+S'craving'
+p2791
+tp2792
+I20
+s(S'kiaa1217'
+p2793
+S'intervertebral disk degeneration'
+p2794
+tp2795
+I14
+s(S'ttf1'
+p2796
+S"hirschsprung's disease"
+p2797
+tp2798
+I1
+s(S'ldlr'
+p2799
+S'mild familial hypercholesterolaemia'
+p2800
+tp2801
+I48
+s(S'cyp4f2'
+p2802
+S'vitamin e'
+p2803
+tp2804
+I17
+s(S'hmox1'
+p2805
+S'aging'
+p2806
+tp2807
+I331
+s(S'cyp3a4'
+p2808
+S'premature ovarian failure'
+p2809
+tp2810
+I1
+s(S'clec10a'
+p2811
+S'hallucinations'
+p2812
+tp2813
+I0
+s(S'cd1a'
+p2814
+S'pulmonary disease, mycobacterium malmoense'
+p2815
+tp2816
+I1
+s(S'kir2ds1'
+p2817
+g2259
+tp2818
+I16
+s(S'dhodh'
+p2819
+S'arthritis, rheumatoid'
+p2820
+tp2821
+I24
+s(S'xrcc4'
+p2822
+S'neoplasms'
+p2823
+tp2824
+I105
+s(S'lgals1'
+p2825
+S'autoimmune diseases'
+p2826
+tp2827
+I249
+s(S'gria3'
+p2828
+S'schizophrenia'
+p2829
+tp2830
+I27
+s(S'il18r1'
+p2831
+g1786
+tp2832
+I18
+s(S'gsta1'
+p2833
+S'liver disease, alcoholic'
+p2834
+tp2835
+I3
+s(S'muc4'
+p2836
+S'atopy'
+p2837
+tp2838
+I0
+s(S'tph1'
+p2839
+S'risk-taking behavior in a gambling task'
+p2840
+tp2841
+I0
+s(S'cnr2'
+p2842
+g1953
+tp2843
+I372
+s(S'fabp2'
+p2844
+S'nephropathy, diabetic'
+p2845
+tp2846
+I1
+s(S'lepr'
+p2847
+S'adenocarcinoma'
+p2848
+tp2849
+I34
+s(S'negr1'
+p2850
+S'type 2 diabetes'
+p2851
+tp2852
+I18
+s(S'gstm1'
+p2853
+S'2-thiothiazolidine-4-carboxylic acid levels'
+p2854
+tp2855
+I2
+s(S'chat'
+p2856
+S'alzheimers disease'
+p2857
+tp2858
+I305
+s(S'esr2'
+p2859
+S'cystocele'
+p2860
+tp2861
+I6
+s(S'mamdc1'
+p2862
+S'neuroticism'
+p2863
+tp2864
+I3
+s(S'slc6a3'
+p2865
+S'bladder cancer'
+p2866
+tp2867
+I3
+s(S'timeless'
+p2868
+S'atopy'
+p2869
+tp2870
+I17
+s(S'casr'
+p2871
+S'calculi'
+p2872
+tp2873
+I62
+s(S'mttp'
+p2874
+S'insulin'
+p2875
+tp2876
+I244
+s(S'amt'
+p2877
+S'hyperglycinemia, nonketotic'
+p2878
+tp2879
+I80
+s(S'calcoco1'
+p2880
+g1587
+tp2881
+I99
+s(S'serpine1'
+p2882
+S'heart disease, ischemic'
+p2883
+tp2884
+I1161
+s(S'cyp11b2'
+p2885
+S'aortic stiffness'
+p2886
+tp2887
+I6
+s(S'hla-b'
+p2888
+S'stroke, ischemic'
+p2889
+tp2890
+I3
+s(S'vdr'
+p2891
+g2259
+tp2892
+I184
+s(S'rapgef3'
+p2893
+g1965
+tp2894
+I16
+s(S'pcaf'
+p2895
+g2077
+tp2896
+I92
+s(S'htr2a'
+p2897
+S'weight gain, antipsychotic drug-induced'
+p2898
+tp2899
+I3
+s(S'ar'
+p2900
+S'atherosclerosis'
+p2901
+tp2902
+I4890
+s(S'cbs'
+p2903
+g1900
+tp2904
+I51
+s(S'runx3'
+p2905
+g2335
+tp2906
+I4
+s(S'gpi'
+p2907
+S'pancreatic diseases'
+p2908
+tp2909
+I489
+s(S'xrcc2'
+p2910
+S'pancreatic cancer'
+p2911
+tp2912
+I4
+s(S'htra1'
+p2913
+g1676
+tp2914
+I16
+s(S'agt'
+p2915
+S'glaucoma, primary open-angle'
+p2916
+tp2917
+I0
+s(S'taok1'
+p2918
+S'mean platelet volume'
+p2919
+tp2920
+I1
+s(S'gstm5'
+p2921
+g1587
+tp2922
+I4
+s(S'xrcc5'
+p2923
+S'cancer'
+p2924
+tp2925
+I564
+s(S'npy'
+p2926
+S'lipoprotein, ldl'
+p2927
+tp2928
+I17
+s(S'ankk1'
+p2929
+S'nicotine dependence'
+p2930
+tp2931
+I66
+s(S'cd14'
+p2932
+S'organ failure sepsis'
+p2933
+tp2934
+I37
+s(S'c7'
+p2935
+g1623
+tp2936
+I132
+s(S'oprm1'
+p2937
+S'acth'
+p2938
+tp2939
+I37
+s(S'srebf2'
+p2940
+g2077
+tp2941
+I89
+s(S'tnf'
+p2942
+S'human longevity'
+p2943
+tp2944
+I138
+s(S'igf2bp3'
+p2945
+g1676
+tp2946
+I156
+s(S'pck2'
+p2947
+S'diabetes, type 2'
+p2948
+tp2949
+I116
+s(S'runx2'
+p2950
+S'bone size'
+p2951
+tp2952
+I133
+s(S'fut2'
+p2953
+S'gastritis, chronic atrophic'
+p2954
+tp2955
+I280
+s(S'tp73l'
+p2956
+S'adenocarcinoma'
+p2957
+tp2958
+I1222
+s(S'hla-drb1'
+p2959
+S'diabetes, gestational'
+p2960
+tp2961
+I43
+s(S'tnfsf11'
+p2962
+g1721
+tp2963
+I184
+s(S'serpinf1'
+p2964
+S'microangiopathy, diabetic'
+p2965
+tp2966
+I78
+s(S'ace'
+p2967
+g2731
+tp2968
+I9912
+s(S'ccr3'
+p2969
+S'bone density'
+p2970
+tp2971
+I4
+s(S'brca2'
+p2972
+S'eye neoplasms'
+p2973
+tp2974
+I17
+s(S'gata3'
+p2975
+g2326
+tp2976
+I432
+s(S'folh1'
+p2977
+S'cardiovascular disease'
+p2978
+tp2979
+I115
+s(S'cd14'
+p2980
+S'necrotizing enterocolitis'
+p2981
+tp2982
+I10
+s(S'il1rn'
+p2983
+S'hyperhomocysteinemia'
+p2984
+tp2985
+I60
+s(S'mttp'
+p2986
+S'diabetes, type 2'
+p2987
+tp2988
+I45
+s(S'adra2c'
+p2989
+g1965
+tp2990
+I34
+s(S'mthfr'
+p2991
+S'antineoplastic toxicity'
+p2992
+tp2993
+I170
+s(S'tnf'
+p2994
+S'polycystic ovaries'
+p2995
+tp2996
+I99
+s(S'il1b'
+p2997
+S'autoimmune diseases'
+p2998
+tp2999
+I24502
+s(S'cyp2d6'
+p3000
+S'schizophrenia'
+p3001
+tp3002
+I293
+s(S'atm'
+p3003
+S'hypertension'
+p3004
+tp3005
+I3927
+s(S'col4a1'
+p3006
+g1721
+tp3007
+I3
+s(S'mthfr'
+p3008
+S'proliferative diabetic retinopathy.'
+p3009
+tp3010
+I4
+s(S'nos3'
+p3011
+S'congestive heart failure'
+p3012
+tp3013
+I375
+s(S'cdc123'
+p3014
+S'diabetes, type 2'
+p3015
+tp3016
+I19
+s(S'ercc1'
+p3017
+g1998
+tp3018
+I1089
+s(S'kir2dl2'
+p3019
+S'cell transformation, neoplastic'
+p3020
+tp3021
+I25
+s(S'slc2a10'
+p3022
+S'diabetes, type 2'
+p3023
+tp3024
+I18
+s(S'inpp1'
+p3025
+S'post-traumatic stress disorder suicide'
+p3026
+tp3027
+I1
+s(S'ifng'
+p3028
+g1691
+tp3029
+I388
+s(S'tbx1'
+p3030
+S'heart septal defects, ventricular'
+p3031
+tp3032
+I23
+s(S'tnf'
+p3033
+S'cytokine response'
+p3034
+tp3035
+I46678
+s(S'cx3cr1'
+p3036
+S'rheumatoid arthritis'
+p3037
+tp3038
+I122
+s(S'ccl5'
+p3039
+S'brain neoplasms'
+p3040
+tp3041
+I27
+s(S'il15'
+p3042
+S'smoking'
+p3043
+tp3044
+I18
+s(S'slc6a4'
+p3045
+S'alzheimer disease'
+p3046
+tp3047
+I1973
+s(S'bcl2'
+p3048
+S'myeloid leukemia'
+p3049
+tp3050
+I2963
+s(S'ifng'
+p3051
+S'esophageal cancer'
+p3052
+tp3053
+I70
+s(S'ppara'
+p3054
+S'cholesterol, ldl'
+p3055
+tp3056
+I544
+s(S'il4'
+p3057
+S'bronchiolitis, viral'
+p3058
+tp3059
+I243
+s(S'gnb3'
+p3060
+S'hypertension and left ventricular mass'
+p3061
+tp3062
+I5
+s(S'hla-drb3'
+p3063
+S'idiopathic thrombotic thrombocytopenic purpura'
+p3064
+tp3065
+I1
+s(S'cubn'
+p3066
+g2077
+tp3067
+I2
+s(S'topbp1'
+p3068
+S'hepatitis c, chronic'
+p3069
+tp3070
+I0
+s(S'cyp2d6'
+p3071
+S'tamoxifen, prophylactic effect of'
+p3072
+tp3073
+I0
+s(S'lrrtm3'
+p3074
+g1944
+tp3075
+I0
+s(S'hs3st2'
+p3076
+S'schizophrenia'
+p3077
+tp3078
+I1
+s(S'itpa'
+p3079
+S'deficiency'
+p3080
+tp3081
+I72
+s(S'col5a1'
+p3082
+S'achilles tendon pathology'
+p3083
+tp3084
+I7
+s(S'thada'
+p3085
+S'type 2 diabetes'
+p3086
+tp3087
+I31
+s(S'lsp1'
+p3088
+g2741
+tp3089
+I4
+s(S'icam5'
+p3090
+S'ovarian cancer'
+p3091
+tp3092
+I63
+s(S'gstt1'
+p3093
+S'arsenic'
+p3094
+tp3095
+I21
+s(S'htr2c'
+p3096
+S'suicide'
+p3097
+tp3098
+I137
+s(S'ins'
+p3099
+S'body mass'
+p3100
+tp3101
+I2685
+s(S'slc6a3'
+p3102
+S'obsessive- compulsive disorder'
+p3103
+tp3104
+I46
+s(S'lta'
+p3105
+S'urinary tract infections after renal transplantation'
+p3106
+tp3107
+I0
+s(S'il1r1'
+p3108
+S'alcoholism'
+p3109
+tp3110
+I17
+s(S'hspa1l'
+p3111
+S'high-altitude illness'
+p3112
+tp3113
+I1
+s(S'rit2'
+p3114
+S'schizophrenia'
+p3115
+tp3116
+I33
+s(S'cckar'
+p3117
+S'depressive disorder, major'
+p3118
+tp3119
+I1
+s(S'slc6a4'
+p3120
+S'obsessive compulsive disorder'
+p3121
+tp3122
+I121
+s(S'xrcc5'
+p3123
+g1871
+tp3124
+I36
+s(S'fut2'
+p3125
+S'cholesterol'
+p3126
+tp3127
+I10826
+s(S'gsta4'
+p3128
+S'carcinoma, basal cell'
+p3129
+tp3130
+I2
+s(S'nlrp3'
+p3131
+g2326
+tp3132
+I534
+s(S'egfr'
+p3133
+S'gastric cancer'
+p3134
+tp3135
+I1255
+s(S'btnl2'
+p3136
+g1623
+tp3137
+I63
+s(S'bmp4'
+p3138
+g1917
+tp3139
+I93
+s(S'disc1'
+p3140
+S'schizophrenia sustained attention'
+p3141
+tp3142
+I2
+s(S'parp1'
+p3143
+S'endolymphatic hydrops'
+p3144
+tp3145
+I3
+s(S'maoa'
+p3146
+S'alcoholism personality disorders'
+p3147
+tp3148
+I59
+s(S'hla-drb1'
+p3149
+S'hantavirus infections'
+p3150
+tp3151
+I11
+s(S'nos3'
+p3152
+g2361
+tp3153
+I353
+s(S'pdc'
+p3154
+S'retinal dystrophies'
+p3155
+tp3156
+I70
+s(S'mmp'
+p3157
+S'serum matrix metalloproteinase'
+p3158
+tp3159
+I4043
+s(S'alox5ap'
+p3160
+S'atherosclerosis, coronary'
+p3161
+tp3162
+I193
+s(S'ercc5'
+p3163
+S'leukemia, acute myeloblastic'
+p3164
+tp3165
+I4
+s(S'hla-a'
+p3166
+S'stem cell transplantation outcome'
+p3167
+tp3168
+I166
+s(S'ugt2b7'
+p3169
+S'morphine response'
+p3170
+tp3171
+I17
+s(S'tsc2'
+p3172
+S'tuberous sclerosis phenotypes'
+p3173
+tp3174
+I223
+s(S'sart1'
+p3175
+g3091
+tp3176
+I22
+s(S'vegfa'
+p3177
+g1827
+tp3178
+I1312
+s(S'slc6a3'
+p3179
+S'cognitive function'
+p3180
+tp3181
+I557
+s(S'egfr'
+p3182
+S'f-18 fluorodeoxyglucose'
+p3183
+tp3184
+I8
+s(g1616
+S'erythema nodosum'
+p3185
+tp3186
+I10
+s(S'cfh'
+p3187
+S'haemolytic-uraemic syndrome'
+p3188
+tp3189
+I2889
+s(S'fabp2'
+p3190
+S'atherosclerosis, coronary'
+p3191
+tp3192
+I6
+s(S'il6'
+p3193
+S'bone mass'
+p3194
+tp3195
+I947
+s(S'cyp2e1'
+p3196
+S'head and neck cancer'
+p3197
+tp3198
+I122
+s(S'mmp3'
+p3199
+S'coronary aneurysm'
+p3200
+tp3201
+I8
+s(S'pon1'
+p3202
+S'betaine choline creatinine cystathionine cysteine dimethyglycine folate homocysteine methionine methylmalonic acid vitamin b12 vitamin b2 vitamin b6'
+p3203
+tp3204
+I0
+s(S'nfkbia'
+p3205
+S'respiratory syncytial virus bronchiolitis'
+p3206
+tp3207
+I2
+s(S'cd226'
+p3208
+S'anti-neutrophil cytoplasmic antibody-associated vasculitis'
+p3209
+tp3210
+I4
+s(S'tnf'
+p3211
+S'alcohol abuse'
+p3212
+tp3213
+I250
+s(S'gstt1'
+p3214
+S"pneumoconiosis, coal workers'"
+p3215
+tp3216
+I2
+s(S'vamp8'
+p3217
+g2077
+tp3218
+I26
+s(S'cyp1a1'
+p3219
+S'cyp1a1 genetic polymorphisms'
+p3220
+tp3221
+I1319
+s(S'pnoc'
+p3222
+S'schizophrenia'
+p3223
+tp3224
+I9
+s(S'mthfr'
+p3225
+S"late-onset alzheimer's disease."
+p3226
+tp3227
+I12
+s(S'mthfr'
+p3228
+S'thrombotic risk factors'
+p3229
+tp3230
+I521
+s(S'brca1'
+p3231
+S'benzene toxicity'
+p3232
+tp3233
+I5
+s(S'mthfr'
+p3234
+g2561
+tp3235
+I144
+s(S'sult1a1'
+p3236
+g1590
+tp3237
+I217
+s(S'ccl5'
+p3238
+S'sclerosis, systemic'
+p3239
+tp3240
+I25
+s(S'esr1'
+p3241
+S'estradiol'
+p3242
+tp3243
+I6965
+s(S'pou2af1'
+p3244
+g1587
+tp3245
+I5
+s(S'drd4'
+p3246
+S'risperidone and perospirone'
+p3247
+tp3248
+I1
+s(S'oprm1'
+p3249
+S'pain tolerance, and opioid addiction'
+p3250
+tp3251
+I18
+s(S'ace'
+p3252
+S'connective tissue diseases'
+p3253
+tp3254
+I227
+s(S'ms4a2'
+p3255
+g1662
+tp3256
+I5290
+s(S'vegfa'
+p3257
+S'retinopathy of prematurity'
+p3258
+tp3259
+I1176
+s(S'grm7'
+p3260
+S'seizures, alcohol withdrawal-induced'
+p3261
+tp3262
+I1
+s(S'ror2'
+p3263
+S'bone density'
+p3264
+tp3265
+I7
+s(S'cdkn2a'
+p3266
+S'nevi, total'
+p3267
+tp3268
+I27
+s(S'agt'
+p3269
+S'type 2 diabetic nephropathy'
+p3270
+tp3271
+I50
+s(S'cyp3a4'
+p3272
+S'schizophrenia'
+p3273
+tp3274
+I196
+s(S'acp1'
+p3275
+S'atherosclerosis, coronary'
+p3276
+tp3277
+I7
+s(S'slc22a12'
+p3278
+S'kidney disease'
+p3279
+tp3280
+I124
+s(S'ung'
+p3281
+S'longevity'
+p3282
+tp3283
+I4
+s(S'hspa1b'
+p3284
+g1965
+tp3285
+I169
+s(S'slc6a4'
+p3286
+S'amnesia, retrograde'
+p3287
+tp3288
+I2
+s(S'hla-c'
+p3289
+S'kidney transplant complications'
+p3290
+tp3291
+I53
+s(S'arts-1'
+p3292
+g2335
+tp3293
+I78
+s(S'slc6a4'
+p3294
+S'pathological gambling'
+p3295
+tp3296
+I28
+s(S'ifngr1'
+p3297
+S'h. pylori infection'
+p3298
+tp3299
+I7
+s(S'itih4'
+p3300
+S'cholesterol'
+p3301
+tp3302
+I39
+s(S'il1r2'
+p3303
+S'thromboembolism, venous'
+p3304
+tp3305
+I0
+s(S'mat1a'
+p3306
+g2361
+tp3307
+I44
+s(S'htr2a'
+p3308
+S'body mass'
+p3309
+tp3310
+I51
+s(S'ccl21'
+p3311
+S'autoimmune diseases'
+p3312
+tp3313
+I443
+s(S'il12b'
+p3314
+g1827
+tp3315
+I70
+s(S'fcgr3a'
+p3316
+S'multiple sclerosis, chronic progressive'
+p3317
+tp3318
+I44
+s(S'ptgs2'
+p3319
+g1721
+tp3320
+I89
+s(S'hla-drb4'
+p3321
+g2282
+tp3322
+I15
+s(S'apoe'
+p3323
+S"alzheimer's disease apolipoprotein e levels"
+p3324
+tp3325
+I1202
+s(S'agt'
+p3326
+S'hypertriglyceridemic waist'
+p3327
+tp3328
+I1
+s(S'itgae'
+p3329
+S'brain ischemia'
+p3330
+tp3331
+I7
+s(S'nckap5'
+p3332
+S'mental disorders'
+p3333
+tp3334
+I3
+s(S'slc11a1'
+p3335
+S'arthritis, rheumatoid'
+p3336
+tp3337
+I2188
+s(S'nfkb1'
+p3338
+S'hepatitis c, chronic'
+p3339
+tp3340
+I1528
+s(S'nat2'
+p3341
+S'alcoholism'
+p3342
+tp3343
+I9
+s(S'cd14'
+p3344
+S'il-1beta'
+p3345
+tp3346
+I684
+s(S'cyp2c19'
+p3347
+S'fatal drug intoxication'
+p3348
+tp3349
+I7
+s(S'chrm1'
+p3350
+S'suicide'
+p3351
+tp3352
+I43
+s(S'lpl'
+p3353
+S'familial combined hyperlipoproteinemia'
+p3354
+tp3355
+I87
+s(S'blm'
+p3356
+S'neoplasms'
+p3357
+tp3358
+I51424
+s(S'pi3'
+p3359
+g1856
+tp3360
+I34
+s(S'gsta1'
+p3361
+S'isothiocyanates'
+p3362
+tp3363
+I17
+s(S'tp53'
+p3364
+S'bacterial infections'
+p3365
+tp3366
+I514
+s(S'msx1'
+p3367
+S'cleft palate'
+p3368
+tp3369
+I248
+s(S'cx3cr1'
+p3370
+S'atherosclerosis'
+p3371
+tp3372
+I110
+s(S'comt'
+p3373
+S'panic disorder'
+p3374
+tp3375
+I30
+s(S'il6'
+p3376
+g1871
+tp3377
+I2735
+s(S'maoa'
+p3378
+S'mood disorder'
+p3379
+tp3380
+I1778
+s(S'mbp'
+p3381
+S'host defence'
+p3382
+tp3383
+I15
+s(S'grin1'
+p3384
+S'alcoholism-related traits'
+p3385
+tp3386
+I1
+s(S'ace'
+p3387
+S'acidosis'
+p3388
+tp3389
+I53
+s(S'cyp3a5'
+p3390
+S'simvastatin pharmacokinetics'
+p3391
+tp3392
+I82
+s(S'gstm1'
+p3393
+S'arsenic metabolism'
+p3394
+tp3395
+I59
+s(S'cyp3a5'
+p3396
+S'genitourinary neoplasms'
+p3397
+tp3398
+I112
+s(S'ace'
+p3399
+S'mood disorder'
+p3400
+tp3401
+I69
+s(S'tap2'
+p3402
+S'urogenital disorders'
+p3403
+tp3404
+I5
+s(S'lipg'
+p3405
+g2077
+tp3406
+I616
+s(S'ccr5'
+p3407
+S'asthma or atopy'
+p3408
+tp3409
+I73
+s(S'mmp9'
+p3410
+S'angina'
+p3411
+tp3412
+I110
+s(S'ab116074'
+p3413
+S'factor vii'
+p3414
+tp3415
+I0
+s(S'ugt2b7'
+p3416
+S'endometrial neoplasms'
+p3417
+tp3418
+I5
+s(S'cyp3a5'
+p3419
+S'verapamil pharmacokinetics'
+p3420
+tp3421
+I104
+s(S'irak1'
+p3422
+S'c-reactive protein'
+p3423
+tp3424
+I8
+s(S'mgrn1'
+p3425
+g1712
+tp3426
+I2924
+s(S'mtnr1b'
+p3427
+S'impaired fasting glycemia and type 2 diabetes'
+p3428
+tp3429
+I13
+s(S'mark3'
+p3430
+g1786
+tp3431
+I6
+s(S'adrb1'
+p3432
+S'left ventricular ejection fraction troponin, cardiac'
+p3433
+tp3434
+I2
+s(S'ascl1'
+p3435
+S'schizophrenia'
+p3436
+tp3437
+I11
+s(S'ercc2'
+p3438
+S'hyperkeratosis'
+p3439
+tp3440
+I3
+s(S'tp53'
+p3441
+S'aggressive behavior of chondrosarcoma'
+p3442
+tp3443
+I3
+s(S'gc'
+p3444
+S'diabetes, gestational'
+p3445
+tp3446
+I168
+s(S'ahr'
+p3447
+g1871
+tp3448
+I572
+s(S'kiss1r'
+p3449
+S'hypogonadotropic hypogonadism'
+p3450
+tp3451
+I140
+s(S'lipc'
+p3452
+S'increased concentration of hdl-c and decreased promoter activity'
+p3453
+tp3454
+I1
+s(S'lepr'
+p3455
+S'c-reactive protein'
+p3456
+tp3457
+I37
+s(S'dhfr'
+p3458
+S'folate homocysteine'
+p3459
+tp3460
+I19
+s(S'cyp19a1'
+p3461
+S'menarche'
+p3462
+tp3463
+I36
+s(S'comt'
+p3464
+S'bulimia'
+p3465
+tp3466
+I58
+s(S'alox5ap'
+p3467
+g1662
+tp3468
+I391
+s(S'cfb'
+p3469
+g2763
+tp3470
+I32
+s(S'gstm1'
+p3471
+S"pneumoconiosis, coal workers'"
+p3472
+tp3473
+I2
+s(S'mef2a'
+p3474
+S'myocardial infarct'
+p3475
+tp3476
+I38
+s(S'dmpk'
+p3477
+S"huntington's disease"
+p3478
+tp3479
+I46
+s(S'gstt1'
+p3480
+S'sex hormones'
+p3481
+tp3482
+I10
+s(S'apoc3'
+p3483
+S'hyperlipidemia'
+p3484
+tp3485
+I90
+s(S'tcap'
+p3486
+g1587
+tp3487
+I122
+s(S'padi4'
+p3488
+g2326
+tp3489
+I1456
+s(S'wt1'
+p3490
+g3069
+tp3491
+I36
+s(S'tap2'
+p3492
+S'dengue'
+p3493
+tp3494
+I2
+s(S'ccdc102b'
+p3495
+S'cholesterol, ldl'
+p3496
+tp3497
+I43395
+s(S'itpa'
+p3498
+g1590
+tp3499
+I77
+s(S'fcgr3a'
+p3500
+S'lupus erythematosus'
+p3501
+tp3502
+I693
+s(S'tacr1'
+p3503
+S'panic disorder'
+p3504
+tp3505
+I4
+s(S'vhl'
+p3506
+S'glioblastoma'
+p3507
+tp3508
+I99
+s(S'gstm1'
+p3509
+S'leukemia, childhood acute lymphoblastic'
+p3510
+tp3511
+I77
+s(S'cyp2c19'
+p3512
+S'cyp2c19 activity'
+p3513
+tp3514
+I1011
+s(S'mlh1'
+p3515
+S'breast neoplasms'
+p3516
+tp3517
+I2714
+s(S'xrcc1'
+p3518
+S'bladder cancer'
+p3519
+tp3520
+I189
+s(S'gstp1'
+p3521
+S'1-hydroxypyrene, urinary'
+p3522
+tp3523
+I18
+s(S'masp2'
+p3524
+g2138
+tp3525
+I1
+s(S'dpysl2'
+p3526
+g3351
+tp3527
+I4
+s(S'il1a'
+p3528
+g2826
+tp3529
+I1619
+s(S'aldoa'
+p3530
+S'anemia'
+p3531
+tp3532
+I17
+s(S'hspa1a'
+p3533
+S'acute mountain sickness'
+p3534
+tp3535
+I2
+s(S'tnf'
+p3536
+S"graves' disease"
+p3537
+tp3538
+I286
+s(S'gas6'
+p3539
+g1900
+tp3540
+I4
+s(S'mmp2'
+p3541
+S'gastric cardia adenocarcinoma'
+p3542
+tp3543
+I3
+s(S'frem2'
+p3544
+S'cholesterol, hdl'
+p3545
+tp3546
+I247
+s(S'hspg2'
+p3547
+g1900
+tp3548
+I17900
+s(S'ptgs1'
+p3549
+S'abnormalities, multiple'
+p3550
+tp3551
+I24
+s(S'cyp1a1'
+p3552
+S'psoriatic arthritis'
+p3553
+tp3554
+I2
+s(S'lta'
+p3555
+S'pregnancy loss, recurrent'
+p3556
+tp3557
+I1
+s(S'cyp3a5'
+p3558
+S'carcinoma'
+p3559
+tp3560
+I325
+s(S'cav2'
+p3561
+S'pr interval'
+p3562
+tp3563
+I3
+s(S'flt3'
+p3564
+g3046
+tp3565
+I41
+s(S'ngfb'
+p3566
+g2167
+tp3567
+I8
+s(S'adm'
+p3568
+S'diabetic nephropathies'
+p3569
+tp3570
+I21888
+s(S'serpine1'
+p3571
+S'cardiovascular disease'
+p3572
+tp3573
+I5194
+s(S'casp3'
+p3574
+g1766
+tp3575
+I3
+s(S'mmp2'
+p3576
+S'carcinoma'
+p3577
+tp3578
+I3333
+s(S'tyms'
+p3579
+S'breast cancer estrogen progesterone'
+p3580
+tp3581
+I15
+s(S'comt'
+p3582
+S'menarche'
+p3583
+tp3584
+I13
+s(S'cyp2c19'
+p3585
+g2497
+tp3586
+I13
+s(S'ednrb'
+p3587
+S'small-vessel disease'
+p3588
+tp3589
+I2
+s(S'tnf'
+p3590
+S'actinic prurigo'
+p3591
+tp3592
+I6
+s(S'ppara'
+p3593
+S'glucose'
+p3594
+tp3595
+I3925
+s(S'il4'
+p3596
+S'acute graft-versus-host disease'
+p3597
+tp3598
+I132
+s(S'tap1'
+p3599
+S'adenocarcinoma'
+p3600
+tp3601
+I54
+s(S'serpina3'
+p3602
+g2138
+tp3603
+I265
+s(S'gfra3'
+p3604
+S"hirschsprung's disease"
+p3605
+tp3606
+I2
+s(S'ndp'
+p3607
+S'classical ocular phenotype'
+p3608
+tp3609
+I2
+s(S'slc6a4'
+p3610
+S'cardiac death'
+p3611
+tp3612
+I538
+s(S'ghrl'
+p3613
+S'adiposity'
+p3614
+tp3615
+I13
+s(S'pnpla4'
+p3616
+g1862
+tp3617
+I1
+s(S'mapt'
+p3618
+S'parkinsons disease'
+p3619
+tp3620
+I943
+s(S'wisp1'
+p3621
+S'hypertension'
+p3622
+tp3623
+I20
+s(S'clcnkb'
+p3624
+S'blood pressure, arterial hypertension'
+p3625
+tp3626
+I1
+s(S'xirp2'
+p3627
+g1938
+tp3628
+I0
+s(S'lmna'
+p3629
+S'insulin'
+p3630
+tp3631
+I405
+s(S'grin2b'
+p3632
+S'cirrhosis, alcoholic'
+p3633
+tp3634
+I3
+s(S'il13'
+p3635
+S'vaccine response'
+p3636
+tp3637
+I195
+s(S'lrrk2'
+p3638
+S"parkinson's disease"
+p3639
+tp3640
+I1159
+s(S'calca'
+p3641
+S'rheumatoid arthritis'
+p3642
+tp3643
+I6059
+s(S'psen1'
+p3644
+S'attention deficit disorder'
+p3645
+tp3646
+I8
+s(S'kl'
+p3647
+g3642
+tp3648
+I77
+s(S'htr1b'
+p3649
+S'panic disorder'
+p3650
+tp3651
+I5
+s(S'lta'
+p3652
+S'restenosis'
+p3653
+tp3654
+I15
+s(S'tpte2'
+p3655
+g3069
+tp3656
+I1
+s(S'tph1'
+p3657
+S'musical aptitude'
+p3658
+tp3659
+I1
+s(S'furin'
+p3660
+g1587
+tp3661
+I8220
+s(S'nphs1'
+p3662
+S'kidney diseases'
+p3663
+tp3664
+I905
+s(S'wt1'
+p3665
+g1871
+tp3666
+I293
+s(S'apex1'
+p3667
+S'radiotherapy response'
+p3668
+tp3669
+I35060
+s(S'phactr1'
+p3670
+S'death, sudden, cardiac'
+p3671
+tp3672
+I13
+s(S'znf498'
+p3673
+S'anthropometric traits'
+p3674
+tp3675
+I1
+s(S'htr3b'
+p3676
+S'fibromyalgia'
+p3677
+tp3678
+I1
+s(S'il1a'
+p3679
+S'sclerosis, systemic'
+p3680
+tp3681
+I33
+s(S'slc6a4'
+p3682
+g2077
+tp3683
+I53
+s(S'hdac4'
+p3684
+S'schizophrenia'
+p3685
+tp3686
+I9
+s(S'adh1c'
+p3687
+S'medicamentosa-like dermatitis, trichloroethylene'
+p3688
+tp3689
+I1
+s(S'braf'
+p3690
+S'rectal cancer'
+p3691
+tp3692
+I100
+s(S'tor1a'
+p3693
+S'brain lesions or calcifications'
+p3694
+tp3695
+I11
+s(S'uvrag'
+p3696
+S'skin diseases, genetic'
+p3697
+tp3698
+I109
+s(S'il20'
+p3699
+S'hepatitis c'
+p3700
+tp3701
+I6
+s(S'hk2'
+p3702
+g2908
+tp3703
+I14
+s(S'lipc'
+p3704
+S'alcohol'
+p3705
+tp3706
+I20615
+s(S'acsl5'
+p3707
+S'overweight'
+p3708
+tp3709
+I5
+s(S'lrrk2'
+p3710
+S"essential tremor parkinson's disease"
+p3711
+tp3712
+I9
+s(S'sat1'
+p3713
+S'suicide'
+p3714
+tp3715
+I60
+s(S'hmg20a'
+p3716
+S'diabetes mellitus, type 2'
+p3717
+tp3718
+I7
+s(S'tyms'
+p3719
+g1980
+tp3720
+I56
+s(S'kdm4c'
+p3721
+S'esophageal neoplasms'
+p3722
+tp3723
+I7
+s(S'pdcd1'
+p3724
+g2598
+tp3725
+I16
+s(S'hla-dpb1'
+p3726
+S'thrombosis, deep vein'
+p3727
+tp3728
+I2
+s(S'cd19'
+p3729
+g2763
+tp3730
+I228
+s(S'esr1'
+p3731
+S'prostate cancer.'
+p3732
+tp3733
+I1397
+s(S'ccl2'
+p3734
+S'schizophrenia'
+p3735
+tp3736
+I249
+s(S'hla-a'
+p3737
+S'pulmonary thromboembolism'
+p3738
+tp3739
+I1
+s(S'hoxb5'
+p3740
+g1786
+tp3741
+I9
+s(S'sod2'
+p3742
+S'blindness'
+p3743
+tp3744
+I106
+s(S'rit1'
+p3745
+S'conduct disorder'
+p3746
+tp3747
+I0
+s(S'pcna'
+p3748
+S'bladder cancer'
+p3749
+tp3750
+I196
+s(S'cyp1a2'
+p3751
+S'biliary tract neoplasms'
+p3752
+tp3753
+I522
+s(S'lpl'
+p3754
+S'left ventricular growth'
+p3755
+tp3756
+I3
+s(S'kir2ds4'
+p3757
+S'bladder cancer colorectal cancer laryngeal cancer'
+p3758
+tp3759
+I1
+s(S'mchr2'
+p3760
+g3351
+tp3761
+I10
+s(S'itgb7'
+p3762
+g1662
+tp3763
+I2
+s(S'mln'
+p3764
+S'pyloric stenosis, hypertrophic'
+p3765
+tp3766
+I2
+s(S'crp'
+p3767
+S'c-reactive protein cardiovascular disease'
+p3768
+tp3769
+I8325
+s(S'il18rap'
+p3770
+g2326
+tp3771
+I21
+s(S'mthfr'
+p3772
+S'hypertension, pulmonary'
+p3773
+tp3774
+I185
+s(S'cxcl12'
+p3775
+S'atherosclerosis'
+p3776
+tp3777
+I151
+s(S'ccl2'
+p3778
+S'atherosclerosis, coronary'
+p3779
+tp3780
+I401
+s(S'acadl'
+p3781
+g1691
+tp3782
+I2
+s(S'clptm1'
+p3783
+S'oral clefts'
+p3784
+tp3785
+I2
+s(S'xrcc4'
+p3786
+g1587
+tp3787
+I46
+s(S'htr1a'
+p3788
+S'disordered eating symptoms'
+p3789
+tp3790
+I1
+s(S'chka'
+p3791
+S'hypodontia'
+p3792
+tp3793
+I40
+s(S'npy2r'
+p3794
+S'diabetes, type 2'
+p3795
+tp3796
+I3
+s(S'npy1r'
+p3797
+g2744
+tp3798
+I1
+s(S'mtr'
+p3799
+S'frequency of micronucleated lymphocytes'
+p3800
+tp3801
+I3
+s(S'mapt'
+p3802
+S"progressive supranuclear palsy richardson's syndrome"
+p3803
+tp3804
+I924
+s(S'npm1'
+p3805
+S'myeloid leukemia'
+p3806
+tp3807
+I768
+s(S'il4r'
+p3808
+S'allergic asthma'
+p3809
+tp3810
+I16
+s(S'fyn'
+p3811
+g1944
+tp3812
+I190
+s(S'gstt1'
+p3813
+S'chromosome abnormality'
+p3814
+tp3815
+I192
+s(S'mmp1'
+p3816
+S'chronic obstructive pulmonary disease/copd emphysema'
+p3817
+tp3818
+I13
+s(S'aldh2'
+p3819
+S'cholesterol gamma glutamyltranspeptidase triglycerides'
+p3820
+tp3821
+I0
+s(S'ace'
+p3822
+S'bleeding complications'
+p3823
+tp3824
+I89
+s(S'ace'
+p3825
+S'hodgkin disease'
+p3826
+tp3827
+I117
+s(S'nos3'
+p3828
+S'prostate cancer prostatic hyperplasia'
+p3829
+tp3830
+I8
+s(S'il6'
+p3831
+S'c-reactive protein cardiovascular disease risk factors insulin'
+p3832
+tp3833
+I202
+s(S'fas'
+p3834
+S'ulcerative colitis'
+p3835
+tp3836
+I65
+s(S'tnf'
+p3837
+S'paratyphoid fever'
+p3838
+tp3839
+I45
+s(S'abca2'
+p3840
+g1944
+tp3841
+I5
+s(S'maoa'
+p3842
+S'depressive disorder, major'
+p3843
+tp3844
+I541
+s(S'cd3eap'
+p3845
+g1587
+tp3846
+I315
+s(S'il4'
+p3847
+S'asthma bronchodilator response ige lung function'
+p3848
+tp3849
+I4
+s(S'tbx22'
+p3850
+S'cleft palate'
+p3851
+tp3852
+I41
+s(S'gria1'
+p3853
+S'anthropometric traits'
+p3854
+tp3855
+I1
+s(S'htr2a'
+p3856
+S'brucellosis'
+p3857
+tp3858
+I6
+s(S'padi4'
+p3859
+S'polyarthritis'
+p3860
+tp3861
+I460
+s(S'ccl2'
+p3862
+S'asthma. asthma severity'
+p3863
+tp3864
+I21
+s(S'pparg'
+p3865
+S'nephropathy, diabetic'
+p3866
+tp3867
+I154
+s(S'aldh3a2'
+p3868
+S'sjogren-larsson syndrome'
+p3869
+tp3870
+I126
+s(S'abcg2'
+p3871
+g3826
+tp3872
+I142
+s(S'apob'
+p3873
+S'hypobetalipoproteinemia'
+p3874
+tp3875
+I286
+s(S'mtr'
+p3876
+g3743
+tp3877
+I500
+s(S'il19'
+p3878
+S'palmoplanta pustulosis'
+p3879
+tp3880
+I0
+s(S'ccl2'
+p3881
+g1617
+tp3882
+I941
+s(S'ucp2'
+p3883
+S'cholesterol, hdl'
+p3884
+tp3885
+I12
+s(S'cyp27b1'
+p3886
+g1650
+tp3887
+I135
+s(S'th'
+p3888
+S'triglycerides'
+p3889
+tp3890
+I26430
+s(S'il15'
+p3891
+S'lymphoma, follicular'
+p3892
+tp3893
+I41
+s(S'madd'
+p3894
+g2077
+tp3895
+I4
+s(S'nos1'
+p3896
+S'acute chest syndrome asthma'
+p3897
+tp3898
+I7
+s(S'casp3'
+p3899
+g1623
+tp3900
+I643
+s(S'adra2b'
+p3901
+S'insulin'
+p3902
+tp3903
+I8
+s(S'f8'
+p3904
+S'haemophilia a'
+p3905
+tp3906
+I18502
+s(S's100a8'
+p3907
+g3185
+tp3908
+I239
+s(S'itga2b'
+p3909
+S'atherosclerosis, coronary'
+p3910
+tp3911
+I694
+s(S'tfrc'
+p3912
+S'hepatocellular carcinoma'
+p3913
+tp3914
+I8387
+s(S'hla-b'
+p3915
+S'hepatitis c'
+p3916
+tp3917
+I322
+s(S'cyp1a1'
+p3918
+S'anemia, iron deficiency'
+p3919
+tp3920
+I2
+s(S'bdnf'
+p3921
+S'diseases'
+p3922
+tp3923
+I4367
+s(S'il1rn'
+p3924
+S"graves' disease"
+p3925
+tp3926
+I35
+s(S'gnb3'
+p3927
+S'diabetes, type 2'
+p3928
+tp3929
+I16
+s(S'agt'
+p3930
+g1733
+tp3931
+I4
+s(S'shbg'
+p3932
+S'sex homone-binding globulin'
+p3933
+tp3934
+I6838
+s(S'il19'
+p3935
+g2391
+tp3936
+I6
+s(S'ace'
+p3937
+S'alpha 1-antitrypsin deficiency'
+p3938
+tp3939
+I1012
+s(S'daoa'
+p3940
+S'schizophrenia'
+p3941
+tp3942
+I121
+s(S'apoa4'
+p3943
+g2077
+tp3944
+I8
+s(S'esr1'
+p3945
+g1944
+tp3946
+I10110
+s(S'blvra'
+p3947
+S'bilirubin'
+p3948
+tp3949
+I67
+s(S'slc27a1'
+p3950
+S'lipids'
+p3951
+tp3952
+I214
+s(S'rassf8'
+p3953
+g1587
+tp3954
+I5
+s(S'jak2'
+p3955
+g2335
+tp3956
+I11
+s(S'pon1'
+p3957
+S'carotid intima-media thickness'
+p3958
+tp3959
+I44
+s(S'cyp1b1'
+p3960
+S'dhea'
+p3961
+tp3962
+I9
+s(S'tmem18'
+p3963
+S'body mass index'
+p3964
+tp3965
+I64
+s(S'hhex'
+p3966
+S'type 2 diabetes'
+p3967
+tp3968
+I144
+s(S'il1a'
+p3969
+g1783
+tp3970
+I55
+s(S'mefv'
+p3971
+S'mediterranean fever'
+p3972
+tp3973
+I1507
+s(S'ugt2b7'
+p3974
+S'mycophenolic acid'
+p3975
+tp3976
+I28
+s(S'ar'
+p3977
+S'stress (tako-tsubo) cardiomyopathy'
+p3978
+tp3979
+I1
+s(S'hla-b'
+p3980
+S'cytomegalovirus infections'
+p3981
+tp3982
+I324
+s(S'il1b'
+p3983
+S'leptin'
+p3984
+tp3985
+I447
+s(S'mfsd2'
+p3986
+g1587
+tp3987
+I1
+s(S'akt1'
+p3988
+S'bone mineral density'
+p3989
+tp3990
+I148
+s(S'cyp3a4'
+p3991
+S'cyp3a activity'
+p3992
+tp3993
+I3443
+s(S'apoa5'
+p3994
+S'metabolic and cardiovascular traits'
+p3995
+tp3996
+I4
+s(S'ephx1'
+p3997
+S'alcohol abuse'
+p3998
+tp3999
+I2
+s(S'mmp12'
+p4000
+S'schizophrenia'
+p4001
+tp4002
+I72028
+s(S'csmd2'
+p4003
+S'brain structure'
+p4004
+tp4005
+I4
+s(S'ghrl'
+p4006
+S'atherosclerosis, coronary myocardial infarct'
+p4007
+tp4008
+I1
+s(S'cdkn1b'
+p4009
+S'primary hyperparathyroidism'
+p4010
+tp4011
+I19
+s(S'xrcc1'
+p4012
+S'carcinoma, papillary'
+p4013
+tp4014
+I1317
+s(S'il6'
+p4015
+S'il6 preterm delivery'
+p4016
+tp4017
+I61
+s(S'acsl4'
+p4018
+S'depressive disorder, major'
+p4019
+tp4020
+I1
+s(S'hla-drb1'
+p4021
+S'physiologic constitutions, traditional chinese med. defined'
+p4022
+tp4023
+I1
+s(S'hbs1l'
+p4024
+S'erythrocyte indices'
+p4025
+tp4026
+I2
+s(S'hla-drb4'
+p4027
+S'idiopathic thrombotic thrombocytopenic purpura'
+p4028
+tp4029
+I1
+s(S'kir2ds1'
+p4030
+g2326
+tp4031
+I46
+s(S'bdnf'
+p4032
+g2688
+tp4033
+I36
+s(S'pon1'
+p4034
+S'cardiovascular risk'
+p4035
+tp4036
+I398
+s(S'mthfr'
+p4037
+S'longer telomeres at low folate nutritional status'
+p4038
+tp4039
+I0
+s(S'cdkn2a'
+p4040
+S'gastric adenocarcinomas'
+p4041
+tp4042
+I141
+s(S'rgs5'
+p4043
+g3351
+tp4044
+I0
+s(S'il1rn'
+p4045
+g2135
+tp4046
+I198
+s(S'pon1'
+p4047
+S'cerebral amyloid angiopathy.'
+p4048
+tp4049
+I1
+s(S'pln'
+p4050
+g1944
+tp4051
+I351
+s(S'cck'
+p4052
+S'mood disorder'
+p4053
+tp4054
+I29
+s(S'mgp'
+p4055
+S'lead toxicity'
+p4056
+tp4057
+I5
+s(S'bche'
+p4058
+S'atherosclerosis, coronary'
+p4059
+tp4060
+I236
+s(S'cetp'
+p4061
+S'cholesterol'
+p4062
+tp4063
+I2309
+s(S'mbl2'
+p4064
+g2741
+tp4065
+I613
+s(S'atp2a3'
+p4066
+S'neoplasms'
+p4067
+tp4068
+I23
+s(S'casp8'
+p4069
+S'anthracosis'
+p4070
+tp4071
+I2
+s(S'ifng'
+p4072
+S'coeliac disease'
+p4073
+tp4074
+I199
+s(S'aldh2'
+p4075
+S'cirrhosis, alcoholic'
+p4076
+tp4077
+I38
+s(S'mirn146a'
+p4078
+g2998
+tp4079
+I236
+s(S'lyplal1'
+p4080
+g1786
+tp4081
+I23
+s(S'apoe'
+p4082
+S'hepatitis c'
+p4083
+tp4084
+I462
+s(S'il10'
+p4085
+S'lung function'
+p4086
+tp4087
+I435
+s(S'nppb'
+p4088
+S'left ventricular mass ventricular remodeling'
+p4089
+tp4090
+I64
+s(S'gaa'
+p4091
+S'glycogen storage disease type ii'
+p4092
+tp4093
+I358
+s(S'casr'
+p4094
+S'familial hypocalciuric hypercalcemia'
+p4095
+tp4096
+I168
+s(S'cat'
+p4097
+S'catalase activity diabetes, gestational diabetes, type 1 diabetes, type 2'
+p4098
+tp4099
+I0
+s(S'smad3'
+p4100
+S'cleft lip without cleft palate'
+p4101
+tp4102
+I0
+s(S'ccr2'
+p4103
+S'kidney transplant complications'
+p4104
+tp4105
+I5
+s(S'cyp2c8'
+p4106
+S'hypertension'
+p4107
+tp4108
+I33
+s(S'arhgap10'
+p4109
+g1587
+tp4110
+I3
+s(S'il2'
+p4111
+S'gonorrhea'
+p4112
+tp4113
+I12
+s(S'cyp3a'
+p4114
+g1587
+tp4115
+I364
+s(S'gck'
+p4116
+g1676
+tp4117
+I101
+s(S'vdr'
+p4118
+g1676
+tp4119
+I386
+s(S'serpine1'
+p4120
+S'exfoliation syndrome'
+p4121
+tp4122
+I46
+s(S'ace'
+p4123
+S'fetal loss'
+p4124
+tp4125
+I105
+s(S'apoe'
+p4126
+S'insulin'
+p4127
+tp4128
+I724
+s(S'mafb'
+p4129
+S'ldl cholesterol'
+p4130
+tp4131
+I111
+s(S'cxcl12'
+p4132
+S'hematopoietic progenitor cells, mobilization of'
+p4133
+tp4134
+I752
+s(S'tnf'
+p4135
+S'irritant contact dermatitis'
+p4136
+tp4137
+I74
+s(S'il13'
+p4138
+S'atopic dermatitis, ocular'
+p4139
+tp4140
+I5
+s(S'abcb1'
+p4141
+g2731
+tp4142
+I2748
+s(S'cyp21a2'
+p4143
+S'adrenal androgen'
+p4144
+tp4145
+I127
+s(S'tph1'
+p4146
+S'personality trait'
+p4147
+tp4148
+I7
+s(S'rhd'
+p4149
+S'rhd-negative sensitized pregnancy'
+p4150
+tp4151
+I21
+s(S'fabp2'
+p4152
+g4124
+tp4153
+I0
+s(S'egr2'
+p4154
+g1623
+tp4155
+I20
+s(S'lcat'
+p4156
+S'hdl cholesterol'
+p4157
+tp4158
+I1045
+s(S'lta'
+p4159
+S'autoimmune diseases'
+p4160
+tp4161
+I1963
+s(S'tlr4'
+p4162
+S'brain infarction'
+p4163
+tp4164
+I135
+s(S'abcb5'
+p4165
+g1786
+tp4166
+I4
+s(S'cd14'
+p4167
+S'asthma atopy'
+p4168
+tp4169
+I47
+s(S'fgg'
+p4170
+S'brain infarction'
+p4171
+tp4172
+I10
+s(S'grm8'
+p4173
+S'smoking'
+p4174
+tp4175
+I2
+s(S'il6r'
+p4176
+g1871
+tp4177
+I289
+s(S'slc23a2'
+p4178
+S'head and neck cancer'
+p4179
+tp4180
+I3
+s(S'slc22a3'
+p4181
+g4067
+tp4182
+I4152
+s(S'apoa1'
+p4183
+S'stroke, hemorrhagic'
+p4184
+tp4185
+I27
+s(S'lta'
+p4186
+S'aphthous stomatitis'
+p4187
+tp4188
+I2
+s(S'rel'
+p4189
+S'arthritis, rheumatoid'
+p4190
+tp4191
+I196
+s(S'il1b'
+p4192
+S'paediatric renal allograft'
+p4193
+tp4194
+I1
+s(S'hla-b'
+p4195
+g1926
+tp4196
+I33
+s(S'slc6a4'
+p4197
+S'cardiovascular'
+p4198
+tp4199
+I200
+s(S'spink1'
+p4200
+S'alcohol'
+p4201
+tp4202
+I303
+s(S'pla2g6'
+p4203
+g1998
+tp4204
+I340
+s(S'slc6a4'
+p4205
+g1965
+tp4206
+I23
+s(S'ppara'
+p4207
+S'heart disease, ischemic'
+p4208
+tp4209
+I392
+s(S'gnb4'
+p4210
+g2598
+tp4211
+I1
+s(S'gpr126'
+p4212
+S'pulmonary function'
+p4213
+tp4214
+I7
+s(S'cyp1a1'
+p4215
+S'carcinoma, papillary'
+p4216
+tp4217
+I176
+s(S'ifng'
+p4218
+g2826
+tp4219
+I15763
+s(S'il1a'
+p4220
+S'hypertriglyceridemia'
+p4221
+tp4222
+I70
+s(S'eng'
+p4223
+S'cerebral arteriopathy'
+p4224
+tp4225
+I26
+s(S'cd14'
+p4226
+S'coronary artery disease and myocardial infarction'
+p4227
+tp4228
+I38
+s(S'lep'
+p4229
+g4001
+tp4230
+I24756
+s(S'hla-dqb1'
+p4231
+g2326
+tp4232
+I4025
+s(S'sod2'
+p4233
+S'subcutaneous fibrosis'
+p4234
+tp4235
+I29
+s(S'ptpn22'
+p4236
+S'asthma rheumatoid arthritis'
+p4237
+tp4238
+I4
+s(S'ache'
+p4239
+g1944
+tp4240
+I95090
+s(S'gstm3'
+p4241
+S"lymphoma, non-hodgkin's"
+p4242
+tp4243
+I3
+s(S'tyr'
+p4244
+S'temperature-sensitive enzymatic activity'
+p4245
+tp4246
+I3
+s(S'mica'
+p4247
+S'erythema nodosum'
+p4248
+tp4249
+I79
+s(S'drd4'
+p4250
+S'novelty processing'
+p4251
+tp4252
+I8
+s(S'cyp2c19'
+p4253
+S'cyclophosphamide phamacokinetics'
+p4254
+tp4255
+I0
+s(S'cyp3a5'
+p4256
+S'endoxifen'
+p4257
+tp4258
+I20
+s(S'myb'
+p4259
+S'hypertension'
+p4260
+tp4261
+I140
+s(S'enpp1'
+p4262
+S'hepatitis c'
+p4263
+tp4264
+I29
+s(S'negr1'
+p4265
+S'diabetes mellitus, type 2'
+p4266
+tp4267
+I18
+s(S'tep1'
+p4268
+g1587
+tp4269
+I65
+s(S'runx1'
+p4270
+S'chronic myelomonocytic leukemia'
+p4271
+tp4272
+I41
+s(S'tsc1'
+p4273
+S'malformations of cortical development'
+p4274
+tp4275
+I515
+s(S'lmx1b'
+p4276
+S"parkinson's disease"
+p4277
+tp4278
+I31
+s(S'fgb'
+p4279
+S'atherosclerosis, coronary'
+p4280
+tp4281
+I11
+s(S'tp53'
+p4282
+g3892
+tp4283
+I6669
+s(S'ppp1r13l'
+p4284
+g1871
+tp4285
+I349
+s(S'lst1'
+p4286
+g2794
+tp4287
+I1
+s(S'il1rl1'
+p4288
+g1662
+tp4289
+I1147
+s(S'cdkn2a'
+p4290
+g1751
+tp4291
+I2114
+s(S'gckr'
+p4292
+S'fasting glucose-related traits'
+p4293
+tp4294
+I1
+s(S'serpine1'
+p4295
+S'coronary artery bypass graft'
+p4296
+tp4297
+I101
+s(S'slc6a3'
+p4298
+g1827
+tp4299
+I72
+s(S'orm2'
+p4300
+S'warfarin response'
+p4301
+tp4302
+I2
+s(S'stat6'
+p4303
+S'minimal change nephrotic syndrome'
+p4304
+tp4305
+I3
+s(S'tshr'
+p4306
+S'congenital hypothyroidism'
+p4307
+tp4308
+I70
+s(S'th'
+p4309
+g1944
+tp4310
+I1035851
+s(S'apoe'
+p4311
+S'warfarin sensitivity'
+p4312
+tp4313
+I1
+s(S'adipoq'
+p4314
+S'adiponectin metabolic syndrome'
+p4315
+tp4316
+I269
+s(S'mc1r'
+p4317
+S'carcinoma, basal cell'
+p4318
+tp4319
+I25
+s(S'rgs2'
+p4320
+S'autonomic nervous system diseases'
+p4321
+tp4322
+I4
+s(S'cyp1a1'
+p4323
+S'bronchiectasis'
+p4324
+tp4325
+I8
+s(S'lipg'
+p4326
+S'blood pressure'
+p4327
+tp4328
+I462
+s(S'esr1'
+p4329
+S'ductus arteriosus, patent'
+p4330
+tp4331
+I150
+s(S'apoa1'
+p4332
+S'diabetes, type 2'
+p4333
+tp4334
+I698
+s(S'cd14'
+p4335
+S'chronic infections and risk of stable coronary artery dis'
+p4336
+tp4337
+I0
+s(S'kras'
+p4338
+S'adenocarcinoma, papillary'
+p4339
+tp4340
+I307
+s(S'htr1a'
+p4341
+S'esophageal neoplasms'
+p4342
+tp4343
+I25
+s(S'gcgr'
+p4344
+S'non-type 1 diabetes mellitus'
+p4345
+tp4346
+I0
+s(S'usp26'
+p4347
+S'adrenal insufficiency'
+p4348
+tp4349
+I7
+s(S'ifng'
+p4350
+S'hepatitis c, chronic'
+p4351
+tp4352
+I1431
+s(S'tnfrsf10c'
+p4353
+S'benzene haematotoxicity'
+p4354
+tp4355
+I0
+s(S'il18'
+p4356
+S'aging'
+p4357
+tp4358
+I93
+s(S'cd14'
+p4359
+S'lymphoma, b-cell, marginal zone'
+p4360
+tp4361
+I117
+s(S'smad7'
+p4362
+g1587
+tp4363
+I166
+s(S'srd5a2'
+p4364
+S'diabetes, type 2'
+p4365
+tp4366
+I3
+s(S'ifng'
+p4367
+S'bullous pemphigoid'
+p4368
+tp4369
+I25
+s(S'icam1'
+p4370
+S'diabetes, type 2'
+p4371
+tp4372
+I434
+s(S'mtr'
+p4373
+S'cleft lip with cleft palate cleft lip without cleft palate'
+p4374
+tp4375
+I30
+s(S'cyba'
+p4376
+S'atherosclerosis, coronary cardiovascular disease diabetes, type 2 hypertension metabolic syndrome obesity stroke, hemorrhagic stroke, ischemic'
+p4377
+tp4378
+I1
+s(S'tlr8'
+p4379
+S'pregnancy complications, infectious'
+p4380
+tp4381
+I108
+s(S'esr1'
+p4382
+S'sex hormones'
+p4383
+tp4384
+I5922
+s(S'sult1a1'
+p4385
+S'bladder cancer'
+p4386
+tp4387
+I27
+s(S'ccr3'
+p4388
+S'cedar pollinosis'
+p4389
+tp4390
+I1
+s(S'tap1'
+p4391
+S'coronary artery disease'
+p4392
+tp4393
+I39
+s(S'tyms'
+p4394
+S'alcoholism'
+p4395
+tp4396
+I143
+s(S'hla-drb4'
+p4397
+S"kaposi's sarcoma"
+p4398
+tp4399
+I2
+s(S'cfh'
+p4400
+S'arthritis, rheumatoid'
+p4401
+tp4402
+I1837
+s(S'cyp1a1'
+p4403
+g2823
+tp4404
+I2051
+s(S'rassf1'
+p4405
+S'head and neck cancer'
+p4406
+tp4407
+I85
+s(S'defb1'
+p4408
+g2872
+tp4409
+I1
+s(S'ptpn2'
+p4410
+S'colonic diseases'
+p4411
+tp4412
+I16
+s(S'hla-dpb2'
+p4413
+g2497
+tp4414
+I1
+s(S'nppa'
+p4415
+S'blood pressure'
+p4416
+tp4417
+I3843
+s(S'eno1'
+p4418
+g3671
+tp4419
+I408
+s(S'mcph1'
+p4420
+S'cognitive function head circumference social intelligence'
+p4421
+tp4422
+I0
+s(S'tpmt'
+p4423
+g1751
+tp4424
+I281
+s(S'fto'
+p4425
+S'adiposity'
+p4426
+tp4427
+I143
+s(S'hla-drb1'
+p4428
+S'dystonia, focal'
+p4429
+tp4430
+I2
+s(S'sele'
+p4431
+S'thyroid disease, autoimmune'
+p4432
+tp4433
+I17
+s(S's100b'
+p4434
+g1965
+tp4435
+I164
+s(S'fam3c'
+p4436
+g1691
+tp4437
+I0
+s(S'apoa5'
+p4438
+S'body mass obesity'
+p4439
+tp4440
+I18
+s(S'cyp2e1'
+p4441
+S'schizophrenia'
+p4442
+tp4443
+I35
+s(S'igfbp7'
+p4444
+g3642
+tp4445
+I46
+s(S'tlr2'
+p4446
+g2308
+tp4447
+I105
+s(S'vkorc1'
+p4448
+S'atherosclerosis'
+p4449
+tp4450
+I8
+s(S'ins'
+p4451
+S'diabetes mellitus, experimental'
+p4452
+tp4453
+I4007
+s(S'apoe'
+p4454
+g1691
+tp4455
+I276
+s(S'apoe'
+p4456
+S'high coronary heart disease risk particularly affects ser'
+p4457
+tp4458
+I0
+s(S'nos3'
+p4459
+S'idiopathic dilated cardiomyopathy'
+p4460
+tp4461
+I31
+s(S'vkorc1'
+p4462
+S'aortic dissection atherosclerosis, coronary stroke'
+p4463
+tp4464
+I2
+s(S'fads2'
+p4465
+S'alkaline phosphatase'
+p4466
+tp4467
+I1
+s(S'ampd1'
+p4468
+S'endurance performance'
+p4469
+tp4470
+I11
+s(S'golm1'
+p4471
+g1944
+tp4472
+I0
+s(S'kir2dl1'
+p4473
+g1590
+tp4474
+I56
+s(S'abcg2'
+p4475
+S'rosuvastatin pharmacokinetics'
+p4476
+tp4477
+I30
+s(S'ugt2b7'
+p4478
+S'carvedilol phamacokinetics'
+p4479
+tp4480
+I0
+s(S'gstp1'
+p4481
+S'bronchopulmonary dysplasia.'
+p4482
+tp4483
+I19
+s(S'cdkn1a'
+p4484
+S'adenocarcinoma'
+p4485
+tp4486
+I3659
+s(S'amacr'
+p4487
+S'bladder cancer'
+p4488
+tp4489
+I647
+s(S'gstt1'
+p4490
+S'diet effects'
+p4491
+tp4492
+I49
+s(S'esr1'
+p4493
+S'liver cirrhosis, biliary'
+p4494
+tp4495
+I595
+s(S'rad52'
+p4496
+S'carcinoma, papillary'
+p4497
+tp4498
+I5
+s(S'f2'
+p4499
+S'central nervous system vascular malformations'
+p4500
+tp4501
+I825
+s(S'ifng'
+p4502
+S'toxoplasmosis, congenital'
+p4503
+tp4504
+I131
+s(S'itga2'
+p4505
+S'angina'
+p4506
+tp4507
+I1614
+s(S'fshr'
+p4508
+g2138
+tp4509
+I204
+s(S'ank3'
+p4510
+g3351
+tp4511
+I17
+s(S'cdkn1b'
+p4512
+S'coronary artery disease'
+p4513
+tp4514
+I90
+s(S'cftr'
+p4515
+S'embryo loss'
+p4516
+tp4517
+I4363
+s(S'ttc39b'
+p4518
+g1727
+tp4519
+I1
+s(S'casp1'
+p4520
+g1944
+tp4521
+I1372
+s(S'kcnh2'
+p4522
+S'fibromyalgia'
+p4523
+tp4524
+I11
+s(S'tpmt'
+p4525
+g1587
+tp4526
+I208
+s(S'atg16l1'
+p4527
+g3550
+tp4528
+I0
+s(S'ctsc'
+p4529
+g1721
+tp4530
+I1608
+s(S'bhmt2'
+p4531
+S'cleft lip without cleft palate'
+p4532
+tp4533
+I5
+s(S'bfzb'
+p4534
+S'height'
+p4535
+tp4536
+I7
+s(S'aplnr'
+p4537
+g2716
+tp4538
+I38
+s(S'bcl2a1'
+p4539
+g3981
+tp4540
+I27
+s(S'atp1b1'
+p4541
+S'hypertension'
+p4542
+tp4543
+I10
+s(S'cyp11b2'
+p4544
+S'heart rate'
+p4545
+tp4546
+I23
+s(S'ins'
+p4547
+g3091
+tp4548
+I575
+s(S'il13ra2'
+p4549
+S'sclerosis, systemic'
+p4550
+tp4551
+I3
+s(S'hfe'
+p4552
+S'iron levels'
+p4553
+tp4554
+I587
+s(S'il1b'
+p4555
+S'ovarian cancer'
+p4556
+tp4557
+I2811
+s(S'cd40lg'
+p4558
+S'hyper-igm syndrome can form oligomers and trigger cd40-mediated signals'
+p4559
+tp4560
+I1
+s(S'lif'
+p4561
+S'schizophrenia'
+p4562
+tp4563
+I19
+s(S'il1rn'
+p4564
+S'gastritis, chronic atrophic'
+p4565
+tp4566
+I11
+s(S'tcn2'
+p4567
+S'omphalocele'
+p4568
+tp4569
+I113
+s(S'lcat'
+p4570
+S'hypoalphalipoproteinemia'
+p4571
+tp4572
+I281
+s(S'fdft1'
+p4573
+g2077
+tp4574
+I3976
+s(S'prss1'
+p4575
+S'diabetes mellitus'
+p4576
+tp4577
+I26
+s(S'mal'
+p4578
+S'arthritis, rheumatoid'
+p4579
+tp4580
+I4341
+s(S'pthr1'
+p4581
+S'bone density'
+p4582
+tp4583
+I48
+s(S'alox12'
+p4584
+S'esophageal cancer'
+p4585
+tp4586
+I4
+s(S'ccr2'
+p4587
+S'nephropathy, diabetic'
+p4588
+tp4589
+I30
+s(S'pdcd1'
+p4590
+S"addison's disease graves' disease"
+p4591
+tp4592
+I1
+s(S'maob'
+p4593
+S'alcoholism'
+p4594
+tp4595
+I12
+s(S'abca1'
+p4596
+S'arterial-wall changes'
+p4597
+tp4598
+I2
+s(S'ampd1'
+p4599
+S'cardiovascular disease'
+p4600
+tp4601
+I190
+s(S'hla-a'
+p4602
+S'jaw diseases'
+p4603
+tp4604
+I26
+s(S'cyp2b6'
+p4605
+S'dose of nevirapine or efavirenz'
+p4606
+tp4607
+I307
+s(S'il1ra'
+p4608
+S'severe sepsis'
+p4609
+tp4610
+I267
+s(S'klf11'
+p4611
+g1862
+tp4612
+I0
+s(S'cx3cr1'
+p4613
+S'intima-media thickness'
+p4614
+tp4615
+I11
+s(S'gsto1'
+p4616
+g2138
+tp4617
+I3
+s(S'ap3m2'
+p4618
+g2135
+tp4619
+I1
+s(S'fga'
+p4620
+S'atherosclerosis, coronary atherosclerosis, generalized'
+p4621
+tp4622
+I0
+s(S'slc6a2'
+p4623
+S'schizophrenia'
+p4624
+tp4625
+I6566
+s(S'mtrr'
+p4626
+g4124
+tp4627
+I13
+s(S'ercc2'
+p4628
+S'carcinoma'
+p4629
+tp4630
+I434
+s(S'il12b'
+p4631
+S"hashimoto's thryoiditis"
+p4632
+tp4633
+I0
+s(S'vkorc1'
+p4634
+S'leukemia, myelomonocytic, chronic'
+p4635
+tp4636
+I1
+s(S'igf1r'
+p4637
+S'bacteremia'
+p4638
+tp4639
+I15
+s(S'lpl'
+p4640
+g2468
+tp4641
+I3900
+s(S'sele'
+p4642
+S'cholesterol, ldl'
+p4643
+tp4644
+I174
+s(S'ptgs2'
+p4645
+g3069
+tp4646
+I600
+s(S'abcc2'
+p4647
+S'pravastatin kinetics'
+p4648
+tp4649
+I6
+s(S'gstt1'
+p4650
+S'lymphoma, b-cell, marginal zone'
+p4651
+tp4652
+I51
+s(S'tnf'
+p4653
+S'esophageal cancer'
+p4654
+tp4655
+I232
+s(S'gstm1'
+p4656
+S'acrylamide'
+p4657
+tp4658
+I42
+s(S'opa1'
+p4659
+g4121
+tp4660
+I939
+s(S'maoa'
+p4661
+S'self-harm behavior'
+p4662
+tp4663
+I2
+s(S'mmp9'
+p4664
+g2763
+tp4665
+I83
+s(S'aldh2'
+p4666
+S'elevated liver enzymes and metabolic syndrome'
+p4667
+tp4668
+I3
+s(S'tnf'
+p4669
+g1691
+tp4670
+I484
+s(S'gabra6'
+p4671
+S'cirrhosis, alcoholic'
+p4672
+tp4673
+I2
+s(S'tnf'
+p4674
+g4348
+tp4675
+I89
+s(S'cyp2c9'
+p4676
+S'ibuprofen clearance'
+p4677
+tp4678
+I14
+s(S'ghr'
+p4679
+S'blood pressure, arterial hypertension'
+p4680
+tp4681
+I6
+s(S'notch4'
+p4682
+S'schizophrenia'
+p4683
+tp4684
+I47
+s(S'gfra2'
+p4685
+S"hirschsprung's disease"
+p4686
+tp4687
+I3
+s(S'exo1'
+p4688
+S'smoking'
+p4689
+tp4690
+I10
+s(S'mlh1'
+p4691
+g1587
+tp4692
+I5710
+s(S'aldh1a1'
+p4693
+S'breast neoplasms'
+p4694
+tp4695
+I345
+s(S'scap'
+p4696
+S'diabetes mellitus'
+p4697
+tp4698
+I27
+s(S'rara'
+p4699
+S'cleft lip with cleft palate cleft lip without cleft palate cleft palate'
+p4700
+tp4701
+I30
+s(S'adh1c'
+p4702
+S'alcohol dependence'
+p4703
+tp4704
+I141
+s(S'ncf4'
+p4705
+g1587
+tp4706
+I31
+s(S'tp53'
+p4707
+S'astrocytoma'
+p4708
+tp4709
+I1394
+s(S'ace'
+p4710
+S'angiotensinogen hypertension'
+p4711
+tp4712
+I407
+s(S'lipc'
+p4713
+S'fredrickson hyperlipoproteinemia'
+p4714
+tp4715
+I1
+s(S'sparc'
+p4716
+g1953
+tp4717
+I99
+s(S'cyp2b6'
+p4718
+S'sibutramine'
+p4719
+tp4720
+I13
+s(S'arx'
+p4721
+S'mental disorder'
+p4722
+tp4723
+I104
+s(S'pon1'
+p4724
+S'uremia'
+p4725
+tp4726
+I828
+s(S'sbf2'
+p4727
+S'lipid levels'
+p4728
+tp4729
+I3
+s(S'il1rn'
+p4730
+g1733
+tp4731
+I47
+s(S'oprk1'
+p4732
+g4342
+tp4733
+I453
+s(S'pafah1b1'
+p4734
+g1944
+tp4735
+I482
+s(S'cdkn2a'
+p4736
+S'familial melanoma'
+p4737
+tp4738
+I457
+s(S'esr2'
+p4739
+g1676
+tp4740
+I108
+s(S'kel'
+p4741
+S'myocardial infarct'
+p4742
+tp4743
+I3
+s(S'slc19a1'
+p4744
+g1590
+tp4745
+I139
+s(S'sgcd'
+p4746
+S'waist-hip ratio'
+p4747
+tp4748
+I1
+s(S'irf8'
+p4749
+g2391
+tp4750
+I5
+s(S'igf1'
+p4751
+S'mamographic density'
+p4752
+tp4753
+I0
+s(S'rhce'
+p4754
+S'blood group incompatibility'
+p4755
+tp4756
+I3624
+s(S'slc6a4'
+p4757
+S'eating disorder'
+p4758
+tp4759
+I57
+s(S'scnn1a'
+p4760
+S'blood pressure'
+p4761
+tp4762
+I21
+s(S'cubn'
+p4763
+g2361
+tp4764
+I27
+s(S'aldh2'
+p4765
+g2414
+tp4766
+I226
+s(S'g6pc'
+p4767
+S'glycogen storage disease'
+p4768
+tp4769
+I1310
+s(S'disc1'
+p4770
+S'cognitive ability'
+p4771
+tp4772
+I5
+s(S'terf1'
+p4773
+g1587
+tp4774
+I100
+s(S'vegfa'
+p4775
+S'breast cancer vascular endothelial growth factor levels'
+p4776
+tp4777
+I686
+s(S'hoxc13'
+p4778
+S'waist-hip ratio'
+p4779
+tp4780
+I5
+s(S'pomc'
+p4781
+S'esophageal cancer'
+p4782
+tp4783
+I284
+s(S'mmp1'
+p4784
+S'pregnancy- induced hypertension'
+p4785
+tp4786
+I6
+s(S'mirn146a'
+p4787
+g1662
+tp4788
+I25
+s(S'mt-co2'
+p4789
+g1587
+tp4790
+I228
+s(S'c12orf35'
+p4791
+g1712
+tp4792
+I139
+s(S'myl3'
+p4793
+S'death, sudden, cardiac'
+p4794
+tp4795
+I1802
+s(S'tph1'
+p4796
+S'panic disorder'
+p4797
+tp4798
+I3
+s(S'ace'
+p4799
+S'c-reactive protein'
+p4800
+tp4801
+I166
+s(S'ddah2'
+p4802
+S'organ failure septic shock'
+p4803
+tp4804
+I1
+s(S'hexb'
+p4805
+S'sandhoff disease'
+p4806
+tp4807
+I121
+s(S'mmp1'
+p4808
+g2561
+tp4809
+I11
+s(S'ace'
+p4810
+S'plasma antigen levels of plasminogen activator inhibitor-1'
+p4811
+tp4812
+I34
+s(S'cast'
+p4813
+S'blood pressure, arterial hypertension'
+p4814
+tp4815
+I16
+s(S'mica'
+p4816
+g1691
+tp4817
+I13
+s(S'ptgds'
+p4818
+S'carotid atherosclerosis'
+p4819
+tp4820
+I17
+s(S'trib1'
+p4821
+g1944
+tp4822
+I24
+s(S'arsa'
+p4823
+S'metachromatic leukodystrophy'
+p4824
+tp4825
+I390
+s(S'ces2'
+p4826
+g1587
+tp4827
+I442
+s(S'irs1'
+p4828
+S'birth weight'
+p4829
+tp4830
+I214
+s(S'il12rb2'
+p4831
+S'breast neoplasms'
+p4832
+tp4833
+I8
+s(S'xrcc6'
+p4834
+g1587
+tp4835
+I171
+s(S'tp53'
+p4836
+g3046
+tp4837
+I3201
+s(S'comt'
+p4838
+S'body mass obesity'
+p4839
+tp4840
+I8
+s(S'hla-drb1'
+p4841
+S'autoimmune thyroid disease'
+p4842
+tp4843
+I123
+s(S'serpine1'
+p4844
+g2561
+tp4845
+I449
+s(S'il6'
+p4846
+g2716
+tp4847
+I4200
+s(S'mmp9'
+p4848
+S'matrix metalloproteinase-9 activity'
+p4849
+tp4850
+I6178
+s(S'cyp19a1'
+p4851
+S'adenocarcinoma'
+p4852
+tp4853
+I488
+s(S'kcnj10'
+p4854
+S'bacteremia'
+p4855
+tp4856
+I0
+s(S'sln'
+p4857
+S'atrial fibrillation lqts sudden arrhythmic death syndrome'
+p4858
+tp4859
+I1
+s(S'oxt'
+p4860
+g1938
+tp4861
+I28
+s(S'myoc'
+p4862
+S'glaucoma, primary open-angle'
+p4863
+tp4864
+I8
+s(S'abcc2'
+p4865
+S'pravastatin'
+p4866
+tp4867
+I49
+s(S'hp'
+p4868
+S'lipoprotein, ldl'
+p4869
+tp4870
+I115
+s(S'chrna1'
+p4871
+g1587
+tp4872
+I11
+s(S'esr2'
+p4873
+S'bone mass'
+p4874
+tp4875
+I60
+s(S'maoa'
+p4876
+S'monoamine metabolites'
+p4877
+tp4878
+I948
+s(S'gstt1'
+p4879
+g1944
+tp4880
+I98
+s(S'hmox1'
+p4881
+S'aneurysm, abdominal aortic'
+p4882
+tp4883
+I6
+s(S'ace'
+p4884
+g2468
+tp4885
+I690
+s(S'fcer1g'
+p4886
+g2763
+tp4887
+I102
+s(S'plaur'
+p4888
+g1587
+tp4889
+I743
+s(S'glo1'
+p4890
+S'goiter'
+p4891
+tp4892
+I2
+s(S'pdgfra'
+p4893
+S'brain neoplasms'
+p4894
+tp4895
+I217
+s(S'lmna'
+p4896
+g1623
+tp4897
+I637
+s(S'vdr'
+p4898
+S'radiographic osteoarthritis at the knee'
+p4899
+tp4900
+I3
+s(S'selp'
+p4901
+S'soluble levels of adhesion molecules'
+p4902
+tp4903
+I292
+s(S'stat6'
+p4904
+g1662
+tp4905
+I373
+s(S'ms'
+p4906
+g2361
+tp4907
+I554
+s(S'gabrb3'
+p4908
+g3351
+tp4909
+I3
+s(S'cyp1b1'
+p4910
+S'glaucoma, primary congenital'
+p4911
+tp4912
+I146
+s(S'fcer2'
+p4913
+g1856
+tp4914
+I6
+s(S'apoe'
+p4915
+S'brain infarction'
+p4916
+tp4917
+I683
+s(S'lipc'
+p4918
+S'heart disease, ischemic'
+p4919
+tp4920
+I21331
+s(S'cpeb1'
+p4921
+g1590
+tp4922
+I1
+s(S'lhb'
+p4923
+g4124
+tp4924
+I3182
+s(S'traf1'
+p4925
+g1783
+tp4926
+I6
+s(S'slc6a4'
+p4927
+g2135
+tp4928
+I192
+s(S'apoe'
+p4929
+g2468
+tp4930
+I18253
+s(S'runx2'
+p4931
+S'ossification of posterior longitudinal ligament'
+p4932
+tp4933
+I16
+s(S'mthfr'
+p4934
+g3938
+tp4935
+I24
+s(S'cldn14'
+p4936
+g2276
+tp4937
+I0
+s(S'ptprc'
+p4938
+g4494
+tp4939
+I63
+s(S'pip'
+p4940
+g3091
+tp4941
+I2047
+s(S'tagln'
+p4942
+g3091
+tp4943
+I86
+s(S'xpc'
+p4944
+g4342
+tp4945
+I12
+s(S'cma1'
+p4946
+S'ige levels'
+p4947
+tp4948
+I87
+s(S'tnf'
+p4949
+S'breast neoplasms'
+p4950
+tp4951
+I9750
+s(S'nos3'
+p4952
+S'hepatopulmonary syndrome'
+p4953
+tp4954
+I24
+s(S'hfe'
+p4955
+S'colon cancer'
+p4956
+tp4957
+I66
+s(S'gstm3'
+p4958
+S'ethylene oxide metabolism/toxicity'
+p4959
+tp4960
+I0
+s(S'hspa1a'
+p4961
+S'chronic obstructive pulmonary disease/copd'
+p4962
+tp4963
+I4
+s(S'nfkb1'
+p4964
+S'ankylosing spondylitis'
+p4965
+tp4966
+I28
+s(S'cyp26c1'
+p4967
+S'schizophrenia'
+p4968
+tp4969
+I2
+s(S'gypa'
+p4970
+S'psoriasis vulgaris'
+p4971
+tp4972
+I3
+s(S'slc19a1'
+p4973
+S'folate homocysteine'
+p4974
+tp4975
+I78
+s(S'slc24a5'
+p4976
+S'carcinoma, basal cell'
+p4977
+tp4978
+I1
+s(S'lipg'
+p4979
+g1727
+tp4980
+I340
+s(S'evc'
+p4981
+S'suicide'
+p4982
+tp4983
+I4
+s(S'cysltr1'
+p4984
+S'hiv infections'
+p4985
+tp4986
+I126
+s(S'stat4'
+p4987
+g2391
+tp4988
+I23
+s(S'ccl5'
+p4989
+g1629
+tp4990
+I83
+s(S'slc6a2'
+p4991
+S'norepinephrine-transporter deficiency'
+p4992
+tp4993
+I56
+s(S'fcrl3'
+p4994
+S'lupus erythematosus rheumatoid arthritis'
+p4995
+tp4996
+I11
+s(S'rora'
+p4997
+S'response to citalopram treatment'
+p4998
+tp4999
+I4
+s(S'gstt1'
+p5000
+g2719
+tp5001
+I31
+s(S'enpp1'
+p5002
+S'systolic blood pressure'
+p5003
+tp5004
+I28
+s(S'esr1'
+p5005
+g4342
+tp5006
+I828
+s(S'gstm1'
+p5007
+S'alcohol abuse'
+p5008
+tp5009
+I472
+s(S'gja4'
+p5010
+S'abdominal aortic aneurysm'
+p5011
+tp5012
+I0
+s(S'slc6a4'
+p5013
+S'anxiety depression mental maladaptation'
+p5014
+tp5015
+I2
+s(S'nos3'
+p5016
+S'carotid intima-media thickness'
+p5017
+tp5018
+I31
+s(S'cyp11b2'
+p5019
+S'blood pressure, arterial hypertension'
+p5020
+tp5021
+I30
+s(S'or13g1'
+p5022
+g4001
+tp5023
+I1
+s(S'havcr2'
+p5024
+g2391
+tp5025
+I6
+s(S'smad7'
+p5026
+S'carcinoma'
+p5027
+tp5028
+I170
+s(S'esr1'
+p5029
+g3697
+tp5030
+I290
+s(S'xylt1'
+p5031
+S'nephropathy in other diseases'
+p5032
+tp5033
+I1
+s(S'kcnq4'
+p5034
+S'hearing loss, sensorineural nonsyndromic'
+p5035
+tp5036
+I17
+s(S'zbtb40'
+p5037
+S'bone mineral density (hip)'
+p5038
+tp5039
+I5
+s(S'tfrc'
+p5040
+S'erythrocyte indices'
+p5041
+tp5042
+I124
+s(S'dbh'
+p5043
+g1998
+tp5044
+I169
+s(S'f5'
+p5045
+S'fibrinogen protein c resistance ratio prothrombin thrombosis, deep vein'
+p5046
+tp5047
+I0
+s(S'cyp2d6'
+p5048
+g1650
+tp5049
+I24
+s(S'igf1'
+p5050
+S'insulin-like growth factor-3'
+p5051
+tp5052
+I44
+s(S'htr5a'
+p5053
+S'schizophrenia'
+p5054
+tp5055
+I10
+s(S'ppp2r2b'
+p5056
+S'alzheimer disease'
+p5057
+tp5058
+I67
+s(S'nos2a'
+p5059
+S'brain infarction'
+p5060
+tp5061
+I84
+s(S'ppargc1a'
+p5062
+S'diabetes, gestational'
+p5063
+tp5064
+I8
+s(S'itgb3'
+p5065
+S'retinal vascular occlusion'
+p5066
+tp5067
+I1
+s(S'znf804a'
+p5068
+S'schizophrenia'
+p5069
+tp5070
+I98
+s(S'il1b'
+p5071
+g4629
+tp5072
+I2529
+s(S'adh1b'
+p5073
+S'bone density'
+p5074
+tp5075
+I2
+s(S'ctla4'
+p5076
+S'cirrhosis, alcoholic'
+p5077
+tp5078
+I54
+s(S'hfe'
+p5079
+S'pregnancy loss, recurrent'
+p5080
+tp5081
+I0
+s(S'pten'
+p5082
+S'esophageal adenocarcinoma'
+p5083
+tp5084
+I1011
+s(S'crp'
+p5085
+S'cognitive ability'
+p5086
+tp5087
+I10
+s(S'dbh'
+p5088
+g2135
+tp5089
+I47
+s(S'bace2'
+p5090
+g1944
+tp5091
+I20
+s(S'tlr4'
+p5092
+S'anemia'
+p5093
+tp5094
+I2270
+s(S'ccr2'
+p5095
+g2308
+tp5096
+I424
+s(S'gabrb2'
+p5097
+S'alcoholism'
+p5098
+tp5099
+I11
+s(S'cyp2c19'
+p5100
+S'metabolism disorders'
+p5101
+tp5102
+I189
+s(S'cps1'
+p5103
+S'necrotizing enterocolitis'
+p5104
+tp5105
+I2
+s(S'ppp1r3a'
+p5106
+S'stroke, ischemic'
+p5107
+tp5108
+I442
+s(S'nat1'
+p5109
+S'colorectal adenomas'
+p5110
+tp5111
+I14
+s(S'abcg5'
+p5112
+S'campesterol'
+p5113
+tp5114
+I27
+s(S'prune2'
+p5115
+S'hippocampus'
+p5116
+tp5117
+I2
+s(S'slc6a4'
+p5118
+S'physiological sexual disorders'
+p5119
+tp5120
+I16
+s(S'mlxipl'
+p5121
+S'gamma-glutamyltransferase'
+p5122
+tp5123
+I0
+s(S'vdr'
+p5124
+S'hashimoto disease'
+p5125
+tp5126
+I21
+s(S'il6'
+p5127
+S'paediatric renal allograft'
+p5128
+tp5129
+I3
+s(S'glis3'
+p5130
+g2391
+tp5131
+I21
+s(S'cyp1a1'
+p5132
+g3826
+tp5133
+I83
+s(S'calcrl'
+p5134
+S'eye abnormalities'
+p5135
+tp5136
+I3
+s(S'nos3'
+p5137
+S'1-carbon metabolism'
+p5138
+tp5139
+I5
+s(S'xdh'
+p5140
+S'brain neoplasms'
+p5141
+tp5142
+I7
+s(S'ugt1a1'
+p5143
+S'adenoma'
+p5144
+tp5145
+I12
+s(S'flcn'
+p5146
+g2535
+tp5147
+I5
+s(S'serpina3'
+p5148
+S'asthma. bhr. total ige. spt'
+p5149
+tp5150
+I0
+s(S'apoa4'
+p5151
+g4001
+tp5152
+I8
+s(S'variant (rs)'
+p5153
+g3507
+tp5154
+I87374
+s(S'ntm'
+p5155
+S'hip'
+p5156
+tp5157
+I4
+s(S'pbx4'
+p5158
+S'ldl cholesterol'
+p5159
+tp5160
+I5
+s(S'cd209'
+p5161
+S'hepatitis c, chronic'
+p5162
+tp5163
+I24
+s(S'il1a'
+p5164
+S"parkinson's disease"
+p5165
+tp5166
+I29
+s(S'edn1'
+p5167
+S'glaucoma, primary open-angle'
+p5168
+tp5169
+I0
+s(S'il1b'
+p5170
+S'gingival crevicular fluid and orthodontic tooth movement'
+p5171
+tp5172
+I27
+s(S'il10'
+p5173
+S'skin cancer, non-melanoma'
+p5174
+tp5175
+I3
+s(S'tshr'
+p5176
+S'breast neoplasms'
+p5177
+tp5178
+I92
+s(S'polb'
+p5179
+S'bladder cancer'
+p5180
+tp5181
+I4
+s(S'vdr'
+p5182
+g3091
+tp5183
+I736
+s(S'il18'
+p5184
+g2823
+tp5185
+I733
+s(S'mir133b'
+p5186
+S"parkinson's disease"
+p5187
+tp5188
+I5
+s(S'itpa'
+p5189
+S'anemia'
+p5190
+tp5191
+I87
+s(S'faslg'
+p5192
+S'longevity'
+p5193
+tp5194
+I22
+s(S'mbp'
+p5195
+S'chronic progressive multiple sclerosis.'
+p5196
+tp5197
+I51
+s(S'abcg2'
+p5198
+g1587
+tp5199
+I1631
+s(S'f2'
+p5200
+S'neoplasms'
+p5201
+tp5202
+I29767
+s(S'gstt1'
+p5203
+S'hepatocellular carcinoma'
+p5204
+tp5205
+I36
+s(S'il2rb'
+p5206
+g1623
+tp5207
+I52
+s(S'nnmt'
+p5208
+S'hyperhomocysteinemia'
+p5209
+tp5210
+I9
+s(S'kif6'
+p5211
+S'atherosclerosis'
+p5212
+tp5213
+I9
+s(S'il1rn'
+p5214
+S'cardiovascular'
+p5215
+tp5216
+I362
+s(S'ldlr'
+p5217
+S'cholesterol'
+p5218
+tp5219
+I2680
+s(S'hla-drb1'
+p5220
+S'carcinoma, papillary'
+p5221
+tp5222
+I394
+s(S'luc7l3'
+p5223
+g2282
+tp5224
+I31
+s(S'c2'
+p5225
+g1623
+tp5226
+I1009
+s(S'ctla4'
+p5227
+g1662
+tp5228
+I3005
+s(S'cyp3a'
+p5229
+S'midazolam clearance'
+p5230
+tp5231
+I331
+s(S'cckar'
+p5232
+S'anorexia nervosa'
+p5233
+tp5234
+I1
+s(S'ttr'
+p5235
+S'mixed polyneuropathy'
+p5236
+tp5237
+I10
+s(S'oprm1'
+p5238
+S'body mass smoking behavior'
+p5239
+tp5240
+I6
+s(S'rarb'
+p5241
+g3351
+tp5242
+I6
+s(S'pnpla3'
+p5243
+S'diabetes mellitus, type 2'
+p5244
+tp5245
+I31
+s(S'aak1'
+p5246
+g2812
+tp5247
+I0
+s(S'lepr'
+p5248
+S'diabetes mellitus'
+p5249
+tp5250
+I261
+s(S'tgfb1'
+p5251
+S'immune system diseases'
+p5252
+tp5253
+I4320
+s(S'odc1'
+p5254
+S'gastric disease'
+p5255
+tp5256
+I80
+s(S'mgmt'
+p5257
+S'adenocarcinoma'
+p5258
+tp5259
+I230
+s(S'als2'
+p5260
+S'infantile-onset ascending hereditary spastic paralysis'
+p5261
+tp5262
+I9
+s(S'hla-drb1'
+p5263
+S'echinococcosis, hepatic'
+p5264
+tp5265
+I5
+s(S'masp2'
+p5266
+S'cytomegalovirus infection, post allograft kidney transplant'
+p5267
+tp5268
+I0
+s(S'hla-dqb1'
+p5269
+S'stomach cancer'
+p5270
+tp5271
+I30
+s(S'cyp2c9'
+p5272
+S'depressive disorder, major'
+p5273
+tp5274
+I11
+s(S'il1b'
+p5275
+S'disc disease, intervertebral'
+p5276
+tp5277
+I78
+s(S'gstm1'
+p5278
+S'benzene toxicity'
+p5279
+tp5280
+I39
+s(S'lbp'
+p5281
+S'myocardial infarct'
+p5282
+tp5283
+I2
+s(S'nqo1'
+p5284
+g3351
+tp5285
+I6
+s(S'cd226'
+p5286
+g2259
+tp5287
+I3
+s(S'dusp6'
+p5288
+S'longevity'
+p5289
+tp5290
+I1
+s(S'cdkn2a'
+p5291
+S'carcinoma, basal cell'
+p5292
+tp5293
+I1249
+s(S'ms4a2'
+p5294
+S'airway hyperresponsiveness atopy'
+p5295
+tp5296
+I296
+s(S'aak1'
+p5297
+S"parkinson's disease (age of onset)"
+p5298
+tp5299
+I1
+s(S'cry2'
+p5300
+g3351
+tp5301
+I9
+s(S'acad8'
+p5302
+g1944
+tp5303
+I1
+s(S'cyp1a2'
+p5304
+S'liver cancer'
+p5305
+tp5306
+I808
+s(S's100b'
+p5307
+S'schizophrenia'
+p5308
+tp5309
+I218
+s(S'cyp3a5'
+p5310
+S'tacrolimus pharmcokinetics'
+p5311
+tp5312
+I0
+s(S'kir2ds3'
+p5313
+g3938
+tp5314
+I2
+s(S'pgr'
+p5315
+S'cholesterol, ldl'
+p5316
+tp5317
+I356
+s(S'notch1'
+p5318
+g1590
+tp5319
+I659
+s(S'cr1'
+p5320
+S'alzheimer disease'
+p5321
+tp5322
+I1511
+s(S'tp53'
+p5323
+S'pancreas adenocarcinomas'
+p5324
+tp5325
+I363
+s(S'cyp19a1'
+p5326
+S'prostate carcinoma'
+p5327
+tp5328
+I53
+s(S'ace'
+p5329
+S'disorder of the optic nerve'
+p5330
+tp5331
+I15
+s(S'igf2r'
+p5332
+S'height'
+p5333
+tp5334
+I8
+s(S'msh2'
+p5335
+g1590
+tp5336
+I166
+s(S'tnf'
+p5337
+S'pre-term delivery infant mortality and malaria morbidity'
+p5338
+tp5339
+I1
+s(S'gstm1'
+p5340
+S'arthritis, rheumatoid'
+p5341
+tp5342
+I3708
+s(S'fads2'
+p5343
+S'cholesterol'
+p5344
+tp5345
+I32
+s(S'ttr'
+p5346
+g2138
+tp5347
+I99
+s(S'gp2'
+p5348
+g2872
+tp5349
+I7
+s(S'lilrb4'
+p5350
+S'atopy'
+p5351
+tp5352
+I1
+s(S'slc2a4'
+p5353
+S'diabetes, type 2'
+p5354
+tp5355
+I628
+s(S'mgp'
+p5356
+S'kidney stone disease'
+p5357
+tp5358
+I4
+s(S'il2'
+p5359
+g1926
+tp5360
+I1067
+s(S'drd2'
+p5361
+S'musical aptitude'
+p5362
+tp5363
+I1
+s(S'hla-dpb1'
+p5364
+S'infection, post allograft'
+p5365
+tp5366
+I0
+s(S'adra2c'
+p5367
+S'schizophrenia'
+p5368
+tp5369
+I16
+s(S'gen1'
+p5370
+g1712
+tp5371
+I198
+s(S'itpa'
+p5372
+S'rheumatoid arthritis'
+p5373
+tp5374
+I28
+s(S'fcgr3a'
+p5375
+S'rheumatoid arthritis'
+p5376
+tp5377
+I1463
+s(S'rage'
+p5378
+g1721
+tp5379
+I18
+s(S'cd89'
+p5380
+S'ignephropathy'
+p5381
+tp5382
+I0
+s(S'prkaa2'
+p5383
+g1944
+tp5384
+I35
+s(S'rec8'
+p5385
+g4348
+tp5386
+I2
+s(S'matn3'
+p5387
+g3642
+tp5388
+I48
+s(S'kitlg'
+p5389
+g3697
+tp5390
+I92
+s(S'psrc1'
+p5391
+S'cholesterol, ldl'
+p5392
+tp5393
+I15
+s(S'hla-dra'
+p5394
+S'ulcerative colitis'
+p5395
+tp5396
+I6
+s(S'col1a2'
+p5397
+S'fractures'
+p5398
+tp5399
+I85
+s(S'il6'
+p5400
+S'brain infarction'
+p5401
+tp5402
+I420
+s(S'cyp1b1'
+p5403
+S'endometrial cancer'
+p5404
+tp5405
+I47
+s(S'hla'
+p5406
+g2259
+tp5407
+I2956
+s(S'agtr1'
+p5408
+S'coronary atherosclerosis.'
+p5409
+tp5410
+I179
+s(S'nr3c1'
+p5411
+S'guillain-barre syndrome'
+p5412
+tp5413
+I24
+s(S'add1'
+p5414
+S'nephropathy'
+p5415
+tp5416
+I17
+s(S'slc6a4'
+p5417
+S'financial risk taking'
+p5418
+tp5419
+I7
+s(S'nat2'
+p5420
+g3069
+tp5421
+I21
+s(S'jak2'
+p5422
+S'thromboembolism, venous'
+p5423
+tp5424
+I20
+s(S'psmd9'
+p5425
+S'diabetes, type 2'
+p5426
+tp5427
+I39
+s(S'esr1'
+p5428
+S'height'
+p5429
+tp5430
+I657
+s(S'vegf'
+p5431
+g4342
+tp5432
+I622
+s(S'il28b'
+p5433
+S'hepatitis c'
+p5434
+tp5435
+I937
+s(S'gsta4'
+p5436
+S'parkinsons disease'
+p5437
+tp5438
+I3
+s(S'il8'
+p5439
+S'lymphadenitis'
+p5440
+tp5441
+I14
+s(S'mtrr'
+p5442
+S'head and neck cancer'
+p5443
+tp5444
+I9
+s(S'pparg'
+p5445
+S'hiv infections'
+p5446
+tp5447
+I186
+s(S'drd2'
+p5448
+S'elevated blood pressure and personality disorders'
+p5449
+tp5450
+I2
+s(S'nr1i2'
+p5451
+S'hepatic cyp3a4 expression'
+p5452
+tp5453
+I150
+s(S'cfh'
+p5454
+g2763
+tp5455
+I134
+s(S'slc6a4'
+p5456
+g2512
+tp5457
+I1717
+s(S'actn3'
+p5458
+S'muscle testing'
+p5459
+tp5460
+I10
+s(S'ccr2'
+p5461
+S'pneumocystis carinii pneumonia'
+p5462
+tp5463
+I2
+s(S'matp'
+p5464
+S'tanning'
+p5465
+tp5466
+I2
+s(S'hsd3b2'
+p5467
+S'congenital adrenal hyperplasia'
+p5468
+tp5469
+I36
+s(S'ace'
+p5470
+S'affective disorder'
+p5471
+tp5472
+I69
+s(S'tp53'
+p5473
+S'adenocarcinoma, clear cell'
+p5474
+tp5475
+I2585
+s(S'xpc'
+p5476
+S'cell transformation, neoplastic'
+p5477
+tp5478
+I109
+s(S'tnf'
+p5479
+S'limbal stem cell graft'
+p5480
+tp5481
+I3
+s(S'rmi1'
+p5482
+S'neoplasms'
+p5483
+tp5484
+I10
+s(S'cyp3a4'
+p5485
+g1623
+tp5486
+I229
+s(S'ppp1r1b'
+p5487
+S'schizophrenia'
+p5488
+tp5489
+I118
+s(S'nos3'
+p5490
+S'acetylcholine responsiveness'
+p5491
+tp5492
+I61
+s(S'esr2'
+p5493
+S'left ventricular mass'
+p5494
+tp5495
+I2
+s(S'f5'
+p5496
+S'acute traumatic spinal cord injury'
+p5497
+tp5498
+I1
+s(S'hla-drb1'
+p5499
+S'diffuse panbonchiolitis'
+p5500
+tp5501
+I0
+s(S'abcb1'
+p5502
+S'lung transplant complications'
+p5503
+tp5504
+I11
+s(S'slc11a1'
+p5505
+g2391
+tp5506
+I79
+s(S'usp9x'
+p5507
+S'fragile x syndrome'
+p5508
+tp5509
+I82
+s(S'irf4'
+p5510
+S'tanning phenotype'
+p5511
+tp5512
+I2
+s(S'cyp2a6'
+p5513
+S'efavirenz mid-dose concentration'
+p5514
+tp5515
+I32
+s(S'tnf'
+p5516
+S'silicosis tuberculosis'
+p5517
+tp5518
+I5
+s(S'drd2'
+p5519
+S'cirrhosis'
+p5520
+tp5521
+I5
+s(S'pomc'
+p5522
+S'type 2 diabetes'
+p5523
+tp5524
+I352
+s(S'tnfsf15'
+p5525
+g4248
+tp5526
+I97
+s(S'cyp1a1'
+p5527
+S'neoplasms, germ cell and embryonal'
+p5528
+tp5529
+I478
+s(S'tra@'
+p5530
+S'cholesterol, ldl'
+p5531
+tp5532
+I2
+s(S'il19'
+p5533
+S'bacterial infections'
+p5534
+tp5535
+I19
+s(S'tp53'
+p5536
+g4121
+tp5537
+I58
+s(S'calu'
+p5538
+g1900
+tp5539
+I3
+s(S'ppara'
+p5540
+S'body mass'
+p5541
+tp5542
+I977
+s(S'muc5ac'
+p5543
+g1662
+tp5544
+I999
+s(S'cyp2d6'
+p5545
+S'9-hydroxyrisperidone and risperidone'
+p5546
+tp5547
+I63
+s(S'tyms'
+p5548
+S'head and neck cancer'
+p5549
+tp5550
+I348
+s(S'habp2'
+p5551
+S'thromboembolism, venous'
+p5552
+tp5553
+I8
+s(S'sult1a2'
+p5554
+S'kidney cancer'
+p5555
+tp5556
+I4
+s(S'card15'
+p5557
+g1944
+tp5558
+I5574
+s(S'tnfrsf1a'
+p5559
+g5341
+tp5560
+I1635
+s(S'faah'
+p5561
+S'obesity, morbid'
+p5562
+tp5563
+I5
+s(S'pon1'
+p5564
+S'myocardial infarct stroke, ischemic'
+p5565
+tp5566
+I4
+s(S'ncoa3'
+p5567
+S'quantitative calcaneal ultrasound'
+p5568
+tp5569
+I1
+s(S'mthfr'
+p5570
+S'cleft lip with or without cleft palate'
+p5571
+tp5572
+I73
+s(S'aqp5'
+p5573
+S'coronary artery disease'
+p5574
+tp5575
+I34
+s(S'pyy'
+p5576
+S'diabetes, type 2'
+p5577
+tp5578
+I68
+s(S'nos3'
+p5579
+S'coronary spasm.'
+p5580
+tp5581
+I50
+s(S'hla-dqa1'
+p5582
+S'rubella vaccination'
+p5583
+tp5584
+I1
+s(S'gclc'
+p5585
+S'body burden of methylmercury'
+p5586
+tp5587
+I1
+s(S'fas'
+p5588
+g4124
+tp5589
+I217
+s(S'hla-a'
+p5590
+g3981
+tp5591
+I765
+s(S'cyp2c19'
+p5592
+S'ovarian toxicity'
+p5593
+tp5594
+I5
+s(S'cyp3a5'
+p5595
+S'methadone levels'
+p5596
+tp5597
+I8
+s(S'adra2a'
+p5598
+S'glucose'
+p5599
+tp5600
+I315
+s(S'tuba8'
+p5601
+g3351
+tp5602
+I0
+s(S'ccl22'
+p5603
+g2164
+tp5604
+I31
+s(S'folh1'
+p5605
+S'folate homocysteine'
+p5606
+tp5607
+I35
+s(S'grik3'
+p5608
+S'depressive disorder, major'
+p5609
+tp5610
+I1
+s(S'grin2a'
+p5611
+S'smoking'
+p5612
+tp5613
+I7
+s(S'tlr6'
+p5614
+S"antibody formation crohn's disease ulcerative colitis"
+p5615
+tp5616
+I1
+s(S'crp'
+p5617
+S'inflammatory markers'
+p5618
+tp5619
+I3768
+s(S'hla-a'
+p5620
+g1733
+tp5621
+I34
+s(S'prnp'
+p5622
+S'prion susceptibility'
+p5623
+tp5624
+I929
+s(S'myh3'
+p5625
+S'arthrogryposis'
+p5626
+tp5627
+I26
+s(S'sod2'
+p5628
+S'catalase activity chronic obstructive pulmonary disease/copd'
+p5629
+tp5630
+I23
+s(S'mlh3'
+p5631
+S'mammalian microsatellite instability'
+p5632
+tp5633
+I16
+s(S'mpo'
+p5634
+S'cognitive decline'
+p5635
+tp5636
+I8
+s(S'cd36'
+p5637
+S'cholesterol, hdl'
+p5638
+tp5639
+I7570
+s(S'cyp1a2'
+p5640
+g1944
+tp5641
+I284
+s(S'kras'
+p5642
+S'colorectal carcinoma'
+p5643
+tp5644
+I4432
+s(S'tlr4'
+p5645
+S'boutonneuse fever'
+p5646
+tp5647
+I7
+s(S'cetp'
+p5648
+S'apolipoproteins'
+p5649
+tp5650
+I773
+s(S'hba1'
+p5651
+S'rheumatoid arthritis'
+p5652
+tp5653
+I637
+s(S'gstm1'
+p5654
+g4629
+tp5655
+I2789
+s(S'hla-drb1'
+p5656
+g1587
+tp5657
+I218
+s(S'cdk5r1'
+p5658
+g1944
+tp5659
+I184
+s(S'crp'
+p5660
+S'arthritis lymphopenia nephritis, lupus'
+p5661
+tp5662
+I1
+s(S'ephx1'
+p5663
+g1590
+tp5664
+I311
+s(S'mcph1'
+p5665
+S'micrencephaly'
+p5666
+tp5667
+I90
+s(S'tlr4'
+p5668
+g4001
+tp5669
+I271
+s(S'tp53'
+p5670
+S'decreased chemosensitivity'
+p5671
+tp5672
+I72
+s(S'vegfa'
+p5673
+S'stomach cancer'
+p5674
+tp5675
+I733
+s(S'ptpn22'
+p5676
+S'rheumatoid arthritis'
+p5677
+tp5678
+I600
+s(S'lpa'
+p5679
+S'myocardial infarct'
+p5680
+tp5681
+I904
+s(S'abcb11'
+p5682
+S'cirrhosis, biliary primary'
+p5683
+tp5684
+I18
+s(S'grm6'
+p5685
+S'alcoholism'
+p5686
+tp5687
+I17
+s(S'il6'
+p5688
+S'fibrinogen myocardial infarct'
+p5689
+tp5690
+I98
+s(S'map3k7ip2'
+p5691
+S'rheumatoid arthritis'
+p5692
+tp5693
+I22
+s(S'cpb2'
+p5694
+S'blood pressure'
+p5695
+tp5696
+I55
+s(g4581
+S'height'
+p5697
+tp5698
+I12
+s(S'arhgef11'
+p5699
+g1900
+tp5700
+I1
+s(S'cyba'
+p5701
+S'candidiasis'
+p5702
+tp5703
+I3
+s(S'il2'
+p5704
+S'leukemia, myelomonocytic, chronic'
+p5705
+tp5706
+I1066
+s(S'cyp3a4'
+p5707
+S'nephropathy'
+p5708
+tp5709
+I218
+s(S'gpr126'
+p5710
+S'lung diseases'
+p5711
+tp5712
+I3
+s(S'ercc4'
+p5713
+S'cytogenetic studies'
+p5714
+tp5715
+I1
+s(S'kalrn'
+p5716
+S'adult adhd'
+p5717
+tp5718
+I3
+s(S'apoc3'
+p5719
+g1587
+tp5720
+I5
+s(S'tap2'
+p5721
+g2391
+tp5722
+I27
+s(S'abcb1'
+p5723
+S'nasopharyngeal cancer'
+p5724
+tp5725
+I34
+s(S'pax3'
+p5726
+g1998
+tp5727
+I434
+s(S'gstp1'
+p5728
+g3642
+tp5729
+I1898
+s(S'sth'
+p5730
+S'fragile x syndrome'
+p5731
+tp5732
+I2
+s(S'gck'
+p5733
+S'diabetes, post-renal transplant'
+p5734
+tp5735
+I1
+s(S'nos2a'
+p5736
+S'brain hemorrhage'
+p5737
+tp5738
+I25
+s(S'kit'
+p5739
+S'bone density'
+p5740
+tp5741
+I217
+s(S'gars'
+p5742
+S'charcot-marie-tooth disease'
+p5743
+tp5744
+I59
+s(S'hnf1a'
+p5745
+S'ldl cholesterol'
+p5746
+tp5747
+I15
+s(S'ren'
+p5748
+S'hypertension'
+p5749
+tp5750
+I2478
+s(S'pros1'
+p5751
+S'free protein s (type iia) deficiency'
+p5752
+tp5753
+I1
+s(S'chek2'
+p5754
+S'bladder cancer'
+p5755
+tp5756
+I14
+s(S'hla-dpb1'
+p5757
+S'malaria, plasmodium falciparum'
+p5758
+tp5759
+I8
+s(S'ndufv2'
+p5760
+g3351
+tp5761
+I3
+s(S'ccl2'
+p5762
+S'nephropathy, iga'
+p5763
+tp5764
+I56
+s(S'lta4h'
+p5765
+g1662
+tp5766
+I24
+s(S'igfbp5'
+p5767
+g2391
+tp5768
+I3
+s(S'uts2'
+p5769
+S'glucose tolerance insulin'
+p5770
+tp5771
+I5
+s(S'rage'
+p5772
+S'type 2 diabetes'
+p5773
+tp5774
+I229
+s(S'muc3a'
+p5775
+S'ulcerative colitis'
+p5776
+tp5777
+I14
+s(S'cnp'
+p5778
+S'schizophrenia'
+p5779
+tp5780
+I32
+s(S'hnmt'
+p5781
+S'alcoholism'
+p5782
+tp5783
+I3
+s(S'idh2'
+p5784
+g2052
+tp5785
+I92
+s(S'nos1'
+p5786
+S'cluster headache'
+p5787
+tp5788
+I39
+s(S'tph2'
+p5789
+S'emotion regulation'
+p5790
+tp5791
+I26
+s(S'hla-dqa1'
+p5792
+S'lung function'
+p5793
+tp5794
+I2
+s(S'esr2'
+p5795
+S'rectal cancer'
+p5796
+tp5797
+I26
+s(S'gas6'
+p5798
+S'stroke, atherothrombotic'
+p5799
+tp5800
+I2
+s(S'il8rb'
+p5801
+g1862
+tp5802
+I21
+s(S'hcrtr1'
+p5803
+S'polydipsia'
+p5804
+tp5805
+I3
+s(S'gstm1'
+p5806
+S'homocysteine'
+p5807
+tp5808
+I67
+s(S'gnb3'
+p5809
+g3671
+tp5810
+I151
+s(S'nos3'
+p5811
+S'body mass hypertension'
+p5812
+tp5813
+I63
+s(S'kras'
+p5814
+g1871
+tp5815
+I10319
+s(S'hpcx'
+p5816
+g3091
+tp5817
+I23
+s(S'il18'
+p5818
+S'chronic hepatitis c'
+p5819
+tp5820
+I43
+s(S'glis3'
+p5821
+S'glucose transporter type 2'
+p5822
+tp5823
+I1
+s(S'egf'
+p5824
+S'cutaneous malignant melanoma.'
+p5825
+tp5826
+I10
+s(S'myl2'
+p5827
+g4794
+tp5828
+I124
+s(S'gstp1'
+p5829
+S'cirrhosis'
+p5830
+tp5831
+I1038
+s(S'ifna5'
+p5832
+g1623
+tp5833
+I4
+s(S'np'
+p5834
+S"alzheimer's disease cognitive function"
+p5835
+tp5836
+I65
+s(S'nr1i3'
+p5837
+g3892
+tp5838
+I129
+s(S'nfkb1'
+p5839
+g3317
+tp5840
+I51
+s(S'sftpb'
+p5841
+g2535
+tp5842
+I45
+s(S'sod2'
+p5843
+S'hearing loss/deafness'
+p5844
+tp5845
+I14
+s(S'gstp1'
+p5846
+S'liver disease, alcoholic'
+p5847
+tp5848
+I107
+s(S'grn'
+p5849
+g1944
+tp5850
+I360
+s(S'esr1'
+p5851
+S'uterine leiomyoma'
+p5852
+tp5853
+I178
+s(S'nos3'
+p5854
+S'cardiomegaly'
+p5855
+tp5856
+I245
+s(S'apex1'
+p5857
+g2361
+tp5858
+I95746
+s(S'gsr'
+p5859
+g1587
+tp5860
+I14
+s(S'amy2a'
+p5861
+S"parkinson's disease"
+p5862
+tp5863
+I15667
+s(S'hspa1l'
+p5864
+g3981
+tp5865
+I4
+s(S'htr3a'
+p5866
+S'major depressive disorder'
+p5867
+tp5868
+I50
+s(S'ifng'
+p5869
+g2984
+tp5870
+I832
+s(S'mtrr'
+p5871
+S'exfoliation syndrome'
+p5872
+tp5873
+I3
+s(S'vwf'
+p5874
+S'hepatopulmonary syndrome'
+p5875
+tp5876
+I4
+s(S'kcne1l'
+p5877
+S'ekg, abnormal'
+p5878
+tp5879
+I0
+s(S'apoe'
+p5880
+S'cerebral infarct, atherothrombotic'
+p5881
+tp5882
+I4
+s(S'ran'
+p5883
+g1587
+tp5884
+I365
+s(S'tgfb1'
+p5885
+g2326
+tp5886
+I7329
+s(S'hsp90b1'
+p5887
+S'ischemic neuronal cell death'
+p5888
+tp5889
+I9
+s(S'pax4'
+p5890
+g2391
+tp5891
+I72
+s(S'ube3a'
+p5892
+g3559
+tp5893
+I23
+s(S'sdhd'
+p5894
+S'spermatogenesis'
+p5895
+tp5896
+I3
+s(S'mthfr'
+p5897
+S'hepatolenticular degeneration'
+p5898
+tp5899
+I19
+s(S'slc25a14'
+p5900
+S'schizophrenia'
+p5901
+tp5902
+I4
+s(S'ace'
+p5903
+S'autonomic nervous system diseases'
+p5904
+tp5905
+I41
+s(S'txnrd2'
+p5906
+S'acquired immunodeficiency syndrome'
+p5907
+tp5908
+I13586
+s(S'il1a'
+p5909
+S'migraine'
+p5910
+tp5911
+I4
+s(S'igf2'
+p5912
+S'longevity'
+p5913
+tp5914
+I52
+s(S'f12'
+p5915
+g1900
+tp5916
+I19
+s(S'apoa1'
+p5917
+S'lipid levels'
+p5918
+tp5919
+I6269
+s(S'smad2'
+p5920
+g1587
+tp5921
+I464
+s(S'ace'
+p5922
+S'peptic ulcer stomach cancer'
+p5923
+tp5924
+I3
+s(S'gabra6'
+p5925
+S'anxiety disorder'
+p5926
+tp5927
+I11
+s(S'adcyap1'
+p5928
+g1623
+tp5929
+I46
+s(S'ctla4'
+p5930
+S'carcinoma, basal cell'
+p5931
+tp5932
+I569
+s(S'il4'
+p5933
+S'il-4 production'
+p5934
+tp5935
+I15748
+s(S'akr1c3'
+p5936
+S'bladder cancer'
+p5937
+tp5938
+I5
+s(S'tlr4'
+p5939
+g2391
+tp5940
+I313
+s(S'tnf'
+p5941
+S'clonorchiasis'
+p5942
+tp5943
+I6
+s(S'ppard'
+p5944
+g1786
+tp5945
+I416
+s(S'tlr10'
+p5946
+g3091
+tp5947
+I8
+s(S'slc6a3'
+p5948
+S'appetite suppression'
+p5949
+tp5950
+I2
+s(S'gabrb2'
+p5951
+S'heroin abuse'
+p5952
+tp5953
+I2
+s(S'gstm2'
+p5954
+S'hypertension'
+p5955
+tp5956
+I12
+s(S'cyp3a4'
+p5957
+S'tardive dyskinesia'
+p5958
+tp5959
+I4
+s(S'vdr'
+p5960
+S'quantitative calcaneal ultrasound'
+p5961
+tp5962
+I11
+s(S'gpld1'
+p5963
+S'liver enzymes'
+p5964
+tp5965
+I95
+s(S'ar'
+p5966
+S'prostate-specific antigen levels'
+p5967
+tp5968
+I392
+s(S'f2'
+p5969
+S'cerebral venous thrombosis'
+p5970
+tp5971
+I88
+s(S'ugt1a7'
+p5972
+S'mycophenolate mofetil'
+p5973
+tp5974
+I12
+s(S'cma1'
+p5975
+S'dermatitis and eczema'
+p5976
+tp5977
+I10
+s(S'serpina1'
+p5978
+S'nasal polyps'
+p5979
+tp5980
+I139
+s(S'ace'
+p5981
+S'nephropathy, diabetic'
+p5982
+tp5983
+I1352
+s(S'grm8'
+p5984
+S'seizures, alcohol withdrawal-induced'
+p5985
+tp5986
+I2
+s(S'hand2'
+p5987
+g3550
+tp5988
+I260
+s(S'srebf1'
+p5989
+g1786
+tp5990
+I559
+s(S'gnb3'
+p5991
+S'coronary artery disease'
+p5992
+tp5993
+I39
+s(S'rnase3'
+p5994
+S'liver diseases, parasitic'
+p5995
+tp5996
+I27
+s(S'cbs'
+p5997
+S'methotrexate toxicity'
+p5998
+tp5999
+I0
+s(S'cyp2d6'
+p6000
+g1691
+tp6001
+I46
+s(S'crp'
+p6002
+S'syndrome'
+p6003
+tp6004
+I3709
+s(S'nos2'
+p6005
+g3091
+tp6006
+I1075
+s(S'comt'
+p6007
+S'multisomatoform disorder'
+p6008
+tp6009
+I1
+s(S'bcl2'
+p6010
+S'lupus'
+p6011
+tp6012
+I175
+s(S'mcoln1'
+p6013
+S'mucolipidosis'
+p6014
+tp6015
+I114
+s(g4362
+S'pregnancy loss, recurrent'
+p6016
+tp6017
+I0
+s(S'tgfbr1'
+p6018
+g1587
+tp6019
+I131
+s.

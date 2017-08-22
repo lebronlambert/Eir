@@ -1,0 +1,11 @@
+inflect
+simplejson
+numpy
+scipy
+scikit-learn
+feedparser
+tldextract
+lxml
+newspaper
+python-crfsuite
+nltk
