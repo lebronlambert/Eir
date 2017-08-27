@@ -168,8 +168,8 @@ def predict_mode(sentence, tags, confidences, crf=False):
     mode, conf = get_mode(output_entities["gene"])
 
     output_pred_line += mode
-    entity_confidences[tags2int['trait'] - 1] += conf
-    entity_cnts[tags2int['trait'] - 1] += 1
+    entity_confidences[tags2int['gene'] - 1] += conf
+    entity_cnts[tags2int['gene'] - 1] += 1
 
 
     # for tag in int2tags:

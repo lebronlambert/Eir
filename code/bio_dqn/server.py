@@ -24,27 +24,77 @@ from updateState import *
 
 import warnings
 warnings.filterwarnings("ignore")
+best_entity = ['', '']
+best_confidence = [0., 0.]
 
-# newstate, entity = updatestate(run_title, run_journal, run_index_truth, run_author, abstract_mode)
-# newstate = updatestate(run_abstract, None, None,None, title_mode)
 
-def updatestate(text,append1,append2,append3,mode):
+
+def updatestate(text,text2,append1,append2,append3,mode,title_and_abstract_model,stop_model):
+    global  best_confidence
+    global  best_entity
     state=[0 for i in range(56)]
     entity,confidence,context1,context2=run_return_state(text)
+    # print entity,confidence
+    # print best_entity,best_confidence
+    if stop_model==True:
+        for i in range(2):
+            if confidence[i]>best_confidence[i]:
+                best_confidence[i]=confidence[i]
+                best_entity[i]=entity[i]
+        entity=best_entity
+        confidence=best_confidence
     # print entity
     # print confidence
     # print  context1
     # print context2
+    # print entity, confidence
     if mode==True:
-        if entity[0]==u'GENE':
-            state[0]=1
-        if entity[1]==u'TRAIT':
-            state[1]=1
-        state[2:4]=confidence
-        state[4:10]=context1[0]
-        state[10:16]=context1[1]
-        state[16:22]=context2[0]
-        state[22:28]=context2[1]
+        if title_and_abstract_model==2:
+            if entity[0] == u'GENE':
+                state[0] = 1
+            if entity[1] == u'TRAIT':
+                state[1] = 1
+            state[2:4] = confidence
+            state[4:10] = context1[0]
+            state[10:16] = context1[1]
+            state[16:22] = context2[0]
+            state[22:28] = context2[1]
+            state[52:55] = append3
+            state[55] = append1
+        if title_and_abstract_model==3:
+            entity_, confidence_, context1_, context2_ = run_return_state(text2)
+            if stop_model == True:
+                for i in range(2):
+                    if confidence_[i] > best_confidence[i]:
+                        best_confidence[i] = confidence_[i]
+                        best_entity[i] = entity_[i]
+                entity = best_entity
+                confidence = best_confidence
+            if entity[0] == u'GENE':
+                state[0] = 1
+            if entity[1] == u'TRAIT':
+                state[1] = 1
+            state[2:4] = confidence
+            state[4:10] = context1[0]
+            state[10:16] = context1[1]
+            state[16:22] = context2[0]
+            state[22:28] = context2[1]
+            state[28:34] = context1_[0]
+            state[34:40] = context1_[1]
+            state[40:46] = context2_[0]
+            state[46:52] = context2_[1]
+            state[52:55] = append3
+            state[55] = append1
+        if title_and_abstract_model==1:
+            if entity[0]==u'GENE':
+                state[0]=1
+            if entity[1]==u'TRAIT':
+                state[1]=1
+            state[2:4]=confidence
+            state[4:10]=context1[0]
+            state[10:16]=context1[1]
+            state[16:22]=context2[0]
+            state[22:28]=context2[1]
     else:
         # if entity[0]==u'GENE':
         #     state[0]=1
@@ -96,24 +146,25 @@ def calculate_reward(action,ground_truth):
     ##print run_groundtruth, action, abstract_mode, run_index_truth, entity
     reward=0
     if action==2 and ground_truth=='1':
-        print "reward1"
+        #print "reward1"
         reward=-5.66  #0.1 output
     elif action==1 and ground_truth=='1':
-        print "reward2"
+        #print "reward2"
         reward=5.66
     elif action==2 and ground_truth=='0':
-        print "reward3"
+        #print "reward3"
         reward=1.
     elif action==1 and ground_truth=='0':
-        print "reward4"
-        reward=-1.
+        #print "reward4"
+        reward=-1#7004  -0.1  #7003 -1 # 7005  -10  #0.09 7006  #0.08 7007
 
     return reward
 
 def main(args):
     #WORD_LIMIT = 500
-    print args.outFile
-    outFile = open( args.outFile, 'w', 0)
+    global  best_confidence
+    global best_entity
+    outFile = open( args.outFile+str(args.port)+'_'+str(args.title_and_abstract_model)+'_'+str(args.stop_model), 'w', 0)
     outFile.write(str(args) + "\n")
 
     DEBUG=False
@@ -143,7 +194,9 @@ def main(args):
     evaluate_mode=False
     abstract_mode=False
     print "Started server on port", port
-
+    shuffledIndxs = [range(len(q)) for q in abstract]
+    for q in shuffledIndxs:
+        shuffle(q)
     # for analysis
     stepCnt = 0
 
@@ -154,6 +207,7 @@ def main(args):
     CORRECT3, PRED3, GOLD3=0.,0.,0.
     CORRECT4, PRED4, GOLD4=0.,0.,0.
     savedArticleNum=0
+    savedArticleNum2=0
     number_for_one_trait,begin_number_for_one_trait=0,0
     run_index_truth = None
     run_author = None
@@ -167,35 +221,46 @@ def main(args):
     print "~~~~~~~~~~~~"
     reward=0.
     terminal=''
+    evaluated_number=0
+    stop_model=args.stop_model
+    title_and_abstract_model=args.title_and_abstract_model
+    if title_and_abstract_model!=1:
+        abstract_mode=True
+    best_entity=['','']
+    best_confidence=[0.,0.]
+
 
     while True:
         #  Wait for next request from client
 
         message = socket.recv()
-        #print message
         # print "Received request: ", message
 
         if message == "newGame":
 
             indx = articleNum % len(abstract)
+            best_entity = ['', '']
+            best_confidence = [0., 0.]
             abstract_mode=False
+            if title_and_abstract_model!=1:
+                abstract_mode=True
+            print "number:",articleNum
 
             articleNum += 1
 
             number_for_one_trait=len(abstract[indx])
             begin_number_for_one_trait=0
+            infact_begin_number_for_one_trait=shuffledIndxs[indx][begin_number_for_one_trait]
             # print "indx:", indx, number_for_one_trait
             # if DEBUG:
             #     print "indx:", indx, number_for_one_trait
 
-            run_index_truth = index_truth[indx][0]
-            run_author=author[indx][0]
-            run_groundtruth=groundtruth[indx][0]  #
-            run_journal=journal[indx][0]
-            run_title=title[indx][0]
-            run_abstract=abstract[indx][0]
-            # entity,newstate=updatestate(run_title,run_journal,run_index_truth,run_author,abstract_mode)
-            #newstate = updatestate(run_abstract, None, None,None, title_mode)
+            run_index_truth = index_truth[indx][infact_begin_number_for_one_trait]
+            run_author=author[indx][infact_begin_number_for_one_trait]
+            run_groundtruth=groundtruth[indx][infact_begin_number_for_one_trait]  #
+            run_journal=journal[indx][infact_begin_number_for_one_trait]
+            run_title=title[indx][infact_begin_number_for_one_trait]
+            run_abstract=abstract[indx][infact_begin_number_for_one_trait]
             reward, terminal =  0, 'false'
 
         elif message == "evalStart":
@@ -205,6 +270,7 @@ def main(args):
             CORRECT4, PRED4, GOLD4=0,0,0
             evaluate_mode = True
             stepCnt = 0
+            evaluated_number=1
             savedArticleNum=articleNum
             abstract=TEST_abstract
             author=TEST_author
@@ -212,6 +278,10 @@ def main(args):
             journal=TEST_journal
             title=TEST_title
             index_truth = TEST_index
+            articleNum=savedArticleNum2
+            shuffledIndxs = [range(len(q)) for q in abstract]
+            for q in shuffledIndxs:
+                shuffle(q)
 
             print "##### Evaluation Started ######"
 
@@ -258,14 +328,14 @@ def main(args):
             print stepCnt,"stepCnt"
 
 
-            print "StepCnt (total, average):", stepCnt, float(stepCnt) / len(abstract)
+            print "StepCnt (total, average):", stepCnt, float(stepCnt) /evaluated_number #
 
             outFile.write("------------\nEvaluation Stats: (Precision, Recall, F1):\n")
             outFile.write(' '.join([str(CORRECT),str(PRED),str(GOLD)]) + '\n')
             outFile.write(' '.join([str(CORRECT2),str(PRED2),str(GOLD2)]) + '\n')
             outFile.write(' '.join([str(CORRECT3),str(PRED3),str(GOLD3)]) + '\n')
             outFile.write(' '.join([str(CORRECT4),str(PRED4),str(GOLD4)]) + '\n')
-            outFile.write("StepCnt (total, average): " + str(stepCnt) + ' ' + str(float(stepCnt) / len(abstract)) + '\n')
+            outFile.write("StepCnt (total, average): " + str(stepCnt) + ' ' + str(float(stepCnt) /evaluated_number) + '\n')
 
             abstract = TRAIN_abstract
             author = TRAIN_author
@@ -273,6 +343,10 @@ def main(args):
             journal = TRAIN_journal
             title = TRAIN_title
             index_truth = TRAIN_index
+            savedArticleNum2=articleNum
+            shuffledIndxs = [range(len(q)) for q in abstract]
+            for q in shuffledIndxs:
+                shuffle(q)
 
 
             articleNum = savedArticleNum
@@ -281,8 +355,11 @@ def main(args):
 
 
         else:
+            print message
             action, query = [int(q) for q in message.split()]
-            action=query
+            if stop_model==False:
+                action=query
+
 
 
             # if action==1:
@@ -291,38 +368,49 @@ def main(args):
             reward = calculate_reward(action, run_groundtruth)
 
             if abstract_mode:
-                entity,newstate=updatestate(run_abstract,None,run_index_truth,None,abstract_mode)
+                entity,newstate=updatestate(run_abstract,run_title,run_journal,run_index_truth,run_author,abstract_mode,title_and_abstract_model,stop_model)
             else:
-                entity,newstate=updatestate(run_title, run_journal, run_index_truth, run_author, abstract_mode)
+                entity,newstate=updatestate(run_title, run_title,run_journal, run_index_truth, run_author, abstract_mode,title_and_abstract_model,stop_model)
 
             if evaluate_mode:
                 # if action==1:
-                print run_groundtruth, action, abstract_mode, run_index_truth, entity
-                print "~~~~~~~~~"
+                #print abstract_mode
+                pass
+                # print run_groundtruth, action, abstract_mode, run_index_truth, entity
+                # print "~~~~~~~~~"
             else:
+                #print abstract_mode
+                pass
                 # if action==1:
-                print run_groundtruth, action, abstract_mode, run_index_truth, entity
-                print "----------"
+                # print run_groundtruth, action, abstract_mode, run_index_truth, entity
+                # print "----------"
 
             if evaluate_mode == True:
                 #print abstract_mode,"----"
                 CORRECT, PRED, GOLD, CORRECT2, PRED2, GOLD2, CORRECT3, PRED3, GOLD3, CORRECT4, PRED4, GOLD4=judge_ground_truth(CORRECT, PRED, GOLD, CORRECT2, PRED2, GOLD2 ,CORRECT3, PRED3, GOLD3, CORRECT4, PRED4, GOLD4,run_groundtruth, action, abstract_mode,run_index_truth,entity)
-                print CORRECT, PRED, GOLD, CORRECT2, PRED2, GOLD2, CORRECT3, PRED3, GOLD3, CORRECT4, PRED4, GOLD4
+                #print CORRECT, PRED, GOLD, CORRECT2, PRED2, GOLD2, CORRECT3, PRED3, GOLD3, CORRECT4, PRED4, GOLD4
 
-            if abstract_mode==False and action==1:
-                abstract_mode=True
-            else:
-                abstract_mode=False
-                begin_number_for_one_trait+=1
-                if begin_number_for_one_trait==number_for_one_trait:
-                    terminal='true'
+            if action!=999:
+                if abstract_mode==False and action==1:
+                    abstract_mode=True
                 else:
-                    run_index_truth = index_truth[indx][begin_number_for_one_trait]
-                    run_author = author[indx][begin_number_for_one_trait]
-                    run_groundtruth = groundtruth[indx][begin_number_for_one_trait]  #
-                    run_journal = journal[indx][begin_number_for_one_trait]
-                    run_title = title[indx][begin_number_for_one_trait]
-                    run_abstract = abstract[indx][begin_number_for_one_trait]
+                    abstract_mode=False
+                    if title_and_abstract_model!=1:
+                        abstract_mode=True
+                    begin_number_for_one_trait+=1
+                    if begin_number_for_one_trait==number_for_one_trait:
+                        terminal='true'
+                    else:
+
+                        infact_begin_number_for_one_trait = shuffledIndxs[indx][begin_number_for_one_trait]
+                        run_index_truth = index_truth[indx][infact_begin_number_for_one_trait]
+                        run_author = author[indx][infact_begin_number_for_one_trait]
+                        run_groundtruth = groundtruth[indx][infact_begin_number_for_one_trait]  #
+                        run_journal = journal[indx][infact_begin_number_for_one_trait]
+                        run_title = title[indx][infact_begin_number_for_one_trait]
+                        run_abstract = abstract[indx][infact_begin_number_for_one_trait]
+            else:
+                terminal='true'
 
 
             # print "number:", begin_number_for_one_trait,number_for_one_trait
@@ -339,9 +427,11 @@ def main(args):
 
         if message != "evalStart" and message != "evalEnd":
             if evaluate_mode==True:
-                print message
-                print "stepCnt:",stepCnt
+                # print message
+                # print "stepCnt:",stepCnt
                 stepCnt += 1
+                if terminal=='true':
+                    evaluated_number+=1
 
 
             outMsg = 'state, reward, terminal = ' + str(newstate) + ',' + str(reward) + ',' + terminal
@@ -356,7 +446,7 @@ if __name__ == '__main__':
     argparser = argparse.ArgumentParser(sys.argv[0])
     argparser.add_argument("--port",
                            type=int,
-                           default=7003,
+                           default=7016,  # 7012 for test
                            help="port for server")
     # argparser.add_argument("--trainFile",
     #                        type=str,
@@ -367,18 +457,18 @@ if __name__ == '__main__':
     #                        help="Testing File")
     argparser.add_argument("--outFile",
                            type=str,
-                           default='./output/out7003',
+                           default='./output/out',
                            help="Output File")
     #
-    # argparser.add_argument("--evalOutFile",
-    #                        default="",
-    #                        type=str,
-    #                        help="Output File for predictions")
-    #
-    # argparser.add_argument("--modelFile",
-    #                        type=str,
-    #                        default='trained_model2.p',
-    #                        help="Model File")
+    argparser.add_argument("--title_and_abstract_model",
+                           default=2,   # i first title then abstract 2.only abstract 3 title and abtract
+                           type=int,
+                           help="Output File for predictions")
+
+    argparser.add_argument("--stop_model",
+                           type=bool,
+                           default=True,
+                           help="Model File")
     #
     # argparser.add_argument("--shooterLenientEval",
     #                        type=bool,
