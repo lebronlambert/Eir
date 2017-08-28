@@ -263,6 +263,11 @@ def main(args):
             run_abstract=abstract[indx][infact_begin_number_for_one_trait]
             reward, terminal =  0, 'false'
             newstate = [0 for i in range(56)]
+            if abstract_mode:
+                entity,newstate=updatestate(run_abstract,run_title,run_journal,run_index_truth,run_author,abstract_mode,title_and_abstract_model,stop_model)
+            else:
+                entity,newstate=updatestate(run_title, run_title,run_journal, run_index_truth, run_author,abstract_mode,title_and_abstract_model,stop_model)
+
 
 
         elif message == "evalStart":
@@ -368,10 +373,7 @@ def main(args):
 
             reward = calculate_reward(action, run_groundtruth)
 
-            if abstract_mode:
-                entity,newstate=updatestate(run_abstract,run_title,run_journal,run_index_truth,run_author,abstract_mode,title_and_abstract_model,stop_model)
-            else:
-                entity,newstate=updatestate(run_title, run_title,run_journal, run_index_truth, run_author, abstract_mode,title_and_abstract_model,stop_model)
+
 
             if evaluate_mode:
                 # if action==1:
@@ -401,6 +403,7 @@ def main(args):
                     begin_number_for_one_trait+=1
                     if begin_number_for_one_trait==number_for_one_trait:
                         terminal='true'
+                        newstate = [0 for i in range(56)]
                     else:
 
                         infact_begin_number_for_one_trait = shuffledIndxs[indx][begin_number_for_one_trait]
@@ -412,6 +415,14 @@ def main(args):
                         run_abstract = abstract[indx][infact_begin_number_for_one_trait]
             else:
                 terminal='true'
+                newstate = [0 for i in range(56)]
+
+            if abstract_mode:
+                entity, newstate = updatestate(run_abstract, run_title, run_journal, run_index_truth, run_author,
+                                               abstract_mode, title_and_abstract_model, stop_model)
+            else:
+                entity, newstate = updatestate(run_title, run_title, run_journal, run_index_truth, run_author,
+                                               abstract_mode, title_and_abstract_model, stop_model)
 
 
             # print "number:", begin_number_for_one_trait,number_for_one_trait
