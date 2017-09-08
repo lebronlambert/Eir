@@ -406,6 +406,8 @@ def main(args):
                     if begin_number_for_one_trait==number_for_one_trait:
                         terminal='true'
                         newstate = [0 for i in range(56)]
+                        best_entity = ['', '']
+                        best_confidence = [0., 0.]
                     else:
 
                         infact_begin_number_for_one_trait = shuffledIndxs[indx][begin_number_for_one_trait]
@@ -417,6 +419,8 @@ def main(args):
                         run_abstract = abstract[indx][infact_begin_number_for_one_trait]
             else:
                 terminal='true'
+                best_entity = ['', '']
+                best_confidence = [0., 0.]
                 newstate = [0 for i in range(56)]
 
             if abstract_mode:

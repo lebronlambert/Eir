@@ -403,6 +403,8 @@ def main(args):
                     begin_number_for_one_trait+=1
                     if begin_number_for_one_trait==number_for_one_trait:
                         terminal='true'
+                        best_entity = ['', '']
+                        best_confidence = [0., 0.]
                     else:
 
                         infact_begin_number_for_one_trait = shuffledIndxs[indx][begin_number_for_one_trait]
@@ -414,6 +416,8 @@ def main(args):
                         run_abstract = abstract[indx][infact_begin_number_for_one_trait]
             else:
                 terminal='true'
+                best_entity = ['', '']
+                best_confidence = [0., 0.]
 
 
             # print "number:", begin_number_for_one_trait,number_for_one_trait
