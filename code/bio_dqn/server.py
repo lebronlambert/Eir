@@ -265,6 +265,8 @@ def main(args):
             run_abstract=abstract[indx][infact_begin_number_for_one_trait]
             reward, terminal =  0, 'false'
             newstate = [0 for i in range(56)]
+            best_entity = ['', '']
+            best_confidence = [0., 0.]
 
 
         elif message == "evalStart":

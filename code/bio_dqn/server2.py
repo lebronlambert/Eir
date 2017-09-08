@@ -269,6 +269,8 @@ def main(args):
                 entity,newstate=updatestate(run_abstract,run_title,run_journal,run_index_truth,run_author,abstract_mode,title_and_abstract_model,stop_model)
             else:
                 entity,newstate=updatestate(run_title, run_title,run_journal, run_index_truth, run_author,abstract_mode,title_and_abstract_model,stop_model)
+            best_entity = ['', '']
+            best_confidence = [0., 0.]
 
 
 
