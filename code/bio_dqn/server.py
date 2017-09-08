@@ -38,13 +38,15 @@ def updatestate(text,text2,append1,append2,append3,mode,title_and_abstract_model
     entity,confidence,context1,context2=run_return_state(text)
     # print entity,confidence
     # print best_entity,best_confidence
-    if stop_model==True:
-        for i in range(2):
-            if confidence[i]>best_confidence[i]:
-                best_confidence[i]=confidence[i]
-                best_entity[i]=entity[i]
-        entity=best_entity
-        confidence=best_confidence
+    if stop_model == True:
+
+        if confidence[0] >= best_confidence[0] and confidence[1] >= best_confidence[1]:
+            best_confidence[0] = confidence[0]
+            best_entity[0] = entity[0]
+            best_confidence[1] = confidence[1]
+            best_entity[1] = entity[1]
+        entity = best_entity
+        confidence = best_confidence
     # print entity
     # print confidence
     # print  context1
