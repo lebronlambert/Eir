@@ -27,9 +27,11 @@ warnings.filterwarnings("ignore")
 best_entity = ['', '']
 best_confidence = [0., 0.]
 
-
+def gene_name_compare(text,append2):
+    pass
 
 def updatestate(text,text2,append1,append2,append3,mode,title_and_abstract_model,stop_model):
+    # gene_name_compare use here
     global  best_confidence
     global  best_entity
     state=[0 for i in range(56)]
