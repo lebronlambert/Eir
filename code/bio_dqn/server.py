@@ -172,7 +172,12 @@ def main(args):
     outFile.write(str(args) + "\n")
 
     DEBUG=False
-    TRAIN_abstract, TRAIN_author, TRAIN_groundtruth, TRAIN_journal, TRAIN_title, TRAIN_index,TEST_abstract, TEST_author, TEST_groundtruth, TEST_journal, TEST_title,TEST_index=FOR_data()
+    TRAIN_abstract, TRAIN_author, TRAIN_groundtruth, TRAIN_journal, TRAIN_title, TRAIN_index, TRAIN_real_true, TEST_abstract, TEST_author, TEST_groundtruth, TEST_journal, TEST_title, TEST_index, TEST_real_true = FOR_data()
+    ############################
+    #
+    #I dont update the run_real_true
+    #
+    ############
     print len(TRAIN_abstract)
     print len(TEST_abstract)
 

@@ -6,14 +6,13 @@ def find_all_index(arr,item):
 
 def FOR_data():
 
-
     # f_ground_truth = open('./DeepRL-data1000/ground_truth1000_cleaned','r')
     # data_ground_truth = pickle.load(f_ground_truth)
     # f_data_merge = open('./DeepRL-data1000/preprocessed_articles','r')
     # data_merge = pickle.load(f_data_merge)
-    f_ground_truth = open('./data/ground_truth4000', 'r')
+    f_ground_truth = open('./data2/ground_truth4000', 'r')
     data_ground_truth = pickle.load(f_ground_truth)
-    f_data_merge = open('./data/ground_truth4000_output_cooked', 'r')
+    f_data_merge = open('./data2/ground_truth4000_output_cooked', 'r')
     data_merge = pickle.load(f_data_merge)
 
     # f_other_merge = open('./DeepRL-data1000/ground_truth1000query_len','r')
@@ -37,6 +36,9 @@ def FOR_data():
     TRAIN_index=[] #i
     TEST_index=[]
 
+    TRAIN_iii=[]
+    TEST_iii=[]
+
 
     sum=0
     for iii in data_merge:
@@ -48,6 +50,8 @@ def FOR_data():
                 TRAIN_journal.append([])
                 TRAIN_author.append([])
                 TRAIN_index.append([])
+                TRAIN_iii.append([])
+                TRAIN_iii[sum-1].append(iii)
 
 
                 for s in range(len(data_merge[iii])):
@@ -123,6 +127,8 @@ def FOR_data():
                 TEST_journal.append([])
                 TEST_author.append([])
                 TEST_index.append([])
+                TEST_iii.append([])
+                TEST_iii[sum - 1501].append(iii)
 
                 for s in range(len(data_merge[iii])):
                     # temp = data_merge[iii][s]['title'].split()
@@ -222,10 +228,10 @@ def FOR_data():
     # print len(TEST_title)
     # print len(TRAIN_title)
 
-
     #vector=return_model(TRAIN_abstract,5)
 
-    return TRAIN_abstract,TRAIN_author,TRAIN_groundtruth,TRAIN_journal,TRAIN_title,TRAIN_index, TEST_abstract,TEST_author,TEST_groundtruth,TEST_journal,TEST_title,TEST_index
+
+    return TRAIN_abstract,TRAIN_author,TRAIN_groundtruth,TRAIN_journal,TRAIN_title,TRAIN_index,TRAIN_iii, TEST_abstract,TEST_author,TEST_groundtruth,TEST_journal,TEST_title,TEST_index,TEST_iii
 
 if __name__ == '__main__':
     FOR_data()

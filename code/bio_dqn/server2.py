@@ -30,7 +30,7 @@ best_confidence = [0., 0.]
 def gene_name_compare(text,append2):
     pass
 
-def updatestate(text,text2,append1,append2,append3,mode,title_and_abstract_model,stop_model):
+def updatestate(text,text2,append1,append2,append3,mode,title_and_abstract_model,stop_model,run_real_true):
     # gene_name_compare use here
     global  best_confidence
     global  best_entity
@@ -51,6 +51,7 @@ def updatestate(text,text2,append1,append2,append3,mode,title_and_abstract_model
     # print confidence
     # print  context1
     # print context2
+    # print run_real_true
     print entity, confidence
     if mode==True:
         if title_and_abstract_model==2:
@@ -172,7 +173,7 @@ def main(args):
     outFile.write(str(args) + "\n")
 
     DEBUG=False
-    TRAIN_abstract, TRAIN_author, TRAIN_groundtruth, TRAIN_journal, TRAIN_title, TRAIN_index,TEST_abstract, TEST_author, TEST_groundtruth, TEST_journal, TEST_title,TEST_index=FOR_data()
+    TRAIN_abstract, TRAIN_author, TRAIN_groundtruth, TRAIN_journal, TRAIN_title, TRAIN_index, TRAIN_real_true, TEST_abstract, TEST_author, TEST_groundtruth, TEST_journal, TEST_title, TEST_index, TEST_real_true = FOR_data()
     print len(TRAIN_abstract)
     print len(TEST_abstract)
 
@@ -182,6 +183,7 @@ def main(args):
     journal=TRAIN_journal
     title=TRAIN_title
     index_truth=TRAIN_index
+    real_true = TRAIN_real_true
 
     # abstract=TEST_abstract
     # author=TEST_author
@@ -219,6 +221,7 @@ def main(args):
     run_journal = None
     run_title = None
     run_abstract =None
+    run_real_true=None
     entity=None
     newstate=[0 for i in range(56)]
     print len(newstate)
@@ -258,7 +261,7 @@ def main(args):
             # print "indx:", indx, number_for_one_trait
             # if DEBUG:
             #     print "indx:", indx, number_for_one_trait
-
+            run_real_true = real_true[indx]
             run_index_truth = index_truth[indx][infact_begin_number_for_one_trait]
             run_author=author[indx][infact_begin_number_for_one_trait]
             run_groundtruth=groundtruth[indx][infact_begin_number_for_one_trait]  #
@@ -268,9 +271,12 @@ def main(args):
             reward, terminal =  0, 'false'
             newstate = [0 for i in range(56)]
             if abstract_mode:
-                entity,newstate=updatestate(run_abstract,run_title,run_journal,run_index_truth,run_author,abstract_mode,title_and_abstract_model,stop_model)
+                entity, newstate = updatestate(run_abstract, run_title, run_journal, run_index_truth, run_author,
+                                               abstract_mode, title_and_abstract_model, stop_model, run_real_true)
             else:
-                entity,newstate=updatestate(run_title, run_title,run_journal, run_index_truth, run_author,abstract_mode,title_and_abstract_model,stop_model)
+                entity, newstate = updatestate(run_title, run_title, run_journal, run_index_truth, run_author,
+                                               abstract_mode, title_and_abstract_model, stop_model, run_real_true)
+
             best_entity = ['', '']
             best_confidence = [0., 0.]
 
@@ -291,6 +297,7 @@ def main(args):
             journal=TEST_journal
             title=TEST_title
             index_truth = TEST_index
+            real_true = TEST_real_true
             articleNum=savedArticleNum2
             shuffledIndxs = [range(len(q)) for q in abstract]
             for q in shuffledIndxs:
@@ -356,6 +363,7 @@ def main(args):
             journal = TRAIN_journal
             title = TRAIN_title
             index_truth = TRAIN_index
+            real_true = TRAIN_real_true
             savedArticleNum2=articleNum
             shuffledIndxs = [range(len(q)) for q in abstract]
             for q in shuffledIndxs:
@@ -427,15 +435,16 @@ def main(args):
                 best_confidence = [0., 0.]
                 newstate = [0 for i in range(56)]
 
-            if abstract_mode:
-                entity, newstate = updatestate(run_abstract, run_title, run_journal, run_index_truth, run_author,
-                                               abstract_mode, title_and_abstract_model, stop_model)
-            else:
-                entity, newstate = updatestate(run_title, run_title, run_journal, run_index_truth, run_author,
-                                               abstract_mode, title_and_abstract_model, stop_model)
+                if abstract_mode:
+                    entity, newstate = updatestate(run_abstract, run_title, run_journal, run_index_truth, run_author,
+                                                   abstract_mode, title_and_abstract_model, stop_model, run_real_true)
+                else:
+                    entity, newstate = updatestate(run_title, run_title, run_journal, run_index_truth, run_author,
+                                                   abstract_mode, title_and_abstract_model, stop_model, run_real_true)
 
 
-            # print "number:", begin_number_for_one_trait,number_for_one_trait
+
+                    # print "number:", begin_number_for_one_trait,number_for_one_trait
 
 
 
