@@ -305,36 +305,36 @@ def main(args):
             # print PRED2, GOLD2, CORRECT2
             # print PRED3, GOLD3, CORRECT3
             # print PRED4, GOLD4, CORRECT4
-            if PRED==0 or GOLD ==0:
+            if PRED == 0 or GOLD == 0 or CORRECT == 0:
                 print "====0===="
             else:
-                prec = float(CORRECT)/ PRED
-                rec = float(CORRECT)/ GOLD
+                prec = float(CORRECT) / PRED
+                rec = float(CORRECT) / GOLD
                 f1 = (2 * prec * rec) / (prec + rec)
-                print prec, rec, f1,"#",CORRECT,PRED,GOLD
+                print prec, rec, f1, "#", CORRECT, PRED, GOLD
 
-            if PRED2 == 0 or GOLD2 == 0:
+            if PRED2 == 0 or GOLD2 == 0 or CORRECT2 == 0:
                 print "====0===2"
             else:
                 prec = float(CORRECT2) / PRED2
-                rec =float( CORRECT2) / GOLD2
+                rec = float(CORRECT2) / GOLD2
                 f1 = (2 * prec * rec) / (prec + rec)
                 print prec, rec, f1, "#", CORRECT2, PRED2, GOLD2
 
-            if PRED3 == 0 or GOLD3 == 0:
+            if PRED3 == 0 or GOLD3 == 0 or CORRECT3 == 0:
                 print "====0===3"
             else:
 
-                prec =float( CORRECT3) / PRED3
+                prec = float(CORRECT3) / PRED3
                 rec = float(CORRECT3) / GOLD3
                 f1 = (2 * prec * rec) / (prec + rec)
                 print prec, rec, f1, "#", CORRECT3, PRED3, GOLD3
 
-            if PRED4 == 0 or GOLD4 == 0:
+            if PRED4 == 0 or GOLD4 == 0 or CORRECT4 == 0:
                 print "====0===4"
             else:
-                prec =float( CORRECT4 )/ PRED4
-                rec =float( CORRECT4 )/ GOLD4
+                prec = float(CORRECT4) / PRED4
+                rec = float(CORRECT4) / GOLD4
                 f1 = (2 * prec * rec) / (prec + rec)
                 print prec, rec, f1, "#", CORRECT4, PRED4, GOLD4
 
