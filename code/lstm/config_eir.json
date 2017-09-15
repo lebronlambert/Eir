@@ -1,0 +1,33 @@
+{
+  "training": {
+    "optimizer": "adam",
+    "clip_c": 1,
+    "lrate": 0.0001
+  },
+  "data": {
+    "src": "data/train_text20",
+    "trg": "data/train_label20.npy",
+    "test_src": "data/test_text20",
+    "test_trg": "data/test_label20.npy",
+    "batch_size": 80,
+    "n_words_trg": 30000,
+    "n_words_src": 30000,
+    "max_src_length": 400,
+    "task": "translation",
+    "save_dir": "log",
+    "load_dir": false
+  },
+  "model": {
+    "dim": 1000,
+    "use_dropout": false,
+    "dim_word_src": 500,
+    "n_words_src": 30000,
+    "n_words": 30000,
+    "dim_word_trg": 500,
+    "n_layers_src": 2,
+    "bidirectional": true,
+    "decode": "greedy",
+    "seq2seq": "vanilla",
+    "optimizer": "adam"
+  }
+}
