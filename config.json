@@ -1,0 +1,33 @@
+{
+  "training": {
+    "epochs": 100,
+    "lrate": 0.00004,
+    "is_cuda": true,
+    "torch_seed": 2018,
+    "starting_trial": -1,
+    "starting_epoch": 0,
+    "starting_index": 0
+  },
+  "data": {
+    "path_output": "output_trial_0/",
+    "path_pos_samples": "input/pos_samples",
+    "path_neg_samples": "input/neg_samples",
+    "path_train_set": "input/train_set",
+    "path_test_set": "input/test_set",
+    "path_concept2idx": "input/concept2idx",
+    "path_typ2idx": "input/typ2idx",
+    "ratio_train_samples": 0.8,
+    "partition_samples_seed": 2018,
+    "max_length": 300,
+    "batch_size": 64,
+    "test_batch_size": 64
+  },
+  "model": {
+    "dim_emb_concept": 512,
+    "dim_hidden": 1000,
+    "vocab_size_concept": 30000,
+    "vocab_size_typ": 136,
+    "num_layers": 2,
+    "bidirectional": true
+  }
+}
