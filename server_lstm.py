@@ -35,16 +35,43 @@ def prepare_data():
     return concept2idx, typ2idx
 
 
-def prepare_testdata():
-    with open('input/test_set', 'r') as f:
-        test_set = json.load(f)
-    return test_set
+def prepare_testdata(filemode=1):
+    if filemode==1:
+        with open('input/test_set', 'r') as f:
+            test_set = json.load(f)
+        return test_set
+    if filemode==2:
+        with open('input/normal_0.2_test_set', 'r') as f:
+            test_set = json.load(f)
+        return test_set
+    if filemode==3:
+        with open('input/no_1_test_set', 'r') as f:
+            test_set = json.load(f)
+        return test_set
+    if filemode==4:
+        with open('input/no_0_test_set', 'r') as f:
+            test_set = json.load(f)
+        return test_set
 
 
-def prepapre_traindata():
-    with open('input/train_set', 'r') as f:
-        train_set = json.load(f)
-    return train_set
+
+def prepapre_traindata(filemode=1):
+    if filemode==1:
+        with open('input/train_set', 'r') as f:
+            train_set = json.load(f)
+        return train_set
+    if filemode==2:
+        with open('input/normal_0.2_train_set', 'r') as f:
+            train_set = json.load(f)
+        return train_set
+    if filemode==3:
+        with open('input/no_1_train_set', 'r') as f:
+            train_set = json.load(f)
+        return train_set
+    if filemode==4:
+        with open('input/no_0_train_set', 'r') as f:
+            train_set = json.load(f)
+        return train_set
 
 
 def prepare_set_all():
@@ -132,7 +159,7 @@ def judge_ground_truth(batch_data_label, action, CORRECT, PRED, GOLD):
     return CORRECT, PRED, GOLD
 
 
-def calculate_reward(batch_data_label, action, stop_model=False, first_label=0, change=0):
+def calculate_reward(batch_data_label, action, stop_model=False, first_label=0, change=0,rewardchange=1.):
     # print batch_data_label
     if first_label == 1 and change == 1:
         reward = -0.1
@@ -143,17 +170,18 @@ def calculate_reward(batch_data_label, action, stop_model=False, first_label=0, 
     if action == 1 and batch_data_label == 1:
         reward = 1.
     elif action == 1 and batch_data_label == 0:
-        reward = -1.
+        reward = -1.*rewardchange
     elif action == 2 and batch_data_label == 1:
-        reward = -1.
+        reward = -1.*rewardchange
     elif action == 2 and batch_data_label == 0:
-        reward = -1.
+        reward = 1.*rewardchange
     return reward
 
 
 def main(args):
     global STATE_NUMBER
-
+    filemode=args.filemode
+    rewardchange=args.rewardchange
     # here output for debug
     outFile = open(args.outFile + str(args.port), 'w',
                    0)  ##+'_'+str(args.title_and_abstract_model)+'_'+str(args.stop_model)
@@ -182,8 +210,8 @@ def main(args):
     newstate = [0 for i in range(STATE_NUMBER)]
     reward = 0.
     concept2idx, typ2idx = prepare_data()
-    train_set = prepapre_traindata()
-    test_set = prepare_testdata()
+    train_set = prepapre_traindata(filemode)
+    test_set = prepare_testdata(filemode)
     model = prepare_model(concept2idx, typ2idx)
     savedallArticleNum = len(train_set['samples'])
     savedallArticleNum2 = len(test_set['samples'])
@@ -204,6 +232,7 @@ def main(args):
         savedallArticleNum = len(set_all1)
         savedallArticleNum2 = len(set_all2)
         allArticleNum = savedallArticleNum
+
 
     print "ready"
 
@@ -283,11 +312,11 @@ def main(args):
                     first_label = batch_data_label
                     change = 1
                 reward = calculate_reward(batch_data_label, query, stop_model, first_label,
-                                          change)  # here query!=action #HERE MATTERS I need more DATA
+                                          change,rewardchange)  # here query!=action #HERE MATTERS I need more DATA
                 if change == 1:
                     change = 0
             else:
-                reward = calculate_reward(batch_data_label, action, stop_model, first_label, change)
+                reward = calculate_reward(batch_data_label, action, stop_model, first_label, change,rewardchange)
 
             if evaluate_mode == True:
                 CORRECT, PRED, GOLD = judge_ground_truth(batch_data_label, action, CORRECT, PRED, GOLD)
@@ -335,12 +364,17 @@ if __name__ == '__main__':
                            type=str,
                            default='./output/out',
                            help="Output File")
-    #
-    # argparser.add_argument("--title_and_abstract_model",
-    #                        default=3,   # 1 first title then abstract 2.only abstract 3 title and abtract
-    #                        type=int,
-    #                        help="Output File for predictions")
-    #
+
+    argparser.add_argument("--filemode",
+                           default=1,   # 1 first title then abstract 2.only abstract 3 title and abtract
+                           type=int,
+                           help="file mode")
+
+    argparser.add_argument("--rewardchange",
+                           default=1.,   # 1 first title then abstract 2.only abstract 3 title and abtract
+                           type=float,
+                           help="rewarcchange")
+
     argparser.add_argument("--stop_model",
                            type=bool,
                            default=True,
@@ -352,3 +386,10 @@ if __name__ == '__main__':
 
 
 
+#7001 stop model =true train_set test_set
+#7002 stop model=false train_set test_set
+#7003 stop model=false normal  normal
+#7004 stop model=false no1  no1
+#7005 stop model=false no0 no0
+#7006 stop model=true reward change
+#7007 stop model=false reward change
