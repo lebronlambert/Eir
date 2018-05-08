@@ -1,0 +1,14 @@
+# Created by .ignore support plugin (hsz.mobi)
+.pyc
+result/*
+.idea*
+lib/
+*~
+torch
+dqn/*.t7
+*.zip
+output/*
+raw/*
+input/*
+output_trial_5/*
+tmp/*
