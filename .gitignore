@@ -1,8 +1,0 @@
-# Created by .ignore support plugin (hsz.mobi)
-.pyc
-result/*
-.idea*
-lib/
-*~
-torch
-dqn/*.t7

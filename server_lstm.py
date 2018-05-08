@@ -36,13 +36,13 @@ def prepare_data():
 
 
 def prepare_testdata():
-    with open('input/test_set2', 'r') as f:
+    with open('input/test_set', 'r') as f:
         test_set = json.load(f)
     return test_set
 
 
 def prepapre_traindata():
-    with open('input/train_set2', 'r') as f:
+    with open('input/train_set', 'r') as f:
         train_set = json.load(f)
     return train_set
 

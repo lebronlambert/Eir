@@ -2,9 +2,11 @@
 
 ## Introduction
 ## Requirements
-you need to install pytorch and torch. For torch
+you need to install pytorch and torch.
 ```
 sh ./code/dqn/install_dependencies.sh
+pip install -r requirements.txt
+pip install torch
 ```
 ## An Example Command
 ```
