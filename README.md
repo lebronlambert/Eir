@@ -1,7 +1,11 @@
 # DeepBIO-informationExtraction
 
 ## Introduction
-
+##Requirements
+you need to install pytorch and torch. For torch
+```
+sh ./code/dqn/install_dependencies.sh
+```
 ## An Example Command
 ```
 python server_lstm.py

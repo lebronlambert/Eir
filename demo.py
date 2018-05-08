@@ -24,6 +24,63 @@ else:
 with open('input/test_set','r') as f:
   test_set = json.load(f)
 
+with open('input/train_set','r') as f:
+  train_set = json.load(f)
+
+
+def prepare_set_all(test_set):
+  set_all=[]
+  for j in  range(len(test_set['samples'])):
+    name1= test_set['genes'][j]
+    name2=test_set['diseases'][j]
+    set_=[]
+    for i in range(len(test_set['samples'])):
+      if name1==test_set['genes'][i] and name2==test_set['diseases'][i]:
+        set_.append(i)
+      else:
+        pass
+    if len(set_)>=2 and set_ not in set_all:
+      set_all.append(set_)
+  with open('input/set_all', 'w') as f:
+      json.dump(set_all,f)
+
+def generate_set(test_set,number,label,name):
+  import random
+  set_=[]
+  sum_=0.
+  for i in range(len(test_set['labels'])):
+    if test_set['labels'][i]==label:
+        sum_+=1
+        if random.random()>=number:
+          set_.append(i)
+  import copy
+  test_set2=copy.copy(test_set)
+  test_set2['samples'],test_set2['genes'], test_set2['labels'],test_set2['pmids'],test_set2['diseases']=[],[],[],[],[]
+  for i in range(len(test_set['samples'])):
+      if i in set_:
+          pass
+      else:
+          test_set2['samples'].append(test_set['samples'][i])
+          test_set2['genes'].append(test_set['genes'][i])
+          test_set2['labels'].append(test_set['labels'][i])
+          test_set2['pmids'].append(test_set['pmids'][i])
+          test_set2['diseases'].append(test_set['diseases'][i])
+  with open(name, 'w') as f:
+      json.dump(test_set2,f)
+
+# generate_set(train_set,0.2,1,'input/normal_0.2_train_set')
+# print "1"
+# generate_set(test_set,0.2,1,'input/normal_0.2_test_set')
+# print "2"
+# generate_set(train_set,-0.1,1,'input/no_1_train_set')
+# print "3"
+# generate_set(test_set,-0.1,1,'input/no_1_test_set')
+# print "4"
+# generate_set(train_set,-0.1,0,'input/no_0_train_set')
+# print "5"
+# generate_set(train_set,-0.1,0,'input/no_0_test_set')
+# print "6"
+
 
 with open('input/concept2idx','r') as f:
   concept2idx = json.load(f)
