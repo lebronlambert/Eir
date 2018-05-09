@@ -161,12 +161,16 @@ def judge_ground_truth(batch_data_label, action, CORRECT, PRED, GOLD):
 
 def calculate_reward(batch_data_label, action, stop_model=False, first_label=0, change=0,rewardchange=1.):
     # print batch_data_label
-    if first_label == 1 and change == 1:
-        reward = -0.1
-        if batch_data_label == 0:
-            reward = -2.
-        return reward
-    reward = 0.
+    reward=0.
+    if stop_model:
+        if first_label == 1 and change == 0 and action ==1:
+            reward = -0.1
+            if batch_data_label == 0 and action==1:
+                reward = -2.
+            return reward
+        if first_label==1 and change==0 and action==2:
+            reward =1.
+            return reward
     if action == 1 and batch_data_label == 1:
         reward = 1.
     elif action == 1 and batch_data_label == 0:
@@ -391,5 +395,6 @@ if __name__ == '__main__':
 #7003 stop model=false normal  normal
 #7004 stop model=false no1  no1
 #7005 stop model=false no0 no0
-#7006 stop model=true reward change
+#7006 stop model=false reward change
 #7007 stop model=false reward change
+#7008 stop model=false reward change

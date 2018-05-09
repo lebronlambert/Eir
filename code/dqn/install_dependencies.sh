@@ -140,5 +140,5 @@ echo
 echo "For this you need to provide the rom files of the respective games (game_name.bin) in the roms/ directory"
 echo
 
-luarocks install djkson
+luarocks install dkjson
 luarocks install lzmq
