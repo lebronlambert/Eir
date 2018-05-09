@@ -68,6 +68,22 @@ def generate_set(test_set,number,label,name):
   with open(name, 'w') as f:
       json.dump(test_set2,f)
 
+def function_set_all_number(name1, name2):
+  with open(name1, 'r') as f:
+      set_all1 = json.load(f)
+  sum_sum = 0.
+  set_all2 = []
+  for i in range(len(set_all1)):
+      if len(set_all1[i]) >= 4: #11067 2.63522183067  #50239 3.85357988813
+          # >=3 #3338 4.10605152786  #33494  4.78025915089   #>=4 #20171 #5.95612513014 #1132 #6.26148409894
+          set_all2.append(set_all1[i])
+          sum_sum += len(set_all1[i])
+
+  # print len(set_all2)
+  # print sum_sum/len(set_all2)
+  with open(name2, 'w') as f:
+      json.dump(set_all2, f)
+
 # generate_set(train_set,0.2,1,'input/normal_0.2_train_set')
 # print "1"
 # generate_set(test_set,0.2,1,'input/normal_0.2_test_set')
@@ -131,3 +147,4 @@ for index_test in xrange(0, 10000, test_batch_size):
 
 test_error, test_loss = 100.0*sum_error/count_sample, 1.0*sum_loss/count_sample
 print 'Test Loss:%.2f,Test Error:%.2f' % (test_loss, test_error)
+
