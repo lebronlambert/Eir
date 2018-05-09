@@ -52,6 +52,10 @@ def prepare_testdata(filemode=1):
         with open('input/no_0_test_set', 'r') as f:
             test_set = json.load(f)
         return test_set
+    if filemode==5:
+        with open('input/normal_0.1_test_set', 'r') as f:
+            test_set = json.load(f)
+        return test_set
 
 
 
@@ -72,6 +76,10 @@ def prepapre_traindata(filemode=1):
         with open('input/no_0_train_set', 'r') as f:
             train_set = json.load(f)
         return train_set
+    if filemode==5:
+        with open('input/normal_0.1_train_set', 'r') as f:
+            test_set = json.load(f)
+        return test_set
 
 
 def prepare_set_all():
@@ -381,7 +389,7 @@ if __name__ == '__main__':
 
     argparser.add_argument("--stop_model",
                            type=bool,
-                           default=True,
+                           default=False,
                            help="Model")
 
     args = argparser.parse_args()
