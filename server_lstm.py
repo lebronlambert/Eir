@@ -37,7 +37,9 @@ def prepare_data():
 
 def add_confidence(state,data):
     for i in range(len(data)):
-        state[i+1000]=float(data[i][2])/1000. #2 indicates the 3rd number is the confidence number
+        if i<300:
+            state[i+1000]=float(data[i][2])/1000. #2 indicates the 3rd number is the confidence number
+    return state
 
 def prepare_testdata(filemode=1):
     if filemode==1:
@@ -150,8 +152,12 @@ def updatestate(batch_data, model):
     _, indices = torch.max(outputs, 1)
     temp_transform = (model.h_t.data).cpu().numpy()
     newstate = [0 for i in range(STATE_NUMBER)]
-    for i in range(STATE_NUMBER):
-        newstate[i] = temp_transform[0][i]
+    if STATE_NUMBER==1000:
+        for i in range(STATE_NUMBER):
+            newstate[i] = temp_transform[0][i]
+    else:
+        for i in range(1000):
+            newstate[i] = temp_transform[0][i]
     # here we do not use the lable (we also can use it)
     return newstate
 
