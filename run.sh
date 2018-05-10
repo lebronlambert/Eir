@@ -22,6 +22,6 @@ python server_lstm.py --port 7019 --confidence_mode True  #add confidence and et
 #change all the reward as I use after "#" #before is something wrong with stop_model True
 python server_lstm.py --port 7020 --stop_model True --confidence_mode True
 python server_lstm.py --port 7021 --stop_model True --confidence_mode True #test4
-python server_lstm.py --port 7022 --confidence_mode True
-python server_lstm.py --port 7023 --filemode 2  --confidence_mode True  #--here
+python server_lstm.py --port 7022 --confidence_mode True #--here
+python server_lstm.py --port 7023 --filemode 2  --confidence_mode True
 python server_lstm.py --port 7024 --filemode 5  --confidence_mode True

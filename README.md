@@ -4,8 +4,7 @@
 ## Requirements
 you need to install pytorch and torch.
 ```
-sh install_torch.sh
-sh ./code/dqn/install_dependencies.sh
+sh install_torch.sh or sh ./code/dqn/install_dependencies.sh
 pip install -r requirements.txt
 pip install torch
 ```
