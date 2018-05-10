@@ -182,21 +182,21 @@ def calculate_reward(batch_data_label, action, stop_model=False, first_label=0, 
     reward=0.
     if stop_model:
         if first_label == 1 and change == 0 and action ==1:
-            reward = -0.1
+            reward = -0.05 #-0.1
             if batch_data_label == 0 and action==1:
-                reward = -2.
+                reward = -1. #-2
             return reward
         if first_label==1 and change==0 and action==2:
-            reward =1.
+            reward =1. #1
             return reward
     if action == 1 and batch_data_label == 1:
-        reward = 1.
+        reward = 1. #1
     elif action == 1 and batch_data_label == 0:
-        reward = -1.*rewardchange
+        reward = -5.*rewardchange #-1
     elif action == 2 and batch_data_label == 1:
-        reward = -1.*rewardchange
+        reward = -0.2*rewardchange #-1
     elif action == 2 and batch_data_label == 0:
-        reward = 1.*rewardchange
+        reward = 1.*rewardchange #1
     return reward
 
 
@@ -250,6 +250,7 @@ def main(args):
     next = 0  # for stop model
     change = -1
     stepCnt = 0
+    step_ac=0
     evaluated_number = 0
     stop_model = args.stop_model  # for future use
     if stop_model:
@@ -304,6 +305,7 @@ def main(args):
             allArticleNum = savedallArticleNum2
             setall = set_all2
             stepCnt = 0
+            step_ac = 0
             evaluated_number = 0
             print "##### Evaluation Started ######"
 
@@ -317,13 +319,13 @@ def main(args):
                 rec = float(CORRECT) / GOLD
                 f1 = (2 * prec * rec) / (prec + rec)
                 print prec, rec, f1, "#", CORRECT, PRED, GOLD
-
             if evaluated_number != 0:
                 every_number = float(stepCnt) / evaluated_number
                 print every_number
+            num_=PRED+GOLD-CORRECT*2
             outFile.write("------------\nEvaluation Stats: (Precision, Recall, F1):\n")
-            outFile.write(' '.join([str(CORRECT), str(PRED), str(GOLD)]) + '\n')
-            outFile.write(' '.join([str(stepCnt), str(evaluated_number)]) + '\n')
+            outFile.write(' '.join([str(CORRECT), str(PRED), str(GOLD),str(num_)]) + '\n')
+            outFile.write(' '.join([str(stepCnt), str(step_ac),str(evaluated_number)]) + '\n')
             savedArticleNum2 = articleNum
             articleNum = savedArticleNum
             evaluate_mode = False
@@ -331,6 +333,7 @@ def main(args):
             setall = set_all1
             evaluated_number = 0
             stepCnt = 0
+            step_ac = 0
 
         else:
             print message
@@ -350,8 +353,10 @@ def main(args):
                 reward = calculate_reward(batch_data_label, action, stop_model, first_label, change,rewardchange)
 
             if evaluate_mode == True:
-                CORRECT, PRED, GOLD = judge_ground_truth(batch_data_label, action, CORRECT, PRED, GOLD)
-
+                if stop_model:
+                    CORRECT, PRED, GOLD = judge_ground_truth(batch_data_label, query, CORRECT, PRED, GOLD)
+                else:
+                    CORRECT, PRED, GOLD = judge_ground_truth(batch_data_label, action, CORRECT, PRED, GOLD)
             if stop_model:
                 if next == (len(setall[articleNum]) - 1) or action == 999:
                     terminal = 'true'  # as we have return back to the newgame part so the following three lines are useless
@@ -373,6 +378,8 @@ def main(args):
                     newstate = add_confidence(newstate, test_set['samples'][indx])
                 if evaluate_mode == True:
                     stepCnt += 1
+                    if query==1:
+                        step_ac +=1
                     if terminal == 'true':
                         evaluated_number += 1
 
