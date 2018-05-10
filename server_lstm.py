@@ -35,6 +35,10 @@ def prepare_data():
     return concept2idx, typ2idx
 
 
+def add_confidence(state,data):
+    for i in range(len(data)):
+        state[i+1000]=float(data[i][2])/1000. #2 indicates the 3rd number is the confidence number
+
 def prepare_testdata(filemode=1):
     if filemode==1:
         with open('input/test_set', 'r') as f:
@@ -193,7 +197,11 @@ def calculate_reward(batch_data_label, action, stop_model=False, first_label=0, 
 def main(args):
     global STATE_NUMBER
     filemode=args.filemode
+    confidence_mode=args.confidence_mode
     rewardchange=args.rewardchange
+    if confidence_mode:
+        STATE_NUMBER=1300 #max_length = 300 1000+300
+        print "you must change run_cpu state_number==1300"
     # here output for debug
     outFile = open(args.outFile + str(args.port), 'w',
                    0)  ##+'_'+str(args.title_and_abstract_model)+'_'+str(args.stop_model)
@@ -272,10 +280,15 @@ def main(args):
                 indx = articleNum
             if evaluate_mode:
                 batch_data = prepare_data_batch(indx, test_set, concept2idx, typ2idx)
+                if args.confidence_mode:
+                    newstate = add_confidence(newstate, test_set['samples'][indx])
             else:
                 batch_data = prepare_data_batch(indx, train_set, concept2idx, typ2idx)
+                if args.confidence_mode:
+                    newstate = add_confidence(newstate, train_set['samples'][indx])
             reward, terminal = 0, 'false'
             newstate = updatestate(batch_data, model)
+
 
         elif message == "evalStart":
             CORRECT, PRED, GOLD = 0, 0, 0
@@ -350,12 +363,17 @@ def main(args):
 
             if evaluate_mode == True:
                 batch_data = prepare_data_batch(indx, test_set, concept2idx, typ2idx)
+                if args.confidence_mode:
+                    newstate = add_confidence(newstate, test_set['samples'][indx])
                 if evaluate_mode == True:
                     stepCnt += 1
                     if terminal == 'true':
                         evaluated_number += 1
+
             else:
                 batch_data = prepare_data_batch(indx, train_set, concept2idx, typ2idx)
+                if args.confidence_mode:
+                    newstate = add_confidence(newstate, train_set['samples'][indx])
             newstate = updatestate(batch_data, model)
 
         if message != "evalStart" and message != "evalEnd":
@@ -378,12 +396,12 @@ if __name__ == '__main__':
                            help="Output File")
 
     argparser.add_argument("--filemode",
-                           default=1,   # 1 first title then abstract 2.only abstract 3 title and abtract
+                           default=1,
                            type=int,
                            help="file mode")
 
     argparser.add_argument("--rewardchange",
-                           default=1.,   # 1 first title then abstract 2.only abstract 3 title and abtract
+                           default=1.,
                            type=float,
                            help="rewarcchange")
 
@@ -391,18 +409,12 @@ if __name__ == '__main__':
                            type=bool,
                            default=False,
                            help="Model")
-
+    argparser.add_argument("--confidence_mode",
+                           type=bool,
+                           default=False,
+                           help="Use confidence or not")
+    # 1 first title then abstract 2.only abstract 3 title and abtract #future use
     args = argparser.parse_args()
     print args
     main(args)
 
-
-
-#7001 stop model =true train_set test_set
-#7002 stop model=false train_set test_set
-#7003 stop model=false normal  normal
-#7004 stop model=false no1  no1
-#7005 stop model=false no0 no0
-#7006 stop model=false reward change
-#7007 stop model=false reward change
-#7008 stop model=false reward change
