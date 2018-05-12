@@ -1,0 +1,1 @@
+Namespace(confidence_mode=False, filemode=1, outFile='./output/out', port=7025, rewardchange=1.0, stop_model=False)

@@ -1,0 +1,61 @@
+Namespace(filemode=3, outFile='./output/out', port=7004, rewardchange=1.0, stop_model=False)
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 0
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 0
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 0
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 0
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 0
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 0
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 0
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 0
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 0
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 0
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 0
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 0
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 0
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 0
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 0
+5000 0

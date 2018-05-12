@@ -1,0 +1,181 @@
+Namespace(confidence_mode=True, filemode=2, outFile='./output/out', port=7032, rewardchange=0.1, stop_model=False)
+------------
+Evaluation Stats: (Precision, Recall, F1):
+813 1381 840 595
+5000 1381 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+758 1361 807 652
+5000 1361 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+723 1363 766 683
+5000 1363 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+787 1409 830 665
+5000 1409 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+779 1407 815 664
+5000 1407 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+721 1354 755 667
+5000 1354 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+773 1387 803 644
+5000 1387 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+791 1379 822 619
+5000 1379 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+738 1350 791 665
+5000 1350 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+741 1362 783 663
+5000 1362 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+792 1417 832 665
+5000 1417 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+745 1403 780 693
+5000 1403 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+736 1339 764 631
+5000 1339 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+771 1384 800 642
+5000 1384 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+793 1377 833 624
+5000 1377 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+728 1361 779 684
+5000 1361 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+791 1413 827 658
+5000 1413 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+763 1412 801 687
+5000 1412 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+739 1369 776 667
+5000 1369 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+738 1373 766 663
+5000 1373 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+807 1408 834 628
+5000 1408 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+752 1363 797 656
+5000 1363 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+728 1365 770 679
+5000 1365 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+780 1402 824 666
+5000 1402 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+788 1428 820 672
+5000 1428 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+717 1354 751 671
+5000 1354 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+783 1422 809 665
+5000 1422 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+789 1406 819 647
+5000 1406 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+745 1364 797 671
+5000 1364 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+742 1362 786 664
+5000 1362 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+793 1411 828 653
+5000 1411 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+750 1407 786 693
+5000 1407 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+729 1346 753 641
+5000 1346 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+775 1392 804 646
+5000 1392 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+797 1399 837 642
+5000 1399 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+711 1336 761 675
+5000 1336 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+784 1405 827 664
+5000 1405 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+765 1395 805 670
+5000 1395 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+744 1380 779 671
+5000 1380 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+755 1383 785 658
+5000 1383 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+798 1381 824 609
+5000 1381 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+742 1343 793 652
+5000 1343 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+726 1354 768 670
+5000 1354 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+790 1402 836 658
+5000 1402 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+762 1392 796 664
+5000 1392 0

@@ -1,0 +1,61 @@
+Namespace(filemode=2, outFile='./output/out', port=7013, rewardchange=10.0, stop_model=False)
+------------
+Evaluation Stats: (Precision, Recall, F1):
+792 1322 840
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+13 23 807
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+155 244 766
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+265 424 830
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+424 673 815
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+343 583 755
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+450 718 803
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+359 545 822
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+483 783 791
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+436 692 783
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+407 654 832
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+334 533 780
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+383 649 764
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+318 494 800
+5000 0
+------------
+Evaluation Stats: (Precision, Recall, F1):
+456 682 833
+5000 0

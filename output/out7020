@@ -1,0 +1,181 @@
+Namespace(confidence_mode=True, filemode=1, outFile='./output/out', port=7020, rewardchange=1.0, stop_model=True)
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 3281 3281
+5000 0 1335
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2680 2680
+5000 0 1719
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2471 2471
+5000 0 1894
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2254 2254
+5000 0 2001
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2150 2150
+5000 0 2172
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2331 2331
+5000 0 2099
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 3149 3149
+5000 0 1440
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2605 2605
+5000 0 1765
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2416 2416
+5000 0 1912
+------------
+Evaluation Stats: (Precision, Recall, F1):
+2 3 2271 2270
+5000 3 2028
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2102 2102
+5000 0 2206
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2547 2547
+5000 0 1933
+------------
+Evaluation Stats: (Precision, Recall, F1):
+94 98 3024 2934
+5000 98 1525
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2588 2588
+5000 0 1782
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2363 2363
+5000 0 1915
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2243 2243
+5000 0 2067
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2142 2142
+5000 0 2220
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2673 2673
+5000 0 1806
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2983 2983
+5000 0 1545
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2579 2579
+5000 0 1809
+------------
+Evaluation Stats: (Precision, Recall, F1):
+19 21 2321 2304
+5000 21 1947
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2193 2193
+5000 0 2091
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2113 2113
+5000 0 2260
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 2 2873 2875
+5000 2 1658
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2884 2884
+5000 0 1592
+------------
+Evaluation Stats: (Precision, Recall, F1):
+46 49 2570 2527
+5000 49 1835
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2275 2275
+5000 0 1965
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2156 2156
+5000 0 2128
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2102 2102
+5000 0 2289
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 3119 3119
+5000 0 1468
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2731 2731
+5000 0 1692
+------------
+Evaluation Stats: (Precision, Recall, F1):
+2 2 2553 2551
+5000 2 1853
+------------
+Evaluation Stats: (Precision, Recall, F1):
+23 27 2242 2223
+5000 27 1989
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2172 2172
+5000 0 2145
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2088 2088
+5000 0 2293
+------------
+Evaluation Stats: (Precision, Recall, F1):
+1524 1604 3248 1804
+5000 1604 1363
+------------
+Evaluation Stats: (Precision, Recall, F1):
+1060 1159 2685 1724
+5000 1159 1712
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2459 2459
+5000 0 1900
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2257 2257
+5000 0 2002
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2138 2138
+5000 0 2179
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2366 2366
+5000 0 2079
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 3125 3125
+5000 0 1452
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2604 2604
+5000 0 1763
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2412 2412
+5000 0 1919
+------------
+Evaluation Stats: (Precision, Recall, F1):
+0 0 2271 2271
+5000 0 2027

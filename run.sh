@@ -20,8 +20,25 @@ python server_lstm.py --port 7018 --stop_model True # test4
 python server_lstm.py --port 7019 --confidence_mode True  #add confidence and etc
 #50W  stop_model filemode test4
 #change all the reward as I use after "#" #before is something wrong with stop_model True
+# all 50w
 python server_lstm.py --port 7020 --stop_model True --confidence_mode True
 python server_lstm.py --port 7021 --stop_model True --confidence_mode True #test4
-python server_lstm.py --port 7022 --confidence_mode True #--here
+python server_lstm.py --port 7022 --confidence_mode True
 python server_lstm.py --port 7023 --filemode 2  --confidence_mode True
 python server_lstm.py --port 7024 --filemode 5  --confidence_mode True
+python server_lstm.py --port 7025
+python server_lstm.py --port 7026 --filemode 2
+python server_lstm.py --port 7027 --filemode 5
+#50w with confidence reward back 50w
+python server_lstm.py --port 7028 --confidence_mode True --filemode 2
+python server_lstm.py --port 7029 --confidence_mode True --filemode 5
+python server_lstm.py --port 7030 --confidence_mode True #here
+python server_lstm.py --port 7031 --confidence_mode True  --rewardchange 0.1
+python server_lstm.py --port 7032 --confidence_mode True  --rewardchange 0.1  --filemode 2
+python server_lstm.py --port 7033 --confidence_mode True  --rewardchange 0.1  --filemode 5
+python server_lstm.py --port 7034 --stop_model True --confidence_mode True
+python server_lstm.py --port 7035 --stop_model True --confidence_mode True #test4
+python server_lstm.py --port 7036 --stop_model True --confidence_mode  True #action
+python server_lstm.py --port 7037 --stop_model True --confidence_mode True #test4 #action
+#tune more
+python server_lstm.py --port 7038 --confidence_mode True # --rewardchange  #### 0.01 0.1

@@ -6,7 +6,6 @@ lib/
 torch
 dqn/*.t7
 *.zip
-output/*
 raw/*
 input/*
 output_trial_5/*

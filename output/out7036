@@ -1,0 +1,181 @@
+Namespace(confidence_mode=True, filemode=1, outFile='./output/out', port=7036, rewardchange=1.0, stop_model=True)
+------------
+Evaluation Stats: (Precision, Recall, F1):
+3281 5000 3281 1719
+5000 3268 1335
+------------
+Evaluation Stats: (Precision, Recall, F1):
+2680 5000 2680 2320
+5000 2782 1719
+------------
+Evaluation Stats: (Precision, Recall, F1):
+2471 5000 2471 2529
+5000 2587 1894
+------------
+Evaluation Stats: (Precision, Recall, F1):
+2254 5000 2254 2746
+5000 2461 2001
+------------
+Evaluation Stats: (Precision, Recall, F1):
+2150 5000 2150 2850
+5000 2416 2172
+------------
+Evaluation Stats: (Precision, Recall, F1):
+571 2990 2331 4179
+5000 2521 2099
+------------
+Evaluation Stats: (Precision, Recall, F1):
+525 2167 3149 4266
+5000 3189 1440
+------------
+Evaluation Stats: (Precision, Recall, F1):
+657 2827 2605 4118
+5000 2726 1765
+------------
+Evaluation Stats: (Precision, Recall, F1):
+396 2677 2416 4301
+5000 2598 1912
+------------
+Evaluation Stats: (Precision, Recall, F1):
+519 2973 2271 4206
+5000 2519 2028
+------------
+Evaluation Stats: (Precision, Recall, F1):
+285 2816 2102 4348
+5000 2413 2206
+------------
+Evaluation Stats: (Precision, Recall, F1):
+210 2346 2547 4473
+5000 2693 1933
+------------
+Evaluation Stats: (Precision, Recall, F1):
+218 1929 3024 4517
+5000 3086 1525
+------------
+Evaluation Stats: (Precision, Recall, F1):
+251 2351 2588 4437
+5000 2788 1782
+------------
+Evaluation Stats: (Precision, Recall, F1):
+344 2678 2363 4353
+5000 2020 1915
+------------
+Evaluation Stats: (Precision, Recall, F1):
+395 2832 2243 4285
+5000 1893 2067
+------------
+Evaluation Stats: (Precision, Recall, F1):
+422 2960 2142 4258
+5000 2315 2220
+------------
+Evaluation Stats: (Precision, Recall, F1):
+283 2333 2673 4440
+5000 2671 1806
+------------
+Evaluation Stats: (Precision, Recall, F1):
+260 2002 2983 4465
+5000 3007 1545
+------------
+Evaluation Stats: (Precision, Recall, F1):
+190 2283 2579 4482
+5000 2724 1809
+------------
+Evaluation Stats: (Precision, Recall, F1):
+187 2519 2321 4466
+5000 2506 1947
+------------
+Evaluation Stats: (Precision, Recall, F1):
+182 2591 2193 4420
+5000 2424 2091
+------------
+Evaluation Stats: (Precision, Recall, F1):
+143 2647 2113 4474
+5000 2339 2260
+------------
+Evaluation Stats: (Precision, Recall, F1):
+264 2131 2873 4476
+5000 2876 1658
+------------
+Evaluation Stats: (Precision, Recall, F1):
+252 2071 2884 4451
+5000 2952 1592
+------------
+Evaluation Stats: (Precision, Recall, F1):
+174 2270 2570 4492
+5000 2731 1835
+------------
+Evaluation Stats: (Precision, Recall, F1):
+204 2574 2275 4441
+5000 2448 1965
+------------
+Evaluation Stats: (Precision, Recall, F1):
+119 2545 2156 4463
+5000 2457 2128
+------------
+Evaluation Stats: (Precision, Recall, F1):
+143 2663 2102 4479
+5000 2353 2289
+------------
+Evaluation Stats: (Precision, Recall, F1):
+296 1944 3119 4471
+5000 3137 1468
+------------
+Evaluation Stats: (Precision, Recall, F1):
+235 2185 2731 4446
+5000 2849 1692
+------------
+Evaluation Stats: (Precision, Recall, F1):
+173 2289 2553 4496
+5000 2732 1853
+------------
+Evaluation Stats: (Precision, Recall, F1):
+178 2555 2242 4441
+5000 2476 1989
+------------
+Evaluation Stats: (Precision, Recall, F1):
+119 2539 2172 4473
+5000 2479 2145
+------------
+Evaluation Stats: (Precision, Recall, F1):
+113 2635 2088 4497
+5000 2364 2293
+------------
+Evaluation Stats: (Precision, Recall, F1):
+235 1759 3248 4537
+5000 3254 1363
+------------
+Evaluation Stats: (Precision, Recall, F1):
+158 2118 2685 4487
+5000 2864 1712
+------------
+Evaluation Stats: (Precision, Recall, F1):
+1835 4267 2459 3056
+5000 2526 1900
+------------
+Evaluation Stats: (Precision, Recall, F1):
+197 2565 2257 4428
+5000 2388 2002
+------------
+Evaluation Stats: (Precision, Recall, F1):
+1291 3979 2138 3535
+5000 2297 2179
+------------
+Evaluation Stats: (Precision, Recall, F1):
+231 2534 2366 4438
+5000 2447 2079
+------------
+Evaluation Stats: (Precision, Recall, F1):
+234 1855 3125 4512
+5000 3080 1452
+------------
+Evaluation Stats: (Precision, Recall, F1):
+202 2279 2604 4479
+5000 2656 1763
+------------
+Evaluation Stats: (Precision, Recall, F1):
+1919 4407 2412 2981
+5000 2531 1919
+------------
+Evaluation Stats: (Precision, Recall, F1):
+151 2490 2271 4459
+5000 2506 2027
