@@ -10,3 +10,4 @@ raw/*
 input/*
 output_trial_5/*
 tmp/*
+.DS_Store

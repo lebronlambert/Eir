@@ -53,9 +53,9 @@ Evaluation Stats: (Precision, Recall, F1):
 5000 0
 ------------
 Evaluation Stats: (Precision, Recall, F1):
-658 1114 800
+658 1114 800 11.96
 5000 0
 ------------
 Evaluation Stats: (Precision, Recall, F1):
-727 1204 833
+727 1204 833 #11.66 mean up
 5000 0

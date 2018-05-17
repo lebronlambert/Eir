@@ -65,7 +65,7 @@ def prepare_testdata(filemode=1):
 
 
 
-def prepapre_traindata(filemode=1):
+def prepare_traindata(filemode=1):
     if filemode==1:
         with open('input/train_set', 'r') as f:
             train_set = json.load(f)
@@ -192,9 +192,9 @@ def calculate_reward(batch_data_label, action, stop_model=False, first_label=0, 
     if action == 1 and batch_data_label == 1:
         reward = 1. #1
     elif action == 1 and batch_data_label == 0:
-        reward = -5.*rewardchange #-1
+        reward = -1.*rewardchange #-1
     elif action == 2 and batch_data_label == 1:
-        reward = -0.2*rewardchange #-1
+        reward = -1.*rewardchange #-1
     elif action == 2 and batch_data_label == 0:
         reward = 1.*rewardchange #1
     return reward
@@ -236,7 +236,7 @@ def main(args):
     newstate = [0 for i in range(STATE_NUMBER)]
     reward = 0.
     concept2idx, typ2idx = prepare_data()
-    train_set = prepapre_traindata(filemode)
+    train_set = prepare_traindata(filemode)
     test_set = prepare_testdata(filemode)
     model = prepare_model(concept2idx, typ2idx)
     savedallArticleNum = len(train_set['samples'])
