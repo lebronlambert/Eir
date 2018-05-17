@@ -6,6 +6,7 @@
 4
 5
 9 10 11 16  24 27 29 33
+#20w reward 1 1 1 1
 python server_lstm.py --port 7001 --stop_model True #two ONE LAST GG ONE NEW GOOD
 python server_lstm.py --port 7002
 python server_lstm.py --port 7003 --filemode 2 #good
@@ -48,7 +49,7 @@ python server_lstm.py --port 7035 --stop_model True --confidence_mode True #test
 python server_lstm.py --port 7036 --stop_model True --confidence_mode  True #action
 python server_lstm.py --port 7037 --stop_model True --confidence_mode True #test4 #action  #good
 #tune more
-python server_lstm.py --port 7038 --confidence_mode True # --rewardchange  #### 0.01 0.1
+python server_lstm.py --port 7038 --confidence_mode True # --rewardchange ( 0.01 0.1)
 #here
 FOR TEST4 ACTION IS BETTER? MAYBE TUNE MORE FROM 21 22 USE REWARD 0.1
 python server_lstm.py --port 7039 --stop_model True  #action
@@ -67,7 +68,7 @@ python server_lstm.py --port 7051 -0.1 -10 order
 python server_lstm.py --port 7052 -0.01 -100 order
 python server_lstm.py --port 7053 -0.1 -100 order
 python server_lstm.py --port 7054 -0.1 -30 order
-python server_lstm.py --port 7055  overfit
+python server_lstm.py --port 7055  overfit all with train_set
 python server_lstm.py --port 7056 -0.1 -1000  overfit
 
 FORT filemode 2 confidence is worse same as filemode 1
@@ -76,12 +77,6 @@ FOR filemode 5
 python server_lstm.py --port 7047  --filemode 5
 python server_lstm.py --port 7048  --filemode 5 --rewardchange 0.1
 
-#important
-python server_lstm.py --port 7025
 
-23 24 buchong
-
-
-first 43 44 45 46 47 48 49 50 25  39 40 42 51 41 52 53 54 55 56 57 58 23  24 running
 
 #8 30 31 43 44 45 46 49 50 25
