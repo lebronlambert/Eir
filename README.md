@@ -1,4 +1,4 @@
-# DeepBIO-informationExtraction
+# Eir
 
 ## Introduction
 ## Requirements
